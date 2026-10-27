@@ -588,3 +588,29 @@ html[lang=en] .updates-content>.updates-grid:not([data-layout=list]) .update-cop
 @media(max-width:1100px){.people-content .faculty-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:820px){.people-content .faculty-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.people-content .faculty-grid{grid-template-columns:1fr}}
+
+/* Top bar: institute title and NRL logo beside the search box */
+.theme-bar .top-brand{grid-column:1;grid-row:1/3;justify-self:start;align-self:center;display:flex;align-items:center;gap:24px;min-width:0}
+.top-brand-copy{min-width:0}
+.top-brand .university{font-size:21px;font-weight:800;line-height:1.4;color:#fff;word-break:keep-all}
+.top-brand .university-en{font-size:12px;line-height:1.5;color:#c9c9c9}
+.top-brand .nrl-home-link{display:flex;align-items:center;flex-shrink:0}
+.top-brand .nrl-mark{width:76px;height:auto;object-fit:contain}
+.top-brand .nrl-mark.nrl-en{width:92px}
+html[lang=en] .top-brand .university{font-size:23px}
+@media(max-width:900px){.theme-bar{grid-template-columns:minmax(0,1fr) auto}.theme-bar .language-switch{grid-column:2;grid-row:1}.theme-bar .site-search-form{grid-column:2;grid-row:2;width:180px}}
+@media(max-width:600px){.theme-bar{grid-template-columns:minmax(0,1fr) auto;gap:12px 16px}.theme-bar .top-brand{grid-column:1/-1;grid-row:1;width:100%;justify-content:space-between;gap:12px}.theme-bar .site-search-form{grid-column:1;grid-row:2;width:100%}.theme-bar .language-switch{grid-column:2;grid-row:2}
+ .top-brand .university{font-size:clamp(16px,4.6vw,20px);white-space:nowrap}html[lang=en] .top-brand .university{font-size:clamp(18px,5vw,22px)}.top-brand .university-en{font-size:11px}.top-brand .nrl-mark{width:62px}.top-brand .nrl-mark.nrl-en{width:78px}}
+
+/* People: details on member cards */
+.people-content .member-name-en{font-size:13px;color:#64676a;margin:0}
+.member-meta{margin:12px 0 0;display:grid;gap:6px}
+.member-meta div{display:grid;grid-template-columns:56px minmax(0,1fr);gap:8px;font-size:13px;line-height:1.6}
+html[lang=en] .member-meta div{grid-template-columns:64px minmax(0,1fr)}
+.member-meta dt{color:#80620b;font-weight:600}
+.member-meta dd{margin:0;color:#50585c;overflow-wrap:anywhere}
+.people-content .member-card .faculty-lab{margin-top:10px}
+.people-content .member-role{margin-top:10px;font-weight:700;color:#17191c}
+.member-phone{margin-top:6px;font-size:15px;color:#50585c}
+.member-phone a{color:inherit}
+.people-content .member-intro p.member-phone{font-size:15px;line-height:1.6;margin-top:6px}
