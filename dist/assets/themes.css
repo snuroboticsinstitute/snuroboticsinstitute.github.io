@@ -614,3 +614,24 @@ html[lang=en] .member-meta div{grid-template-columns:64px minmax(0,1fr)}
 .member-phone{margin-top:6px;font-size:15px;color:#50585c}
 .member-phone a{color:inherit}
 .people-content .member-intro p.member-phone{font-size:15px;line-height:1.6;margin-top:6px}
+
+/* Education: vision intro and program content */
+.education-vision{max-width:1100px;margin:0 auto;padding:44px clamp(22px,5vw,64px) 4px;background:#fff}
+.education-vision h2{font-size:clamp(22px,2.5vw,28px);font-weight:600;line-height:1.5;letter-spacing:normal;margin:0 0 16px}
+.education-vision>p:not(.about-kicker){font-size:15px;line-height:1.95;color:#55585b;max-width:780px;margin:0}
+.education-program .program-lead{font-size:16px;line-height:1.9;color:#33373a;max-width:780px}
+.program-block{margin-top:40px}
+.program-block h3{font-size:18px;font-weight:600;line-height:1.5;letter-spacing:normal;margin:0 0 14px}
+.program-block>p{font-size:15px;line-height:1.95;color:#55585b;max-width:780px;margin:0}
+.program-list{margin:16px 0 0;border-top:1px solid #dedfdd;max-width:780px}
+.program-list div{display:grid;grid-template-columns:180px minmax(0,1fr);gap:16px;padding:14px 0;border-bottom:1px solid #dedfdd}
+.program-list dt{font-size:14px;font-weight:600;color:#80620b}
+.program-list dd{margin:0;font-size:15px;line-height:1.8;color:#33373a}
+.program-quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.program-quote{margin:0;padding:20px;background:#f5f5f3;border-left:3px solid var(--yellow)}
+.program-quote p{margin:0 0 12px;font-size:14px;line-height:1.85;color:#33373a}
+.program-quote cite{font-style:normal;font-size:12px;color:#80620b}
+@media(max-width:900px){.program-quotes{grid-template-columns:1fr}}
+@media(max-width:600px){.program-list div{grid-template-columns:1fr;gap:4px}.education-vision{padding-top:32px}}
+.education-content .education-program{margin-top:0;padding-top:0;border-top:0;min-height:0}
+html[lang] .education-content .overview-section.education-program>p.program-lead{font-size:16px;line-height:1.9;max-width:780px}
