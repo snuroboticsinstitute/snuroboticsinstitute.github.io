@@ -578,3 +578,13 @@ html[data-theme=light] .faculty-banner .breadcrumb{color:#555}
 /* Compact English news-card leading without changing text size or list rows. */
 html[lang=en] .updates-content>.updates-grid:not([data-layout=list]) .update-copy h2{line-height:1.35;margin-bottom:16px}
 html[lang=en] .updates-content>.updates-grid:not([data-layout=list]) .update-copy>p{line-height:1.6;margin-bottom:20px}
+
+/* People: compact member cards */
+.people-content .faculty-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.people-content .faculty-card{min-height:0;padding:16px 18px}
+.people-content .faculty-card h2{font-size:19px;line-height:1.4;margin:0 0 4px}
+.people-content .faculty-card .faculty-label + h2{margin-top:8px}
+.people-content .faculty-card .faculty-lab{margin-top:6px}
+@media(max-width:1100px){.people-content .faculty-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:820px){.people-content .faculty-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.people-content .faculty-grid{grid-template-columns:1fr}}
