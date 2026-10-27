@@ -30,3 +30,4 @@ html[lang] [data-nrl-page] .nrl-overview .nrl-overview-lead{font-size:16px;line-
 html[lang] [data-nrl-page] .nrl-overview .nrl-overview-section>p{font-size:15px;line-height:1.95}
 html[lang] [data-nrl-page] .nrl-overview li a{font-size:16px}
 html[lang] [data-nrl-page] .nrl-overview li p{font-size:14px;line-height:1.8}
+html[lang] [data-nrl-page] .nrl-overview .nrl-overview-section>p+p{margin-top:14px}
