@@ -637,3 +637,13 @@ html[lang=en] .member-meta div{grid-template-columns:64px minmax(0,1fr)}
 html[lang] .education-content .overview-section.education-program>p.program-lead{font-size:16px;line-height:1.9;max-width:780px}
 .education-vision{padding-top:36px}
 .education-vision>p:not(.about-kicker){font-size:16px;line-height:1.85;color:#33373a}
+.voice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}
+.voice-card{padding:22px 24px;background:#f5f5f3;border-left:3px solid var(--yellow);min-width:0}
+.voice-card header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.voice-card h4{margin:0;font-size:17px;font-weight:600;line-height:1.5}
+.voice-card .voice-result{margin:0;font-size:12px;font-weight:600;color:#80620b;white-space:nowrap}
+.voice-card .voice-members{margin:4px 0 0;font-size:12px;color:#64676a}
+.voice-card .voice-desc{margin:10px 0 0;font-size:13px;line-height:1.8;color:#50585c}
+.voice-card blockquote{margin:14px 0 0;padding:14px 0 0;border-top:1px solid #dedfdd}
+.voice-card blockquote p{margin:0;font-size:14px;line-height:1.85;color:#33373a}
+@media(max-width:900px){.voice-grid{grid-template-columns:1fr}}
