@@ -1,0 +1,1288 @@
+[
+  {
+    "name": "Kang, Seung-kyun",
+    "dept": "Dept. of Materials Science & Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "PG3"
+    ],
+    "lab": "Bio-interface Electronics Laboratory",
+    "url": "http://bielab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-c53f2b7ada9c",
+    "name_ko": "강승균",
+    "name_search_alias": "Seung-Kyun Kang"
+  },
+  {
+    "name": "Kang, Yeon June",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC3"
+    ],
+    "lab": "Acoustics & Vibration Laboratory",
+    "url": "https://acustica.snu.ac.kr/",
+    "roles": {},
+    "id": "person-96f9dc50a595",
+    "name_ko": "강연준",
+    "name_search_alias": "Yeon June Kang"
+  },
+  {
+    "name": "Kang, Ji Heong",
+    "dept": "Dept. of Chemistry",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "PG3"
+    ],
+    "lab": "Ji Heong Kang Laboratory",
+    "url": "https://www.jiheongkanglab.com/",
+    "roles": {},
+    "id": "person-46bac5384dc8",
+    "name_ko": "강지형",
+    "name_search_alias": "Ji Heong Kang"
+  },
+  {
+    "name": "Ko, Seung Hwan",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "TC2",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "Wearable Soft Electronics Laboratory",
+    "url": "https://ants.snu.ac.kr/",
+    "roles": {},
+    "id": "person-962eaf8e50bc",
+    "name_ko": "고승환",
+    "name_search_alias": "Seung Hwan Ko"
+  },
+  {
+    "name": "Kwak, Nojun",
+    "dept": "Dept. of Intelligence & Information",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC2",
+      "PG3"
+    ],
+    "lab": "Machine Intelligence & Pattern Analysis Laboratory",
+    "url": "https://mipal.snu.ac.kr/",
+    "roles": {
+      "TC2": "leader"
+    },
+    "id": "person-3e328e5fb9a2",
+    "name_ko": "곽노준",
+    "name_search_alias": "Nojun Kwak"
+  },
+  {
+    "name": "Kim, Kee Won",
+    "dept": "College of Medicine",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-5ac1230808b0",
+    "name_ko": "김기원",
+    "profile_url": "https://www.snuh.org/global/en/blog/65660/career.do",
+    "profile_hospital": "서울대학교병원",
+    "name_search_alias": "Kee Won Kim",
+    "profile_url_en": "https://www.snuh.org/global/en/blog/65660/career.do"
+  },
+  {
+    "name": "Kim, Donyun",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC3",
+      "PG3"
+    ],
+    "lab": "AI-driven Simulation & Design Laboratory",
+    "url": "https://aisdls.snu.ac.kr/",
+    "roles": {
+      "TC3": "leader"
+    },
+    "id": "person-741edb3e5111",
+    "name_ko": "김도년",
+    "name_search_alias": "Donyun Kim"
+  },
+  {
+    "name": "Kim, Ayoung",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2",
+      "TC3",
+      "PG1"
+    ],
+    "lab": "Robot Perception & Spatial Intelligence Laboratory",
+    "url": "https://ayoungk.github.io/",
+    "roles": {},
+    "id": "person-339661d60699",
+    "name_ko": "김아영",
+    "name_search_alias": "Ayoung Kim"
+  },
+  {
+    "name": "Kim, Young Min",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC2",
+      "TC4",
+      "PG1"
+    ],
+    "lab": "3D Visual Computing & Geometry Laboratory",
+    "url": "https://3d.snu.ac.kr/",
+    "roles": {},
+    "id": "person-04228595751d",
+    "name_ko": "김영민",
+    "name_search_alias": "Young Min Kim"
+  },
+  {
+    "name": "Kim, Ju Han",
+    "dept": "College of Medicine",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Biomedical Informatics Laboratory (SNUBI)",
+    "url": "http://www.snubi.org/",
+    "roles": {},
+    "id": "person-c561d877eb87",
+    "name_ko": "김주한",
+    "name_search_alias": "Ju Han Kim"
+  },
+  {
+    "name": "Kim, Joohyung",
+    "dept": "",
+    "org": "University of Illinois",
+    "category": "Affiliated",
+    "groups": [],
+    "lab": "Kinetic Intelligent Machine Lab (KIMLAB)",
+    "url": "https://publish.illinois.edu/kimlab2020/",
+    "roles": {},
+    "id": "person-83d1c7d836c2",
+    "name_ko": "김주형",
+    "name_search_alias": "Joohyung Kim"
+  },
+  {
+    "name": "Kim, Jinsoo",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "TC2",
+      "TC3",
+      "PG2"
+    ],
+    "lab": "Wearable Robotics Laboratory",
+    "url": "https://sites.google.com/snu.ac.kr/jkim/",
+    "roles": {
+      "PG2": "vice_leader"
+    },
+    "id": "person-7f1bb29d16ac",
+    "name_ko": "김진수",
+    "name_search_alias": "Jinsoo Kim"
+  },
+  {
+    "name": "Kim, Taesup",
+    "dept": "Graduate School of Data Science",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Learning and Adaptation Algorithms Lab (LAAL)",
+    "url": "https://www.snu-laal.com/",
+    "roles": {},
+    "id": "person-94bbc08991f0",
+    "name_ko": "김태섭",
+    "name_search_alias": "Taesup Kim"
+  },
+  {
+    "name": "Kim, Taeyong",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC1"
+    ],
+    "lab": "Nano Energy Transport and Engineering Laboratory",
+    "url": "https://nanoheat.snu.ac.kr/",
+    "roles": {},
+    "id": "person-55290d64c43b",
+    "name_ko": "김태용",
+    "name_search_alias": "Taeyong Kim"
+  },
+  {
+    "name": "Kim, Hyeoneui",
+    "dept": "College of Nursing",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-dbaa6875c37d",
+    "name_ko": "김현의",
+    "name_search_alias": "Hyeoneui Kim",
+    "profile_url": "https://nursing.snu.ac.kr/en/faculty/professor?mode=view&profidx=65",
+    "profile_url_en": "https://nursing.snu.ac.kr/en/faculty/professor?mode=view&profidx=65",
+    "profile_institution": "College of Nursing, Seoul National University"
+  },
+  {
+    "name": "Kim, H. Jin",
+    "dept": "Dept. of Aerospace Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Laboratory for Autonomous Robotics Research",
+    "url": "https://larr.snu.ac.kr/",
+    "roles": {},
+    "id": "person-b25c6ea7420f",
+    "name_ko": "김현진",
+    "name_search_alias": "H. Jin Kim"
+  },
+  {
+    "name": "Kim, Ho-young",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "PG1",
+      "PG3"
+    ],
+    "lab": "Micro Fluids & Soft Matter Laboratory",
+    "url": "https://fluids.snu.ac.kr/",
+    "roles": {
+      "PG3": "leader"
+    },
+    "id": "person-a779d1f879b4",
+    "name_ko": "김호영",
+    "name_search_alias": "Ho-Young Kim"
+  },
+  {
+    "name": "Kim, Hongsoo",
+    "dept": "Graduate School of Public Health",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "Aging Health Policy & Systems Research Lab (AgeLab)",
+    "url": "https://agelab.snu.ac.kr/",
+    "roles": {
+      "TC4": "leader"
+    },
+    "id": "person-55f59ce6e10c",
+    "name_ko": "김홍수",
+    "name_search_alias": "Hongsoo Kim"
+  },
+  {
+    "name": "Ro, Du Hyun",
+    "dept": "College of Medicine",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC4",
+      "PG3"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {
+      "PG3": "vice_leader"
+    },
+    "id": "person-db34f292a862",
+    "name_ko": "노두현",
+    "profile_url": "https://www.snuh.org/global/en/blog/65877/philosophy.do",
+    "profile_hospital": "서울대학교병원",
+    "name_search_alias": "Du Hyun Ro",
+    "profile_url_en": "https://www.snuh.org/global/en/blog/65877/philosophy.do"
+  },
+  {
+    "name": "Mook-Jung, Inhee",
+    "dept": "College of Medicine",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "Inhee Mook-Jung Laboratory (Alzlab)",
+    "url": "http://www.alzlab.co.kr/",
+    "roles": {},
+    "id": "person-d7aabc6be16f",
+    "name_ko": "묵인희",
+    "name_search_alias": "Inhee Mook-Jung"
+  },
+  {
+    "name": "Moon, Taesup",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "M.IN.D Lab",
+    "url": "https://mindlab-snu.notion.site/",
+    "roles": {},
+    "id": "person-d184bb8e9369",
+    "name_ko": "문태섭",
+    "name_search_alias": "Taesup Moon"
+  },
+  {
+    "name": "Park, Myungwoo",
+    "dept": "College of Medicine (Boramae)",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC4",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-64d672bda3e4",
+    "name_ko": "박명우",
+    "profile_url": "https://www.brmh.org/custom/popup/layer_doctor_view.do?dt_no=516",
+    "profile_hospital": "보라매병원",
+    "name_search_alias": "Myungwoo Park"
+  },
+  {
+    "name": "Park, Moon Seok",
+    "dept": "College of Medicine (Bundang)",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC3",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-41dc079f43bd",
+    "name_ko": "박문석",
+    "profile_url": "https://www.snubh.org/common/popup/drIntroduce_view.do?sDpCdDtl=OS&sDrSid=1001025&sDrStfNo=01217&S_DP_CD=OS&MENU_ID=001001&DP_CD=EN",
+    "profile_hospital": "분당서울대학교병원",
+    "name_search_alias": "Moon Seok Park",
+    "profile_url_en": "https://www.snubh.org/common/popup/drIntroduce_view.do?sDpCdDtl=OS&sDrSid=1001025&sDrStfNo=01217&S_DP_CD=OS&MENU_ID=001001&DP_CD=EN"
+  },
+  {
+    "name": "Park, Sangchul",
+    "dept": "School of Law",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC4"
+    ],
+    "lab": "",
+    "url": "https://scholar.google.com/citations?user=C7OExkAAAAAJ",
+    "roles": {},
+    "id": "person-0b34baaece16",
+    "name_ko": "박상철",
+    "name_search_alias": "Sangchul Park"
+  },
+  {
+    "name": "Park, Seongjun",
+    "dept": "School of Transdisciplinary Innovations",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC1",
+      "TC2",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "BioMedical and Brain-Machine/Computer Interfaces Laboratory (B-MIL)",
+    "url": "https://www.bnilab.com/",
+    "roles": {},
+    "id": "person-1699333aa315",
+    "name_ko": "박성준",
+    "name_search_alias": "Seongjun Park"
+  },
+  {
+    "name": "Park, Yong-lae",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "PG2"
+    ],
+    "lab": "Soft Robotics & Bionics Laboratory",
+    "url": "https://softrobotics.snu.ac.kr/",
+    "roles": {},
+    "id": "person-c27619ef7efb",
+    "name_ko": "박용래",
+    "name_search_alias": "Yong-Lae Park"
+  },
+  {
+    "name": "Park, Jaesik",
+    "dept": "Dept. of Computer Science & Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2",
+      "PG1"
+    ],
+    "lab": "Visual & Geometric Intelligence Laboratory",
+    "url": "https://jaesik.info/lab/",
+    "roles": {},
+    "id": "person-ff6edb3bf738",
+    "name_ko": "박재식",
+    "name_search_alias": "Jaesik Park"
+  },
+  {
+    "name": "Park, Frank C.",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Robotics & Automation Laboratory",
+    "url": "https://sites.google.com/robotics.snu.ac.kr/fcp/",
+    "roles": {},
+    "id": "person-f7a1107fdbcf",
+    "name_ko": "박종우",
+    "name_search_alias": "Frank C. Park"
+  },
+  {
+    "name": "Park, Juyeon",
+    "dept": "Dept. of Textiles, Merchandising & Fashion Design",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "Wearable Ergonomics & Anthropometrics Research Lab (W.E.A.R.)",
+    "url": "https://www.snuwearlab.com/",
+    "roles": {},
+    "id": "person-d2fdf3359492",
+    "name_ko": "박주연",
+    "name_search_alias": "Juyeon Park"
+  },
+  {
+    "name": "Park, Hyunwoo",
+    "dept": "Graduate School of Data Science",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "Data Intelligence & Learning Laboratory",
+    "url": "https://dial.snu.ac.kr/",
+    "roles": {
+      "TC4": "vice_leader"
+    },
+    "id": "person-8c3d53d66ab2",
+    "name_ko": "박현우",
+    "name_search_alias": "Hyunwoo Park"
+  },
+  {
+    "name": "Park, Hyungmin",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC3",
+      "PG3"
+    ],
+    "lab": "Multiphase Flow & Flow Visualization Laboratory",
+    "url": "https://mffv.snu.ac.kr/",
+    "roles": {},
+    "id": "person-557175cd2e97",
+    "name_ko": "박형민",
+    "name_search_alias": "Hyungmin Park"
+  },
+  {
+    "name": "Park, Hyeongjun",
+    "dept": "Dept. of Aerospace Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Space Mobility & Robotics Laboratory",
+    "url": "https://smrl.snu.ac.kr/",
+    "roles": {},
+    "id": "person-975ece4e89dc",
+    "name_ko": "박형준",
+    "name_search_alias": "Hyeongjun Park"
+  },
+  {
+    "name": "Park, Hae Won",
+    "dept": "",
+    "org": "MIT Media Lab",
+    "category": "Affiliated",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Personal Robots Group",
+    "url": "https://www.media.mit.edu/people/haewon/overview/",
+    "roles": {},
+    "id": "person-3fb8873fecff",
+    "name_ko": "박혜원",
+    "name_search_alias": "Hae Won Park"
+  },
+  {
+    "name": "Baek, Sung Hee",
+    "dept": "Dept. of Biological Sciences",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG3"
+    ],
+    "lab": "Molecular & Cellular Genetics Laboratory",
+    "url": "https://biosci.snu.ac.kr/sbaek",
+    "roles": {},
+    "id": "person-4f46a5a42db3",
+    "name_ko": "백성희",
+    "name_search_alias": "Sung Hee Baek"
+  },
+  {
+    "name": "Beom, Jaewon",
+    "dept": "College of Medicine (Bundang)",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC4",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-fbba460f79bb",
+    "name_ko": "범재원",
+    "profile_url": "https://www.snubh.org/common/popup/drIntroduce_view.do?sDpCdDtl=RH&sDrSid=1002989&sDrStfNo=66063&S_DP_CD=RH&MENU_ID=001001&DP_CD=EN",
+    "profile_hospital": "분당서울대학교병원",
+    "name_search_alias": "Jaewon Beom",
+    "profile_url_en": "https://www.snubh.org/common/popup/drIntroduce_view.do?sDpCdDtl=RH&sDrSid=1002989&sDrStfNo=66063&S_DP_CD=RH&MENU_ID=001001&DP_CD=EN"
+  },
+  {
+    "name": "Suh, Bongwon",
+    "dept": "AI Institute",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2",
+      "PG1"
+    ],
+    "lab": "Human Centered Computing Lab",
+    "url": "http://hcc.snu.ac.kr/",
+    "roles": {},
+    "id": "person-7df7c4bdcadc",
+    "name_ko": "서봉원",
+    "name_search_alias": "Bongwon Suh"
+  },
+  {
+    "name": "Seo, Jongmo",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "Electrical Engineering–Medicine Convergence Laboratory",
+    "url": "https://efe.snu.ac.kr/",
+    "roles": {},
+    "id": "person-23921e3ddded",
+    "name_ko": "서종모",
+    "name_search_alias": "Jongmo Seo"
+  },
+  {
+    "name": "Song, Han Ho",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [],
+    "lab": "AESLab",
+    "url": "https://aesl.co.kr/",
+    "roles": {},
+    "id": "person-208ee3dadde4",
+    "name_ko": "송한호",
+    "name_search_alias": "Han Ho Song"
+  },
+  {
+    "name": "Ahn, Sung-hoon",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC1"
+    ],
+    "lab": "Innovative Design & Integrated Manufacturing Laboratory",
+    "url": "https://fab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-b9094508edb5",
+    "name_ko": "안성훈",
+    "name_search_alias": "Sung-Hoon Ahn"
+  },
+  {
+    "name": "Ahn, Woo-young",
+    "dept": "Dept. of Psychology",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC4"
+    ],
+    "lab": "Computational Clinical Science Laboratory",
+    "url": "https://ccs-lab.github.io/",
+    "roles": {},
+    "id": "person-68eef245d1bb",
+    "name_ko": "안우영",
+    "name_search_alias": "Woo-Young Ahn"
+  },
+  {
+    "name": "Ahn, Jung Ho",
+    "dept": "Dept. of Intelligence & Information",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [],
+    "lab": "Scalable Computer Architecture Laboratory",
+    "url": "https://scale.snu.ac.kr/",
+    "roles": {},
+    "id": "person-5f5b7cc50c79",
+    "name_ko": "안정호",
+    "name_search_alias": "Jung Ho Ahn"
+  },
+  {
+    "name": "Ahn, Jooeun",
+    "dept": "Dept. of Physical Education",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC3",
+      "PG2"
+    ],
+    "lab": "Sports Engineering Laboratory",
+    "url": "https://sports-engineering-lab.snu.ac.kr/",
+    "roles": {
+      "PG2": "leader"
+    },
+    "id": "person-d109a14512bf",
+    "name_ko": "안주은",
+    "name_search_alias": "Jooeun Ahn"
+  },
+  {
+    "name": "Ahn, Changbum R.",
+    "dept": "Dept. of Civil & Environmental Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC3",
+      "PG1"
+    ],
+    "lab": "Construction Engineering & Management Laboratory",
+    "url": "https://cem.snu.ac.kr/",
+    "roles": {},
+    "id": "person-8d166372e72d",
+    "name_ko": "안창범",
+    "name_search_alias": "Changbum R. Ahn"
+  },
+  {
+    "name": "Yang, Jinkyu",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "TC3"
+    ],
+    "lab": "Transformer Architecture Laboratory",
+    "url": "http://starlab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-c5f3553a538d",
+    "name_ko": "양진규",
+    "name_search_alias": "Jinkyu Yang"
+  },
+  {
+    "name": "Oh, Songhwai",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Robot Learning Laboratory",
+    "url": "http://rllab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-3865f2934817",
+    "name_ko": "오성회",
+    "name_search_alias": "Songhwai Oh"
+  },
+  {
+    "name": "Oh, Joo Hwan",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC3"
+    ],
+    "lab": "Metastructure Laboratory",
+    "url": "https://metastruct.snu.ac.kr/",
+    "roles": {},
+    "id": "person-d8fd1a63e66f",
+    "name_ko": "오주환",
+    "name_search_alias": "Joo Hwan Oh"
+  },
+  {
+    "name": "Oh, Jean",
+    "dept": "",
+    "org": "CMU RI",
+    "category": "Affiliated",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "roBot Intelligence Group (BIG)",
+    "url": "https://www.cs.cmu.edu/~jeanoh/big/",
+    "roles": {},
+    "id": "person-db184fbf4fe3",
+    "name_ko": "오혜진",
+    "name_search_alias": "Jean Oh"
+  },
+  {
+    "name": "Won, Jungdam",
+    "dept": "Dept. of Computer Science & Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC3",
+      "PG2"
+    ],
+    "lab": "Intelligent Motion Laboratory",
+    "url": "https://sites.google.com/view/snuimo/home",
+    "roles": {},
+    "id": "person-28996bec439b",
+    "name_ko": "원정담",
+    "name_search_alias": "Jungdam Won"
+  },
+  {
+    "name": "Yu, Youngjae",
+    "dept": "School of Transdisciplinary Innovations",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC1",
+      "TC3",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "Physical & Interactive Intelligence Lab",
+    "url": "https://pi.snu.ac.kr/",
+    "roles": {},
+    "id": "person-1e955dbdb906",
+    "name_ko": "유영재",
+    "name_search_alias": "Youngjae Yu"
+  },
+  {
+    "name": "Youn, Byeng D.",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2",
+      "TC3"
+    ],
+    "lab": "Hyperautomation Artificial Intelligence Laboratory",
+    "url": "https://hai.snu.ac.kr/",
+    "roles": {},
+    "id": "person-7b9f6e95385c",
+    "name_ko": "윤병동",
+    "name_search_alias": "Byeng D. Youn"
+  },
+  {
+    "name": "Yoon, Chang Hwan",
+    "dept": "College of Medicine (Bundang)",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG3"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-abc319e63aaa",
+    "name_ko": "윤창환",
+    "profile_url": "https://www.snubh.org/common/popup/drIntroduce_view.do?sDpCdDtl=IMC&sDrSid=1001535&sDrStfNo=65550&S_DP_CD=IMC&MENU_ID=001001&DP_CD=EN",
+    "profile_hospital": "분당서울대학교병원",
+    "name_search_alias": "Chang Hwan Yoon",
+    "profile_url_en": "https://www.snubh.org/common/popup/drIntroduce_view.do?sDpCdDtl=IMC&sDrSid=1001535&sDrStfNo=65550&S_DP_CD=IMC&MENU_ID=001001&DP_CD=EN"
+  },
+  {
+    "name": "Yoon, Tae-young",
+    "dept": "Dept. of Biological Sciences",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC1"
+    ],
+    "lab": "Center for Single Molecule Systems Biology",
+    "url": "https://biosci.snu.ac.kr/yoonlab/",
+    "roles": {},
+    "id": "person-eafb2bcf0778",
+    "name_ko": "윤태영",
+    "name_search_alias": "Tae-Young Yoon"
+  },
+  {
+    "name": "Lee, Kyoung Mu",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Computer Vision Laboratory",
+    "url": "https://cv.snu.ac.kr/",
+    "roles": {},
+    "id": "person-d2b330c49f91",
+    "name_ko": "이경무",
+    "name_search_alias": "Kyoung Mu Lee"
+  },
+  {
+    "name": "Lee, Kyogu",
+    "dept": "Dept. of Intelligence & Information",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2",
+      "PG1"
+    ],
+    "lab": "Music and Audio Research Group (MARG)",
+    "url": "https://snu-marg.notion.site/",
+    "roles": {},
+    "id": "person-e32fb714d281",
+    "name_ko": "이교구",
+    "name_search_alias": "Kyogu Lee"
+  },
+  {
+    "name": "Lee, Dongjun",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2",
+      "TC3",
+      "PG1"
+    ],
+    "lab": "Interactive & Networked Robotics Laboratory (INROL)",
+    "url": "https://www.inrol.snu.ac.kr/",
+    "roles": {},
+    "id": "person-69a58b4e2a06",
+    "name_ko": "이동준",
+    "name_search_alias": "Dongjun Lee"
+  },
+  {
+    "name": "Lee, Soo-hyun",
+    "dept": "Dept. of Psychology",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "Memory and Cognition Laboratory",
+    "url": "https://memcolab.org/",
+    "roles": {},
+    "id": "person-0a557c7eeb53",
+    "name_ko": "이수현",
+    "name_search_alias": "Soo-Hyun Lee"
+  },
+  {
+    "name": "Lee, Yun Seog",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [],
+    "lab": "Energy Device & Nano-Engineering Laboratory",
+    "url": "https://energy.snu.ac.kr/",
+    "roles": {},
+    "id": "person-e8ec197c55a5",
+    "name_ko": "이윤석",
+    "name_search_alias": "Yun Seog Lee",
+    "groups_status": "pending"
+  },
+  {
+    "name": "Lee, Inah",
+    "dept": "Dept. of Brain & Cognitive Sciences",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Learning & Memory Laboratory",
+    "url": "http://www.inahlee.org/",
+    "roles": {
+      "TC2": "leader"
+    },
+    "id": "person-b95dd0f6be54",
+    "name_ko": "이인아",
+    "name_search_alias": "Inah Lee"
+  },
+  {
+    "name": "Lee, Jehee",
+    "dept": "Dept. of Computer Science & Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC2",
+      "PG2"
+    ],
+    "lab": "Movement Research Laboratory",
+    "url": "https://mrl.snu.ac.kr/",
+    "roles": {},
+    "id": "person-85aab60c090e",
+    "name_ko": "이제희",
+    "name_search_alias": "Jehee Lee"
+  },
+  {
+    "name": "Lee, Jun Ki",
+    "dept": "AI Institute",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2",
+      "PG3"
+    ],
+    "lab": "Bio Intelligence Lab.",
+    "url": "https://junkilee.github.io/",
+    "roles": {},
+    "id": "person-50da228933c0",
+    "name_ko": "이준기",
+    "name_search_alias": "Jun Ki Lee"
+  },
+  {
+    "name": "Lee, Joonhwan",
+    "dept": "Dept. of Communication",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "Human-Computer Interaction+Design Lab",
+    "url": "http://hcid.snu.ac.kr/",
+    "roles": {
+      "PG1": "leader"
+    },
+    "id": "person-8244c8f6fc75",
+    "name_ko": "이준환",
+    "name_search_alias": "Joonhwan Lee"
+  },
+  {
+    "name": "Lee, Chang-gun",
+    "dept": "Dept. of Computer Science & Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC3",
+      "PG1"
+    ],
+    "lab": "Real-Time Ubiquitous Systems Laboratory",
+    "url": "http://rubis.snu.ac.kr/",
+    "roles": {},
+    "id": "person-b8032ccffd9b",
+    "name_ko": "이창건",
+    "name_search_alias": "Chang-Gun Lee"
+  },
+  {
+    "name": "Lee, Howon",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "PG3"
+    ],
+    "lab": "Advanced Manufacturing & Smart Materials Laboratory",
+    "url": "https://3dprinting.snu.ac.kr/",
+    "roles": {},
+    "id": "person-28d1a8b93331",
+    "name_ko": "이호원",
+    "name_search_alias": "Howon Lee"
+  },
+  {
+    "name": "Lim, Jongwoo",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2",
+      "PG1"
+    ],
+    "lab": "Robot Vision Laboratory",
+    "url": "https://rvlab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-b3b2e312569f",
+    "name_ko": "임종우",
+    "name_search_alias": "Jongwoo Lim"
+  },
+  {
+    "name": "Jeon, Noo Li",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "PG3"
+    ],
+    "lab": "Multiscale Biomedical Engineering Laboratory",
+    "url": "https://mbel.snu.ac.kr/",
+    "roles": {},
+    "id": "person-f8417c933e83",
+    "name_ko": "전누리",
+    "name_search_alias": "Noo Li Jeon"
+  },
+  {
+    "name": "Jung, Gyuweon",
+    "dept": "School of Transdisciplinary Innovations",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "TC2",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "Semiconductor Devices for AI Laboratory",
+    "url": "https://sdla.snu.ac.kr/",
+    "roles": {},
+    "id": "person-cb07333647e2",
+    "name_ko": "정규원",
+    "name_search_alias": "Gyuweon Jung"
+  },
+  {
+    "name": "Jeong, Chang Wook",
+    "dept": "College of Medicine",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG3"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-487c5a90b48e",
+    "name_ko": "정창욱",
+    "profile_url": "https://www.snuh.org/global/en/blog/01148/career.do?scsContCnt=3&dr_cd=01148",
+    "profile_hospital": "서울대학교병원",
+    "name_search_alias": "Chang Wook Jeong",
+    "profile_url_en": "https://www.snuh.org/global/en/blog/01148/career.do?scsContCnt=3&dr_cd=01148"
+  },
+  {
+    "name": "Jung, Hyungsoo",
+    "dept": "Graduate School of Data Science",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC3"
+    ],
+    "lab": "DBX Lab",
+    "url": "https://dbx.snu.ac.kr/",
+    "roles": {
+      "TC3": "vice_leader"
+    },
+    "id": "person-08319a45277f",
+    "name_ko": "정형수",
+    "name_search_alias": "Hyungsoo Jung"
+  },
+  {
+    "name": "Cho, Kyu-jin",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "PG1"
+    ],
+    "lab": "BEI Robotics lab.",
+    "url": "https://www.biorobotics.snu.ac.kr/",
+    "roles": {
+      "TC1": "leader",
+      "PG1": "vice_leader"
+    },
+    "id": "person-d079c2bff84f",
+    "name_ko": "조규진",
+    "name_search_alias": "Kyu-Jin Cho"
+  },
+  {
+    "name": "Jo, Yohan",
+    "dept": "Graduate School of Data Science",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "Human-Oriented Language Intelligence Lab(HOLI)",
+    "url": "https://yohanjo.github.io/index.html",
+    "roles": {},
+    "id": "person-6ab74fcbf827",
+    "name_ko": "조요한",
+    "name_search_alias": "Yohan Jo"
+  },
+  {
+    "name": "Joo, Hanbyul",
+    "dept": "Dept. of Computer Science & Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC3",
+      "PG1"
+    ],
+    "lab": "Visual Computing Laboratory",
+    "url": "https://jhugestar.github.io/",
+    "roles": {},
+    "id": "person-25b298e50d02",
+    "name_ko": "주한별",
+    "name_search_alias": "Hanbyul Joo"
+  },
+  {
+    "name": "Choi, Jonghyun",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Affiliated",
+    "groups": [
+      "TC2",
+      "PG2"
+    ],
+    "lab": "Machine Perception & Reasoning Laboratory",
+    "url": "https://ppolon.github.io/",
+    "roles": {},
+    "id": "person-b6e9699ae65a",
+    "name_ko": "최종현",
+    "name_search_alias": "Jonghyun Choi"
+  },
+  {
+    "name": "Ha, Jung-ik",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "TC2",
+      "PG3"
+    ],
+    "lab": "Electric Energy Conversion Laboratory",
+    "url": "https://eecl.snu.ac.kr/",
+    "roles": {},
+    "id": "person-f01d3c7ea91a",
+    "name_ko": "하정익",
+    "name_search_alias": "Jung-Ik Ha"
+  },
+  {
+    "name": "Han, Kyung Won",
+    "dept": "Dept. of Mechanical Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "PG1",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "Healthcare Robotics Laboratory",
+    "url": "https://hero.snu.ac.kr/",
+    "roles": {
+      "TC1": "vice_leader"
+    },
+    "id": "person-d6d4282e197d",
+    "name_ko": "한경원",
+    "name_search_alias": "Kyung Won Han"
+  },
+  {
+    "name": "Han, Bohyung",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "TC2",
+      "TC3",
+      "PG2"
+    ],
+    "lab": "Computer Vision Laboratory",
+    "url": "https://cv.snu.ac.kr/",
+    "roles": {},
+    "id": "person-7757b865029a",
+    "name_ko": "한보형",
+    "name_search_alias": "Bohyung Han"
+  },
+  {
+    "name": "Hong, Yongtaek",
+    "dept": "Dept. of Electrical & Computer Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "Advanced Flexible & Stretchable Electronics Laboratory",
+    "url": "https://axel.snu.ac.kr/",
+    "roles": {},
+    "id": "person-900aee7057d6",
+    "name_ko": "홍용택",
+    "name_search_alias": "Yongtaek Hong"
+  },
+  {
+    "name": "Sun, Jeong-yun",
+    "dept": "Dept. of Materials Science and Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC1"
+    ],
+    "lab": "Multi-Functional Soft Materials Lab",
+    "url": "https://mfsm.snu.ac.kr/",
+    "roles": {},
+    "id": "person-9c4d33e7b646",
+    "name_search_alias": "Jeong-Yun Sun"
+  },
+  {
+    "name": "Lee, Jae W.",
+    "dept": "Dept. of Computer Science and Engineering",
+    "org": "Seoul National University",
+    "category": "Participating",
+    "groups": [
+      "TC3"
+    ],
+    "lab": "Architecture and Code Optimization Lab",
+    "url": "https://arc.snu.ac.kr/",
+    "roles": {},
+    "id": "person-908b307f8f67",
+    "name_search_alias": "Jae W. Lee"
+  }
+]

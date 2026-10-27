@@ -1,0 +1,14 @@
+{
+  "socials": {
+    "youtube": "https://www.youtube.com/@SNURoboticsInstitute",
+    "facebook": null,
+    "linkedin": "https://www.linkedin.com/company/snu-robotics-institute"
+  },
+  "contact": {
+    "email": "ri@snu.ac.kr",
+    "phone": "02-880-1638",
+    "phone_international": "+82-2-880-1638",
+    "address_ko": "서울시 관악구 관악로 1 서울대학교 303동 551호",
+    "address_en": "1 Gwanak-ro, Gwanak-gu\nBldg. 303, Room 551\nSeoul 08826, Republic of Korea"
+  }
+}

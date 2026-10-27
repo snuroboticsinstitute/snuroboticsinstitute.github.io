@@ -1,0 +1,50 @@
+{
+  "tc1": {
+    "ko": {
+      "why": "사람과 접촉하며 움직이는 로봇은 예측하기 어려운 환경 변화에 안전하게 대응해야 합니다. 모든 반응을 센서와 복잡한 제어 알고리즘으로 처리하면 연산량과 에너지 소비가 커집니다. 고정된 몸체의 한계를 넘어, 소재와 구조 자체가 힘을 분산하고 환경에 순응하도록 만드는 기술이 필요한 이유입니다.",
+      "approach": "MORPHI Body는 환경에 맞게 형태와 강성이 달라지는 가변 구조에 물리 지능을 결합합니다. 메커니즘 자체가 균형을 찾고 힘을 배분하도록 설계해 몸이 연산과 제어의 일부를 분담하게 하고, 로봇이 자신의 신체 상태를 감지해 변화에 대응하도록 연구합니다. 이를 통해 사람과 안전하게 상호작용하면서도 저비용·저전력으로 활용할 수 있는 로봇 하드웨어를 개발하고자 합니다.",
+      "topics": ["구동·구조 가변 모듈: 형태와 강성을 능동적으로 조절하는 관절 및 생체모사 인공근육 개발", "자가 인식 센싱·피부 모듈: 유연한 분산 촉각 센서와 신체 상태 모니터링 기술 개발", "모듈화와 신뢰성 검증: 저비용·저전력 하드웨어의 공통 규격 및 내구성·신뢰성 평가 체계 연구"]
+    },
+    "en": {
+      "why": "Robots that move in contact with people must respond safely to unpredictable changes. Handling every response through sensors and complex control algorithms increases computation and energy demand. Materials and structures that distribute forces and adapt mechanically to their surroundings can help overcome the limitations of a fixed robot body.",
+      "approach": "MORPHI Body combines physical intelligence with structures that change shape and stiffness. Mechanisms are designed to find balance and distribute forces, allowing the body itself to perform part of the computation and control. We also study how robots sense their own physical state and respond to bodily changes, aiming for safe interaction and affordable, energy-efficient hardware.",
+      "topics": ["Reconfigurable actuation and structures: joints with actively adjustable shape and stiffness, and bio-inspired artificial muscles", "Self-sensing skin: soft distributed tactile sensors and systems for monitoring the robot’s physical state", "Modularity and reliability: shared specifications and durability and reliability evaluation for low-cost, low-power hardware"]
+    }
+  },
+  "tc2": {
+    "ko": {
+      "why": "로봇의 몸체나 작업 환경이 달라질 때마다 지능 전체를 다시 학습시키는 방식은 시간과 연산 자원을 많이 요구합니다. 실제 환경에서는 사람과의 접촉이나 작업 조건의 변화에도 즉각 대응해야 하므로, 필요한 기능을 독립적으로 학습하고 재구성하면서 전체 행동을 조율할 수 있는 지능 구조가 필요합니다.",
+      "approach": "MOSAIC Intelligence는 뇌의 기능별 전문성과 조율 구조를 참고해, 부위와 기능별 국소 지능을 상위의 전역 지능이 조율하는 아키텍처를 연구합니다. 국소 지능은 물리적 상호작용과 운동을 학습하고, 전역 지능은 상황과 목표를 판단해 모듈의 협력을 이끕니다. 필요한 모듈을 재조합하고 국소·전역 지능이 함께 지속적으로 학습하도록 하여, 다양한 몸체와 작업에 효율적으로 적응하는 로봇 지능을 개발하고자 합니다.",
+      "topics": ["자율형 국소 지능: 로봇·인간·환경의 물리적 특성을 인식하고 독립적으로 운동을 학습하는 모듈 개발", "맥락적 전역 지능: 상황을 이해하고 예측하며 여러 인식·운동 모듈을 조율하는 지능 개발", "지속 학습과 공진화: 국소·전역 지능이 상호 보완적으로 학습하고 새로운 환경과 임무에 적응하는 구조 연구"]
+    },
+    "en": {
+      "why": "Retraining an entire intelligence system whenever a robot’s body or task environment changes demands substantial time and computing resources. Real-world interaction also requires immediate responses to contact and changing conditions. Robots therefore need an architecture that can learn and reconfigure individual functions while coordinating overall behavior.",
+      "approach": "Inspired by functional specialization and coordination in the brain, MOSAIC Intelligence organizes local intelligence modules under a contextual global intelligence. Local modules learn physical interactions and movement, while global intelligence interprets situations and goals and coordinates their cooperation. We study module recomposition and continual learning across both levels to enable efficient adaptation to different bodies and tasks.",
+      "topics": ["Autonomous local intelligence: modules that perceive robot–human–environment physical properties and learn movement independently", "Contextual global intelligence: understanding and predicting situations to coordinate perception and movement modules", "Continual learning and co-evolution: local and global intelligence learning together and adapting to new environments and missions"]
+    }
+  },
+  "tc3": {
+    "ko": {
+      "why": "사람과 로봇이 접촉하고 주변 환경이 변하는 상황을 다루려면 여러 물리현상을 함께 예측해야 합니다. 기존의 디지털 트윈은 현상별로 분리되어 있거나, 예측 정확도를 높일수록 계산 속도가 느려지는 한계가 있습니다. 로봇의 설계·학습·검증을 가속하려면 복잡한 상호작용을 정확하고 빠르게 모사하면서 다양한 데이터를 일관되게 관리할 수 있어야 합니다.",
+      "approach": "로봇·인간·환경 디지털 트윈은 다중물리 시뮬레이션, 데이터 패브릭, 소프트웨어·하드웨어 통합 최적화를 연결합니다. 가상실험에서 물리적으로 타당한 데이터를 생성·증강하고, 실제 환경에서 얻은 데이터와 연계해 로봇을 반복적으로 설계하고 검증하는 기반을 연구합니다. 생활 지원, 웨어러블, 체내 로봇의 서로 다른 조건에 활용할 수 있는 통합 프레임워크를 개발하고자 합니다.",
+      "topics": ["디지털 트윈: 복잡한 물리적 상호작용의 고정밀·고속 모사 및 학습·검증용 데이터 생성", "데이터 패브릭: 물리적 정합성과 맥락을 유지하며 다양한 형식의 대규모 데이터를 생성·증강·저장·관리", "인프라 최적화: 시뮬레이션과 데이터 처리를 효율적으로 구동하는 소프트웨어·하드웨어 통합 설계"]
+    },
+    "en": {
+      "why": "Predicting contact between people and robots in changing environments requires multiple physical phenomena to be considered together. Existing digital twins can be fragmented by phenomenon, or face a trade-off between prediction accuracy and computing speed. Faster robot design, learning and validation require accurate, rapid simulation alongside consistent management of diverse data.",
+      "approach": "The Robot–Human–Environment Digital Twin connects multiphysics simulation, a data fabric and integrated software–hardware optimization. We study how to generate and augment physically consistent data in virtual experiments and connect it with real-world observations for iterative robot design and validation. The aim is an integrated framework that supports everyday assistance, wearable and in-body robotics under their different operating conditions.",
+      "topics": ["Digital twin: high-accuracy, high-speed simulation of physical interactions and generation of data for learning and validation", "Data fabric: generating, augmenting, storing and managing large-scale multimodal data while preserving physical consistency and context", "Infrastructure optimization: integrated software–hardware design for efficient simulation and data processing"]
+    }
+  },
+  "tc4": {
+    "ko": {
+      "why": "로봇의 성능이 높아지는 것만으로 사람에게 유익하고 신뢰할 수 있는 기술이 되는 것은 아닙니다. 사람의 신체와 일상에 직접 개입하는 로봇은 안전뿐 아니라 기능과 자율성 등 인간의 가치를 함께 고려해야 합니다. 개발이 끝난 뒤 윤리나 사용성을 평가하는 데 그치지 않고, 초기 설계부터 제어와 실증까지 그 가치를 반영하고 검증하는 체계가 필요합니다.",
+      "approach": "Human Value는 인간 중심 가치를 설계 판단과 제어 원칙으로 구체화하고, 개발 전 과정에서 검증할 수 있는 가치 운영체계(Value OS)를 연구합니다. 임상·사회적 맥락을 반영한 시나리오에서 로봇의 행동과 가치 훼손 위험을 점검하며, 평가 결과를 다음 설계에 반영합니다. 이를 통해 로봇의 임상적 신뢰성과 사회적 수용성을 일관된 기준으로 비교·판단할 수 있는 기반을 마련하고자 합니다.",
+      "topics": ["가치 기반 설계: 안전·기능·자율성 등의 지표를 정의하고 설계 및 검증 기준으로 활용", "실증과 스트레스 테스트: 다양한 상호작용 조건에서 가치 훼손 임계점을 탐지하고 판단 근거를 설명", "공통 기준과 설계 환류: Human Value API와 신뢰성 판단 기준을 연구하고 평가 결과를 제어·설계 개선에 반영"]
+    },
+    "en": {
+      "why": "Higher performance alone does not make a robot beneficial or trustworthy. Robots that directly affect people’s bodies and daily lives must account for human values, including safety, functioning and autonomy. Rather than relying only on ethics or user evaluations after development, these values need to inform design, control and real-world validation from the outset.",
+      "approach": "Human Value studies a Value Operating System (Value OS) that translates human-centered values into design decisions and control principles that can be verified throughout development. Scenarios reflecting clinical and social contexts are used to examine robot behavior and risks to human values, with findings fed back into subsequent designs. This supports consistent assessment of clinical reliability and social acceptance.",
+      "topics": ["Value-based design: defining indicators for safety, functioning and autonomy and using them in design and validation", "Demonstration and stress testing: identifying thresholds of value compromise across interaction scenarios and explaining assessment results", "Shared criteria and design feedback: studying a Human Value API and trust criteria, and feeding evaluation results into control and design improvements"]
+    }
+  }
+}

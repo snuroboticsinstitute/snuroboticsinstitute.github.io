@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>작은 글씨 폰트 비교 | SNU Robotics Institute</title>
+<style>
+@font-face{font-family:Inter;src:url('/assets/font-candidates/inter-400.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:Inter;src:url('/assets/font-candidates/inter-600.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('/assets/font-candidates/source-sans-3-400.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('/assets/font-candidates/source-sans-3-600.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
+*{box-sizing:border-box}html{--size:16px;--bg:#f3f4f1;--paper:#fff;--text:#202528;--muted:#555e63;--line:#d8ddda;--accent:#087f78;color:var(--text);background:var(--bg);font-family:Arial,'Noto Sans KR',sans-serif}
+body{margin:0}a{color:inherit;text-underline-offset:4px}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+header{max-width:1200px;margin:auto;padding:28px 24px 20px}header>a{font-size:13px;color:var(--muted)}h1{font-size:clamp(24px,4vw,32px);line-height:1.5;margin:22px 0 12px;font-weight:600}header p{font-size:14px;line-height:1.8;margin:0;color:var(--muted)}
+.controls{position:sticky;top:0;z-index:2;background:var(--paper);border-block:1px solid var(--line);padding:14px 24px}.control-inner{max-width:1152px;margin:auto;display:flex;align-items:center;flex-wrap:wrap;gap:14px 30px}.control-group{display:flex;flex-wrap:wrap;align-items:center;gap:6px}.control-label{font-size:12px;color:var(--muted);margin-right:6px}.controls button{padding:8px 12px;min-height:36px;border:1px solid var(--line);border-radius:3px;background:var(--paper);color:var(--text);font-size:13px}.controls button[aria-pressed=true]{background:var(--text);border-color:var(--text);color:var(--paper)}#tone{margin-left:auto}.font-status{max-width:1200px;margin:14px auto 0;padding:0 24px;font-size:12px;color:var(--muted);line-height:1.8}
+main{max-width:1200px;margin:0 auto;padding:18px 24px 48px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.font-panel{min-width:0;border:1px solid var(--line);background:var(--paper)}.panel-head{padding:20px 24px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:10px}.panel-head h2{font-size:20px;font-weight:600;margin:0}.panel-head span{font-size:12px;color:var(--muted)}
+.samples{font-family:var(--font);font-synthesis:none;font-size:var(--size);letter-spacing:normal;word-break:normal;overflow-wrap:break-word;hyphens:none;line-height:1.75}.sample-section{padding:26px 24px}.sample-section+.sample-section{border-top:1px solid var(--line)}.sample-label{font:12px/1.6 Arial,sans-serif;color:var(--accent);margin:0 0 16px}.samples h3{font-size:24px;font-weight:600;line-height:1.45;letter-spacing:normal;margin:0 0 12px}.samples p{margin:0 0 16px}.samples p:last-child{margin-bottom:0}.samples .department{font-size:var(--size);color:var(--muted);line-height:1.6;margin-bottom:14px}.groups{font-size:12px;display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;color:var(--muted)}.groups span{border:1px solid var(--line);padding:3px 8px}.profile{font-size:var(--size);color:var(--accent);line-height:1.7}.samples .meta{font-size:12px;color:var(--muted);margin-bottom:14px}.samples .article-title{font-size:22px;line-height:1.5;margin-bottom:18px}.samples ul{margin:0 0 20px;padding-left:22px}.samples li+li{margin-top:8px}.samples .note{color:var(--muted);font-size:14px;line-height:1.75}.sample-section .reading{max-width:62ch}
+.single-view main{grid-template-columns:minmax(0,720px);justify-content:center}.font-panel[hidden]{display:none}
+html.dark{--bg:#101214;--paper:#191d20;--text:#f1f3f2;--muted:#bcc4c7;--line:#3c4549;--accent:#edc64f}
+footer{max-width:1200px;margin:0 auto;padding:0 24px 36px;color:var(--muted);font-size:12px;line-height:1.8}footer p{margin:8px 0}
+@media(max-width:700px){header{padding:22px 20px 18px}.controls{padding:12px 20px}.control-inner{gap:10px 16px}.control-group{gap:5px}.controls button{padding:8px 10px;font-size:12px}#tone{margin-left:0}.font-status{padding:0 20px}main{grid-template-columns:1fr;padding:16px 20px 36px;gap:20px}.panel-head,.sample-section{padding:22px 20px}.samples h3{font-size:23px}.samples .article-title{font-size:21px}.single-view main{grid-template-columns:minmax(0,1fr)}footer{padding-inline:20px}}
+</style>
+</head>
+<body>
+<header>
+<a href="/en/people/faculty/?theme=dark">← 영문 홈페이지</a>
+<h1>작은 글씨로 비교하기</h1>
+<p>Inter와 Source Sans 3에 같은 내용·크기·굵기·줄 간격을 적용했습니다.<br>휴대폰에서는 서체 버튼을 번갈아 누르면 같은 위치에서 비교할 수 있습니다.</p>
+</header>
+<div class="controls"><div class="control-inner">
+<div class="control-group" role="group" aria-label="비교할 폰트"><span class="control-label">보기</span><button type="button" data-view="all" aria-pressed="true">나란히</button><button type="button" data-view="inter" aria-pressed="false">Inter</button><button type="button" data-view="source" aria-pressed="false">Source Sans 3</button></div>
+<div class="control-group" role="group" aria-label="본문 글자 크기"><span class="control-label">본문</span><button type="button" data-size="14" aria-pressed="false">14px</button><button type="button" data-size="16" aria-pressed="true">16px</button><button type="button" data-size="18" aria-pressed="false">18px</button></div>
+<button type="button" id="tone" aria-pressed="false">어두운 배경</button>
+</div></div>
+<p class="font-status" id="font-status" role="status">비교용 폰트를 불러오는 중입니다.</p>
+<main id="comparison"></main>
+<footer><p>이 화면의 본문과 카드는 서체 비교용 예시입니다. 현재 홈페이지의 폰트는 변경하지 않습니다. 앞서 만든 DM Sans 비교 페이지도 보존했습니다.</p><a href="/font-preview/">이전 폰트 비교 보기 →</a></footer>
+<template id="sample-template">
+<div class="samples" lang="en">
+<section class="sample-section"><p class="sample-label">People · Faculty card</p><div class="groups"><span>Participating</span><span>TC 1</span><span>PG 1</span></div><h3>Cho, Kyu-jin</h3><p class="department">Dept. of Mechanical Engineering</p><p>BEI Robotics lab.</p><p class="profile">Faculty profile ↗</p><p class="note">Research interests: soft robotics, bio-inspired design and wearable systems.</p></section>
+<section class="sample-section"><p class="sample-label">Updates · Article</p><p class="meta">Institute News · July 2026</p><h3 class="article-title">Human-centered robotics for everyday life</h3><div class="reading"><p>The SNU Robotics Institute brings together researchers from engineering, medicine and the social sciences to develop technologies that improve everyday life.</p><p>Our research connects the robot’s body and intelligence. We explore how robots can adapt to people and their surroundings through <strong>embodied intelligence and collaboration.</strong></p><ul><li>Life Companion robots that support daily living</li><li>Wearable systems that assist movement</li><li>Medical robots that work inside the body</li></ul></div></section>
+<section class="sample-section"><p class="sample-label">About · Details</p><h3 class="article-title">Established</h3><p>Established in March 2026 under the College of Engineering at Seoul National University.</p><p class="note">Preparatory Committee 2021–2026 | Inaugural Director: Professor Kyu-jin Cho</p><p class="meta">Small text at 12px · Research, education and exchange · 2026–2035</p></section>
+</div>
+</template>
+<script>
+(() => {
+  const root=document.documentElement,main=document.getElementById('comparison');
+  for(const [key,name] of [['inter','Inter'],['source','Source Sans 3']]){
+    const panel=document.createElement('article');panel.className='font-panel';panel.dataset.font=key;
+    panel.style.setProperty('--font','"'+name+'", sans-serif');
+    const head=document.createElement('div');head.className='panel-head';
+    const title=document.createElement('h2');title.textContent=name;head.append(title);
+    const caption=document.createElement('span');caption.textContent='본문 400 · 제목 600';head.append(caption);
+    panel.append(head,document.getElementById('sample-template').content.cloneNode(true));main.append(panel);
+  }
+  function view(key){
+    document.body.classList.toggle('single-view',key!=='all');
+    document.querySelectorAll('[data-font]').forEach(panel=>{panel.hidden=key!=='all'&&panel.dataset.font!==key});
+    document.querySelectorAll('[data-view]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.view===key)));
+  }
+  document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>view(button.dataset.view)));
+  document.querySelectorAll('[data-size]').forEach(button=>button.addEventListener('click',()=>{
+    root.style.setProperty('--size',button.dataset.size+'px');
+    document.querySelectorAll('[data-size]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+  }));
+  document.getElementById('tone').addEventListener('click',function(){const dark=root.classList.toggle('dark');this.setAttribute('aria-pressed',String(dark));this.textContent=dark?'밝은 배경':'어두운 배경'});
+  if(matchMedia('(max-width:700px)').matches)view('inter');
+  Promise.all(['400 16px Inter','600 24px Inter','400 16px "Source Sans 3"','600 24px "Source Sans 3"'].map(font=>document.fonts.load(font))).then(results=>{
+    if(results.some(result=>!result.length))throw new Error('Missing font');
+    document.getElementById('font-status').textContent='두 서체를 불러왔습니다. 본문은 14·16·18px, 보조 문구는 12·14px로 비교할 수 있습니다.';
+  }).catch(()=>document.getElementById('font-status').textContent='폰트를 불러오지 못했습니다. 새로고침 후 확인해 주세요.');
+})();
+</script>
+</body>
+</html>

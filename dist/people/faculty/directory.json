@@ -1,0 +1,1134 @@
+[
+  {
+    "name": "강승균",
+    "dept": "재료공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "PG3"
+    ],
+    "lab": "Bio-interface Electronics Laboratory",
+    "url": "http://bielab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-c53f2b7ada9c"
+  },
+  {
+    "name": "강연준",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC3"
+    ],
+    "lab": "음향 및 진동 연구실",
+    "url": "https://acustica.snu.ac.kr/",
+    "roles": {},
+    "id": "person-96f9dc50a595"
+  },
+  {
+    "name": "강지형",
+    "dept": "화학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "PG3"
+    ],
+    "lab": "동정 소재 디자인 연구실",
+    "url": "https://www.jiheongkanglab.com/",
+    "roles": {},
+    "id": "person-46bac5384dc8"
+  },
+  {
+    "name": "고승환",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "TC2",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "웨어러블 소프트 전자소자 연구실",
+    "url": "https://ants.snu.ac.kr/",
+    "roles": {},
+    "id": "person-962eaf8e50bc"
+  },
+  {
+    "name": "곽노준",
+    "dept": "지능정보융합",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC2",
+      "PG3"
+    ],
+    "lab": "컴퓨터 지능 및 패턴인식 연구실",
+    "url": "https://mipal.snu.ac.kr/",
+    "roles": {
+      "TC2": "leader"
+    },
+    "id": "person-3e328e5fb9a2"
+  },
+  {
+    "name": "김기원",
+    "dept": "의학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-5ac1230808b0",
+    "profile_url": "https://www.snuh.org/blog/65660/philosophy.do?hsp_cd=2",
+    "profile_hospital": "서울대학교병원",
+    "profile_url_en": "https://www.snuh.org/global/en/blog/65660/career.do"
+  },
+  {
+    "name": "김도년",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC3",
+      "PG3"
+    ],
+    "lab": "AI주도 시뮬레이션 및 설계 연구실",
+    "url": "https://aisdls.snu.ac.kr/",
+    "roles": {
+      "TC3": "leader"
+    },
+    "id": "person-741edb3e5111"
+  },
+  {
+    "name": "김아영",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2",
+      "TC3",
+      "PG1"
+    ],
+    "lab": "로봇 인식 및 공간 지능 연구실",
+    "url": "https://ayoungk.github.io/",
+    "roles": {},
+    "id": "person-339661d60699"
+  },
+  {
+    "name": "김영민",
+    "dept": "전기정보",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC2",
+      "TC4",
+      "PG1"
+    ],
+    "lab": "3차원 비쥬얼 컴퓨팅 및 기하학적 처리 연구실",
+    "url": "https://3d.snu.ac.kr/",
+    "roles": {},
+    "id": "person-04228595751d"
+  },
+  {
+    "name": "김주한",
+    "dept": "의학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "생명정보의학 연구실 (SNUBI)",
+    "url": "http://www.snubi.org/",
+    "roles": {},
+    "id": "person-c561d877eb87"
+  },
+  {
+    "name": "김주형",
+    "dept": "",
+    "org": "University of Illinois",
+    "category": "연계",
+    "groups": [],
+    "lab": "Kinetic Intelligent Machine Lab (KIMLAB)",
+    "url": "https://publish.illinois.edu/kimlab2020/",
+    "roles": {},
+    "id": "person-83d1c7d836c2"
+  },
+  {
+    "name": "김진수",
+    "dept": "전기정보",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "TC2",
+      "TC3",
+      "PG2"
+    ],
+    "lab": "웨어러블 로봇 연구실",
+    "url": "https://sites.google.com/snu.ac.kr/jkim/",
+    "roles": {
+      "PG2": "vice_leader"
+    },
+    "id": "person-7f1bb29d16ac"
+  },
+  {
+    "name": "김태섭",
+    "dept": "데이터사이언스학과",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Learning and Adaptation Algorithms Lab (LAAL)",
+    "url": "https://www.snu-laal.com/",
+    "roles": {},
+    "id": "person-94bbc08991f0"
+  },
+  {
+    "name": "김태용",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC1"
+    ],
+    "lab": "Nano Energy Transport and Engineering Laboratory",
+    "url": "https://nanoheat.snu.ac.kr/",
+    "roles": {},
+    "id": "person-55290d64c43b"
+  },
+  {
+    "name": "김현의",
+    "dept": "간호",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-dbaa6875c37d",
+    "profile_url": "https://nursing.snu.ac.kr/faculty/professor?mode=view&profidx=65",
+    "profile_url_en": "https://nursing.snu.ac.kr/en/faculty/professor?mode=view&profidx=65",
+    "profile_institution": "서울대학교 간호대학"
+  },
+  {
+    "name": "김현진",
+    "dept": "항공우주",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "자율로봇연구실",
+    "url": "https://larr.snu.ac.kr/",
+    "roles": {},
+    "id": "person-b25c6ea7420f"
+  },
+  {
+    "name": "김호영",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "PG1",
+      "PG3"
+    ],
+    "lab": "마이크로 유체 및 소프트 물질 연구실",
+    "url": "https://fluids.snu.ac.kr/",
+    "roles": {
+      "PG3": "leader"
+    },
+    "id": "person-a779d1f879b4"
+  },
+  {
+    "name": "김홍수",
+    "dept": "보건",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "고령화보건정책·서비스 연구실 (AgeLab)",
+    "url": "https://agelab.snu.ac.kr/",
+    "roles": {
+      "TC4": "leader"
+    },
+    "id": "person-55f59ce6e10c"
+  },
+  {
+    "name": "노두현",
+    "dept": "의학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC4",
+      "PG3"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {
+      "PG3": "vice_leader"
+    },
+    "id": "person-db34f292a862",
+    "profile_url": "https://www.snuh.org/blog/65877/philosophy.do",
+    "profile_hospital": "서울대학교병원",
+    "profile_url_en": "https://www.snuh.org/global/en/blog/65877/philosophy.do"
+  },
+  {
+    "name": "묵인희",
+    "dept": "의학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "묵인희 교수 연구실 (Alzlab)",
+    "url": "http://www.alzlab.co.kr/",
+    "roles": {},
+    "id": "person-d7aabc6be16f"
+  },
+  {
+    "name": "문태섭",
+    "dept": "전기정보",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "마인드랩 (M.IN.D Lab)",
+    "url": "https://mindlab-snu.notion.site/",
+    "roles": {},
+    "id": "person-d184bb8e9369"
+  },
+  {
+    "name": "박명우",
+    "dept": "의학(보라매)",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC4",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-64d672bda3e4",
+    "profile_url": "https://www.brmh.org/custom/popup/layer_doctor_view.do?dt_no=516",
+    "profile_hospital": "보라매병원"
+  },
+  {
+    "name": "박문석",
+    "dept": "의학(분당)",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC3",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-41dc079f43bd",
+    "profile_url": "https://www.snubh.org/medical/drIntroduce.do?DP_CD=OS&DP_TP=O&cPage=3&sDpCdDtl=OS&sDrSid=1001025&sDrStfNo=65407&sv=",
+    "profile_hospital": "분당서울대학교병원",
+    "profile_url_en": "https://www.snubh.org/common/popup/drIntroduce_view.do?sDpCdDtl=OS&sDrSid=1001025&sDrStfNo=01217&S_DP_CD=OS&MENU_ID=001001&DP_CD=EN"
+  },
+  {
+    "name": "박상철",
+    "dept": "법학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC4"
+    ],
+    "lab": "",
+    "url": "https://scholar.google.com/citations?user=C7OExkAAAAAJ",
+    "roles": {},
+    "id": "person-0b34baaece16"
+  },
+  {
+    "name": "박성준",
+    "dept": "첨단융합",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC1",
+      "TC2",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "BioMedical and Brain-Machine/Computer Interfaces Laboratory (B-MIL)",
+    "url": "https://www.bnilab.com/",
+    "roles": {},
+    "id": "person-1699333aa315"
+  },
+  {
+    "name": "박용래",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "PG2"
+    ],
+    "lab": "소프트로봇 및 바이오닉스 연구실",
+    "url": "https://softrobotics.snu.ac.kr/",
+    "roles": {},
+    "id": "person-c27619ef7efb"
+  },
+  {
+    "name": "박재식",
+    "dept": "컴퓨터공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2",
+      "PG1"
+    ],
+    "lab": "시각 및 기하지능 연구실",
+    "url": "https://jaesik.info/lab/",
+    "roles": {},
+    "id": "person-ff6edb3bf738"
+  },
+  {
+    "name": "박종우",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "로봇 자동화 연구실",
+    "url": "https://sites.google.com/robotics.snu.ac.kr/fcp/",
+    "roles": {},
+    "id": "person-f7a1107fdbcf"
+  },
+  {
+    "name": "박주연",
+    "dept": "의류",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "웨어러블 인간공학 연구실 (W.E.A.R. Lab)",
+    "url": "https://www.snuwearlab.com/",
+    "roles": {},
+    "id": "person-d2fdf3359492"
+  },
+  {
+    "name": "박현우",
+    "dept": "데이터사이언스",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "데이터 인텔리전스 및 학습 연구실",
+    "url": "https://dial.snu.ac.kr/",
+    "roles": {
+      "TC4": "vice_leader"
+    },
+    "id": "person-8c3d53d66ab2"
+  },
+  {
+    "name": "박형민",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC3",
+      "PG3"
+    ],
+    "lab": "다상유동및유동가시화 연구실",
+    "url": "https://mffv.snu.ac.kr/",
+    "roles": {},
+    "id": "person-557175cd2e97"
+  },
+  {
+    "name": "박형준",
+    "dept": "항공우주",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "우주 모빌리티 및 로보틱스 연구실",
+    "url": "https://smrl.snu.ac.kr/",
+    "roles": {},
+    "id": "person-975ece4e89dc"
+  },
+  {
+    "name": "박혜원",
+    "dept": "",
+    "org": "MIT Media Lab",
+    "category": "연계",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Personal Robots Group",
+    "url": "https://www.media.mit.edu/people/haewon/overview/",
+    "roles": {},
+    "id": "person-3fb8873fecff"
+  },
+  {
+    "name": "백성희",
+    "dept": "생명과학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG3"
+    ],
+    "lab": "분자세포유전학 연구실",
+    "url": "https://biosci.snu.ac.kr/sbaek",
+    "roles": {},
+    "id": "person-4f46a5a42db3"
+  },
+  {
+    "name": "범재원",
+    "dept": "의학(분당)",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC4",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-fbba460f79bb",
+    "profile_url": "https://www.snubh.org/medical/drIntroduce.do?DP_CD=RH&DP_TP=&cPage=1&sDpCdDtl=RH&sDrSid=1002989&sDrStfNo=66063&sv=",
+    "profile_hospital": "분당서울대학교병원",
+    "profile_url_en": "https://www.snubh.org/common/popup/drIntroduce_view.do?sDpCdDtl=RH&sDrSid=1002989&sDrStfNo=66063&S_DP_CD=RH&MENU_ID=001001&DP_CD=EN"
+  },
+  {
+    "name": "서봉원",
+    "dept": "AI연구원",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2",
+      "PG1"
+    ],
+    "lab": "Human Centered Computing Lab",
+    "url": "http://hcc.snu.ac.kr/",
+    "roles": {},
+    "id": "person-7df7c4bdcadc"
+  },
+  {
+    "name": "서종모",
+    "dept": "전기정보",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "전기-의학 융합 연구실",
+    "url": "https://efe.snu.ac.kr/",
+    "roles": {},
+    "id": "person-23921e3ddded"
+  },
+  {
+    "name": "송한호",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [],
+    "lab": "AESLab",
+    "url": "https://aesl.co.kr/",
+    "roles": {},
+    "id": "person-208ee3dadde4"
+  },
+  {
+    "name": "안성훈",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC1"
+    ],
+    "lab": "혁신설계 및 통합생산 연구실",
+    "url": "https://fab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-b9094508edb5"
+  },
+  {
+    "name": "안우영",
+    "dept": "심리학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC4"
+    ],
+    "lab": "Computational Clinical Science Laboratory",
+    "url": "https://ccs-lab.github.io/",
+    "roles": {},
+    "id": "person-68eef245d1bb"
+  },
+  {
+    "name": "안정호",
+    "dept": "지능정보융합",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [],
+    "lab": "스케일러블 컴퓨터 구조 연구실",
+    "url": "https://scale.snu.ac.kr/",
+    "roles": {},
+    "id": "person-5f5b7cc50c79"
+  },
+  {
+    "name": "안주은",
+    "dept": "체육교육",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC3",
+      "PG2"
+    ],
+    "lab": "스포츠공학연구실",
+    "url": "https://sports-engineering-lab.snu.ac.kr/",
+    "roles": {
+      "PG2": "leader"
+    },
+    "id": "person-d109a14512bf"
+  },
+  {
+    "name": "안창범",
+    "dept": "건설",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC3",
+      "PG1"
+    ],
+    "lab": "건설기술연구실",
+    "url": "https://cem.snu.ac.kr/",
+    "roles": {},
+    "id": "person-8d166372e72d"
+  },
+  {
+    "name": "양진규",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "TC3"
+    ],
+    "lab": "트랜스포머아키텍쳐연구실",
+    "url": "http://starlab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-c5f3553a538d"
+  },
+  {
+    "name": "오성회",
+    "dept": "전기·정보공학부",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "로봇학습 연구실",
+    "url": "http://rllab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-3865f2934817"
+  },
+  {
+    "name": "오주환",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC3"
+    ],
+    "lab": "인공구조 기반 혁신 연구실",
+    "url": "https://metastruct.snu.ac.kr/",
+    "roles": {},
+    "id": "person-d8fd1a63e66f"
+  },
+  {
+    "name": "오혜진",
+    "dept": "",
+    "org": "CMU RI",
+    "category": "연계",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "roBot Intelligence Group (BIG)",
+    "url": "https://www.cs.cmu.edu/~jeanoh/big/",
+    "roles": {},
+    "id": "person-db184fbf4fe3"
+  },
+  {
+    "name": "원정담",
+    "dept": "컴퓨터공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC3",
+      "PG2"
+    ],
+    "lab": "지능형동작연구실",
+    "url": "https://sites.google.com/view/snuimo/home",
+    "roles": {},
+    "id": "person-28996bec439b"
+  },
+  {
+    "name": "유영재",
+    "dept": "첨단융합학부",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC1",
+      "TC3",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "Physical & Interactive Intelligence Lab",
+    "url": "https://pi.snu.ac.kr/",
+    "roles": {},
+    "id": "person-1e955dbdb906"
+  },
+  {
+    "name": "윤병동",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2",
+      "TC3"
+    ],
+    "lab": "초자율화 인공지능 연구실",
+    "url": "https://hai.snu.ac.kr/",
+    "roles": {},
+    "id": "person-7b9f6e95385c"
+  },
+  {
+    "name": "윤창환",
+    "dept": "의학(분당)",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG3"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-abc319e63aaa",
+    "profile_url": "https://www.snubh.org/medical/drIntroduce.do?DP_CD=IMC&DP_TP=O&cPage=7&sDpCdDtl=IMC&sDrSid=1001535&sDrStfNo=65550&sv=",
+    "profile_hospital": "분당서울대학교병원",
+    "profile_url_en": "https://www.snubh.org/common/popup/drIntroduce_view.do?sDpCdDtl=IMC&sDrSid=1001535&sDrStfNo=65550&S_DP_CD=IMC&MENU_ID=001001&DP_CD=EN"
+  },
+  {
+    "name": "윤태영",
+    "dept": "생명",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC1"
+    ],
+    "lab": "Center for Single Molecule Systems Biology",
+    "url": "https://biosci.snu.ac.kr/yoonlab/",
+    "roles": {},
+    "id": "person-eafb2bcf0778"
+  },
+  {
+    "name": "이경무",
+    "dept": "전기정보",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "Computer Vision Laboratory",
+    "url": "https://cv.snu.ac.kr/",
+    "roles": {},
+    "id": "person-d2b330c49f91"
+  },
+  {
+    "name": "이교구",
+    "dept": "지능정보융합",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2",
+      "PG1"
+    ],
+    "lab": "Music and Audio Research Group (MARG)",
+    "url": "https://snu-marg.notion.site/",
+    "roles": {},
+    "id": "person-e32fb714d281"
+  },
+  {
+    "name": "이동준",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2",
+      "TC3",
+      "PG1"
+    ],
+    "lab": "인터랙티브/네트워크 로봇 연구실(INROL)",
+    "url": "https://www.inrol.snu.ac.kr/",
+    "roles": {},
+    "id": "person-69a58b4e2a06"
+  },
+  {
+    "name": "이수현",
+    "dept": "심리학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "Memory and Cognition Laboratory",
+    "url": "https://memcolab.org/",
+    "roles": {},
+    "id": "person-0a557c7eeb53"
+  },
+  {
+    "name": "이윤석",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [],
+    "lab": "에너지 디바이스 및 나노공학 연구실",
+    "url": "https://energy.snu.ac.kr/",
+    "roles": {},
+    "id": "person-e8ec197c55a5",
+    "groups_status": "pending"
+  },
+  {
+    "name": "이인아",
+    "dept": "뇌인지과학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC2"
+    ],
+    "lab": "학습과 기억 뇌인지과학 연구실",
+    "url": "http://www.inahlee.org/",
+    "roles": {
+      "TC2": "leader"
+    },
+    "id": "person-b95dd0f6be54"
+  },
+  {
+    "name": "이제희",
+    "dept": "컴퓨터공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC2",
+      "PG2"
+    ],
+    "lab": "운동 연구실",
+    "url": "https://mrl.snu.ac.kr/",
+    "roles": {},
+    "id": "person-85aab60c090e"
+  },
+  {
+    "name": "이준기",
+    "dept": "AI연구원",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2",
+      "PG3"
+    ],
+    "lab": "Bio Intelligence Lab.",
+    "url": "https://junkilee.github.io/",
+    "roles": {},
+    "id": "person-50da228933c0"
+  },
+  {
+    "name": "이준환",
+    "dept": "언론정보",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "Human-Computer Interaction+Design Lab",
+    "url": "http://hcid.snu.ac.kr/",
+    "roles": {
+      "PG1": "leader"
+    },
+    "id": "person-8244c8f6fc75"
+  },
+  {
+    "name": "이창건",
+    "dept": "컴퓨터공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC3",
+      "PG1"
+    ],
+    "lab": "실시간 유비쿼터스 시스템 연구실",
+    "url": "http://rubis.snu.ac.kr/",
+    "roles": {},
+    "id": "person-b8032ccffd9b"
+  },
+  {
+    "name": "이호원",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "PG3"
+    ],
+    "lab": "첨단생산기술 및 스마트소재 연구실",
+    "url": "https://3dprinting.snu.ac.kr/",
+    "roles": {},
+    "id": "person-28d1a8b93331"
+  },
+  {
+    "name": "임종우",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2",
+      "PG1"
+    ],
+    "lab": "로봇비전연구실",
+    "url": "https://rvlab.snu.ac.kr/",
+    "roles": {},
+    "id": "person-b3b2e312569f"
+  },
+  {
+    "name": "전누리",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "PG3"
+    ],
+    "lab": "Multiscale Biomedical Engineering Laboratory",
+    "url": "https://mbel.snu.ac.kr/",
+    "roles": {},
+    "id": "person-f8417c933e83"
+  },
+  {
+    "name": "정규원",
+    "dept": "첨단융합",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "TC2",
+      "PG1",
+      "PG2"
+    ],
+    "lab": "인공지능향 반도체 소자 연구실",
+    "url": "https://sdla.snu.ac.kr/",
+    "roles": {},
+    "id": "person-cb07333647e2"
+  },
+  {
+    "name": "정창욱",
+    "dept": "의학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG3"
+    ],
+    "lab": "",
+    "url": "",
+    "roles": {},
+    "id": "person-487c5a90b48e",
+    "profile_url": "https://www.snuh.org/blog/01148/philosophy.do",
+    "profile_hospital": "서울대학교병원",
+    "profile_url_en": "https://www.snuh.org/global/en/blog/01148/career.do?scsContCnt=3&dr_cd=01148"
+  },
+  {
+    "name": "정형수",
+    "dept": "데이터사이언스",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC3"
+    ],
+    "lab": "DBX Lab",
+    "url": "https://dbx.snu.ac.kr/",
+    "roles": {
+      "TC3": "vice_leader"
+    },
+    "id": "person-08319a45277f"
+  },
+  {
+    "name": "조규진",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "PG1"
+    ],
+    "lab": "BEI Robotics lab.",
+    "url": "https://www.biorobotics.snu.ac.kr/",
+    "roles": {
+      "TC1": "leader",
+      "PG1": "vice_leader"
+    },
+    "id": "person-d079c2bff84f"
+  },
+  {
+    "name": "조요한",
+    "dept": "데이터사이언스",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC4",
+      "PG1"
+    ],
+    "lab": "Human-Oriented Language Intelligence Lab(HOLI)",
+    "url": "https://yohanjo.github.io/index.html",
+    "roles": {},
+    "id": "person-6ab74fcbf827"
+  },
+  {
+    "name": "주한별",
+    "dept": "컴퓨터공학",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC3",
+      "PG1"
+    ],
+    "lab": "비쥬얼컴퓨팅연구실",
+    "url": "https://jhugestar.github.io/",
+    "roles": {},
+    "id": "person-25b298e50d02"
+  },
+  {
+    "name": "최종현",
+    "dept": "전기정보",
+    "org": "서울대학교",
+    "category": "연계",
+    "groups": [
+      "TC2",
+      "PG2"
+    ],
+    "lab": "기계인지 및 추론 연구소",
+    "url": "https://ppolon.github.io/",
+    "roles": {},
+    "id": "person-b6e9699ae65a"
+  },
+  {
+    "name": "하정익",
+    "dept": "전기정보",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "TC2",
+      "PG3"
+    ],
+    "lab": "전기에너지변환연구실",
+    "url": "https://eecl.snu.ac.kr/",
+    "roles": {},
+    "id": "person-f01d3c7ea91a"
+  },
+  {
+    "name": "한경원",
+    "dept": "기계공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "PG1",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "헬스케어 로보틱스 연구실",
+    "url": "https://hero.snu.ac.kr/",
+    "roles": {
+      "TC1": "vice_leader"
+    },
+    "id": "person-d6d4282e197d"
+  },
+  {
+    "name": "한보형",
+    "dept": "전기정보",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "TC2",
+      "TC3",
+      "PG2"
+    ],
+    "lab": "Computer Vision Laboratory",
+    "url": "https://cv.snu.ac.kr/",
+    "roles": {},
+    "id": "person-7757b865029a"
+  },
+  {
+    "name": "홍용택",
+    "dept": "전기정보",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1",
+      "PG2",
+      "PG3"
+    ],
+    "lab": "차세대 유연·신축성 전자소자 연구실",
+    "url": "https://axel.snu.ac.kr/",
+    "roles": {},
+    "id": "person-900aee7057d6"
+  },
+  {
+    "name": "선정윤",
+    "dept": "재료공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC1"
+    ],
+    "lab": "Multi-Functional Soft Materials Lab",
+    "url": "https://mfsm.snu.ac.kr/",
+    "roles": {},
+    "id": "person-9c4d33e7b646"
+  },
+  {
+    "name": "이재욱",
+    "dept": "컴퓨터공학",
+    "org": "서울대학교",
+    "category": "참여",
+    "groups": [
+      "TC3"
+    ],
+    "lab": "아키텍처 및 코드 최적화 연구실",
+    "url": "https://arc.snu.ac.kr/",
+    "roles": {},
+    "id": "person-908b307f8f67"
+  }
+]

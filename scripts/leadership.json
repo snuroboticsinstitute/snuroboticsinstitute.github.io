@@ -1,0 +1,54 @@
+[
+  {
+    "role_ko": "소장",
+    "role_en": "Director",
+    "name_ko": "조규진",
+    "name_en": "Cho, Kyu-jin",
+    "detail_ko": "기계공학부",
+    "detail_en": "Dept. of Mechanical Engineering",
+    "link_ko": "/about/director-message/",
+    "link_en": "/en/about/director-message/",
+    "link_label_ko": "소장 인사말 →",
+    "link_label_en": "Director’s Message →"
+  },
+  {
+    "role_ko": "연구부소장",
+    "role_en": "Associate Director for Research",
+    "name_ko": "박종우",
+    "name_en": "Park, Frank C.",
+    "detail_ko": "기계공학부",
+    "detail_en": "Dept. of Mechanical Engineering",
+    "link_ko": "/people/faculty/#person-f7a1107fdbcf",
+    "link_en": "/en/people/faculty/#person-f7a1107fdbcf",
+    "link_label_ko": "교수 소개 →",
+    "link_label_en": "Faculty profile →"
+  },
+  {
+    "role_ko": "기획부소장",
+    "role_en": "Associate Director for Planning",
+    "name_ko": "임종우",
+    "name_en": "Lim, Jongwoo",
+    "detail_ko": "기계공학부",
+    "detail_en": "Dept. of Mechanical Engineering",
+    "link_ko": "/people/faculty/#person-b3b2e312569f",
+    "link_en": "/en/people/faculty/#person-b3b2e312569f",
+    "link_label_ko": "교수 소개 →",
+    "link_label_en": "Faculty profile →"
+  },
+  {
+    "role_ko": "운영본부장",
+    "role_en": "Director of Operations",
+    "name_ko": "김성윤",
+    "name_en": null,
+    "detail_ko": "산학협력중점교수",
+    "detail_en": "Industry–Academia Cooperation Professor"
+  },
+  {
+    "role_ko": "연구교수",
+    "role_en": "Research Professor",
+    "name_ko": "김장길",
+    "name_en": "Kim, Jang-gil",
+    "detail_ko": "",
+    "detail_en": ""
+  }
+]
