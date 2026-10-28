@@ -648,3 +648,14 @@ html[lang] .education-content .overview-section.education-program>p.program-lead
 .voice-card blockquote p{margin:0;font-size:14px;line-height:1.85;color:#33373a}
 @media(max-width:900px){.voice-grid{grid-template-columns:1fr}}
 .program-block>p+p{margin-top:14px}
+
+/* Education: student review board */
+.review-filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.review-filter{padding:7px 14px;font:inherit;font-size:13px;line-height:1.4;color:#50585c;background:#fff;border:1px solid #d4d5d3;border-radius:18px;cursor:pointer}
+.review-filter[aria-pressed=true]{color:#17191c;background:var(--yellow);border-color:var(--yellow);font-weight:600}
+.voice-card .voice-meta{margin:4px 0 0;font-size:12px;color:#80620b}
+.voice-card blockquote.is-clamped p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.review-toggle{margin-top:10px;padding:0;font:inherit;font-size:13px;color:#80620b;background:none;border:0;border-bottom:1px solid currentColor;cursor:pointer}
+.review-toggle[hidden],.review-more[hidden],.review-filters[hidden]{display:none}
+.review-more{display:block;margin:20px auto 0;padding:10px 22px;font:inherit;font-size:14px;color:#17191c;background:#fff;border:1px solid #d4d5d3;cursor:pointer}
+.review-filter:focus-visible,.review-toggle:focus-visible,.review-more:focus-visible{outline:2px solid #089088;outline-offset:2px}
