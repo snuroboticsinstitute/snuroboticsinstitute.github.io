@@ -662,3 +662,46 @@ html[lang] .education-content .overview-section.education-program>p.program-lead
 .program-block>p.program-link{margin-top:14px}
 .program-link a{font-size:15px;font-weight:600;color:#17191c;text-decoration:none;border-bottom:1px solid var(--yellow);padding-bottom:2px}
 .program-link a:hover{color:#80620b}
+
+/* Home: the main image opens the vision page */
+.hero-link{position:absolute;inset:0;z-index:2}
+.hero-link:focus-visible{outline:2px solid var(--yellow);outline-offset:-6px}
+.hero-cue{display:inline-block;margin-top:26px;font-size:13px;line-height:1.5;color:#c9c9c9;border-bottom:1px solid #ffffff40;padding-bottom:2px;transition:color .2s,border-color .2s}
+.hero:hover .hero-cue,.hero-link:focus-visible~.hero-center .hero-cue{color:var(--yellow);border-bottom-color:var(--yellow)}
+
+/* Reviews: compact list, quote first */
+.review-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px;align-items:start}
+.review-item{background:#f5f5f3;border-left:3px solid var(--yellow);min-width:0}
+.review-quote{display:flex;align-items:flex-end;gap:4px;width:100%;margin:0;padding:14px 16px;font:inherit;text-align:left;color:#33373a;background:none;border:0;cursor:pointer}
+p.review-quote{cursor:auto}
+.review-text{flex:1;min-width:0;font-size:14px;line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.review-ellipsis{flex:none;font-size:16px;line-height:1;color:#80620b;font-weight:700;padding:0 2px 4px}
+.review-item.is-open .review-text{display:block;-webkit-line-clamp:unset}
+.review-item.is-open .review-ellipsis{display:none}
+.review-detail{padding:0 16px 14px}
+.review-detail[hidden]{display:none}
+.review-source{margin:0;font-size:12px;line-height:1.6;color:#80620b}
+.review-close{margin-top:8px;padding:0;font:inherit;font-size:12px;color:#64676a;background:none;border:0;border-bottom:1px solid currentColor;cursor:pointer}
+.review-quote:hover .review-ellipsis{color:#17191c}
+.review-quote:focus-visible,.review-close:focus-visible{outline:2px solid #089088;outline-offset:-2px}
+@media(max-width:900px){.review-list{grid-template-columns:1fr}}
+
+/* Education: photo gallery */
+.gallery-board{margin-top:18px}
+.gallery-board .member-empty{margin:0;padding:28px 0;color:#64676a;font-size:14px;border-top:1px solid #dedfdd;border-bottom:1px solid #dedfdd}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:18px}
+.gallery-thumb{display:block;padding:0;border:0;background:#e5e5e3;aspect-ratio:4/3;overflow:hidden;cursor:zoom-in}
+.gallery-thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s}
+.gallery-thumb:hover img{transform:scale(1.04)}
+.gallery-thumb:focus-visible{outline:2px solid #089088;outline-offset:2px}
+.gallery-lightbox{width:min(1100px,94vw);max-height:94vh;padding:0;border:0;background:transparent;overflow:visible}
+.gallery-lightbox::backdrop{background:#000000d9}
+.gallery-lightbox figure{margin:0;text-align:center}
+.gallery-lightbox img{max-width:100%;max-height:80vh;object-fit:contain;display:block;margin:0 auto}
+.gallery-caption{margin:12px 0 0;font-size:14px;color:#e5e5e5}
+.gallery-close,.gallery-nav{position:absolute;color:#fff;background:#00000066;border:0;cursor:pointer;font-size:30px;line-height:1;width:44px;height:44px}
+.gallery-close{top:-48px;right:0}
+.gallery-nav{top:40%}
+.gallery-prev{left:0}.gallery-next{right:0}
+.gallery-nav[hidden]{display:none}
+@media(max-width:680px){.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
