@@ -647,3 +647,4 @@ html[lang] .education-content .overview-section.education-program>p.program-lead
 .voice-card blockquote{margin:14px 0 0;padding:14px 0 0;border-top:1px solid #dedfdd}
 .voice-card blockquote p{margin:0;font-size:14px;line-height:1.85;color:#33373a}
 @media(max-width:900px){.voice-grid{grid-template-columns:1fr}}
+.program-block>p+p{margin-top:14px}
