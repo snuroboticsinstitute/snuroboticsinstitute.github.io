@@ -703,3 +703,29 @@ p.review-quote{cursor:auto}
 .gallery-prev{left:0}.gallery-next{right:0}
 .gallery-nav[hidden]{display:none}
 @media(max-width:680px){.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Home: education-research-venture ecosystem */
+.eco{background:#fff;padding:72px clamp(22px,5vw,64px) 76px;border-bottom:1px solid #e3e3e1}
+.eco-inner{max-width:1100px;margin:0 auto}
+.eco-kicker{margin:0 0 14px;font-size:12px;color:#917000;letter-spacing:.04em}
+.eco h2{margin:0;font-size:clamp(24px,2.6vw,32px);font-weight:600;line-height:1.45;letter-spacing:normal;max-width:760px;word-break:keep-all}
+.eco-lead{margin:18px 0 0;font-size:16px;line-height:1.9;color:#40484c;max-width:760px;word-break:keep-all}
+.eco-flow{list-style:none;padding:0;margin:44px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;counter-reset:eco}
+.eco-step{position:relative;padding:26px 28px 28px;border-top:3px solid var(--yellow);background:#f7f7f5}
+.eco-step+.eco-step{border-left:1px solid #e3e3e1}
+.eco-step:not(:last-child):after{content:"→";position:absolute;top:22px;right:-11px;z-index:1;width:22px;height:22px;display:flex;align-items:center;justify-content:center;font-size:13px;color:#17191c;background:var(--yellow);border-radius:50%}
+.eco-line{margin:0;font-size:12px;color:#80620b}
+.eco-area{margin:14px 0 0;font-size:13px;font-weight:700;color:#17191c}
+.eco-step h3{margin:4px 0 0;font-size:19px;font-weight:600;line-height:1.45;letter-spacing:normal;word-break:keep-all}
+.eco-step p.eco-text{margin:12px 0 0;font-size:14px;line-height:1.85;color:#50585c;word-break:keep-all}
+.eco-step a{display:inline-block;margin-top:16px;font-size:13px;font-weight:600;color:#17191c;text-decoration:none;border-bottom:1px solid var(--yellow)}
+.eco-return{position:relative;margin:0 calc(100% / 6);height:58px;border:2px solid var(--yellow);border-top:0}
+.eco-return:before{content:"";position:absolute;left:-7px;top:-2px;border:6px solid transparent;border-bottom:9px solid var(--yellow);border-top:0;transform:translateY(-100%)}
+.eco-return p{position:absolute;left:50%;bottom:0;transform:translate(-50%,50%);margin:0;padding:6px 16px;background:#fff;text-align:center;width:max-content;max-width:min(560px,90%)}
+.eco-return strong{display:block;font-size:14px;font-weight:700;color:#17191c}
+.eco-return strong{letter-spacing:.01em}
+.eco-return span{display:block;margin-top:2px;font-size:13px;line-height:1.6;color:#50585c;word-break:keep-all}
+.eco-close{margin-top:64px;display:flex;align-items:center;justify-content:space-between;gap:16px 24px;flex-wrap:wrap;padding:18px 24px;background:#17191c;color:#f0f0f0}
+.eco-close p{margin:0;font-size:15px;line-height:1.7;word-break:keep-all}
+.eco-close a{font-size:13px;color:var(--yellow);text-decoration:none;border-bottom:1px solid currentColor;white-space:nowrap}
+@media(max-width:860px){.eco-return{margin:0;height:auto;border:0;border-left:3px solid var(--yellow);background:#fffbea}.eco-return:before{display:none}.eco-return p{position:static;transform:none;width:auto;max-width:none;text-align:left;background:none;padding:14px 18px}.eco-close{margin-top:16px}.eco-flow{grid-template-columns:1fr}.eco-step+.eco-step{border-left:0;border-top:3px solid var(--yellow)}.eco-step:not(:last-child):after{content:"↓";top:auto;bottom:-11px;right:28px}.eco{padding-top:52px;padding-bottom:56px}}
