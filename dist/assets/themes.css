@@ -666,8 +666,6 @@ html[lang] .education-content .overview-section.education-program>p.program-lead
 /* Home: the main image opens the vision page */
 .hero-link{position:absolute;inset:0;z-index:2}
 .hero-link:focus-visible{outline:2px solid var(--yellow);outline-offset:-6px}
-.hero-cue{display:inline-block;margin-top:26px;font-size:13px;line-height:1.5;color:#c9c9c9;border-bottom:1px solid #ffffff40;padding-bottom:2px;transition:color .2s,border-color .2s}
-.hero:hover .hero-cue,.hero-link:focus-visible~.hero-center .hero-cue{color:var(--yellow);border-bottom-color:var(--yellow)}
 
 /* Reviews: compact list, quote first */
 .review-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px;align-items:start}
