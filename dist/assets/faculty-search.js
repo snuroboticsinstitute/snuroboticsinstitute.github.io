@@ -12,7 +12,7 @@
     randomGrid.append(...shuffled);
   }
   const normalize = value => value.normalize('NFKC').toLowerCase().replace(/[\s·.,()\-–—]/g, '');
-  const cards = [...document.querySelectorAll('.faculty-card')].map(card => ({
+  const cards = [...document.querySelectorAll('.faculty-card[data-search]')].map(card => ({
     card, text: normalize(card.dataset.search), groups: card.dataset.groups.split(/\s+/)
   }));
   document.querySelectorAll('[data-faculty-total]').forEach(node => { node.textContent = String(cards.length); });
