@@ -743,3 +743,13 @@ html[lang] .education-content .education-philosophy>p:not(.about-kicker){font-si
 html[lang] .education-content .education-philosophy>p.philo-close{padding-left:20px;border-left:3px solid var(--yellow)}
 @media(max-width:760px){.philo-principles{grid-template-columns:1fr}.philo-principles li,.philo-principles li+li{padding:18px 0;border-left:0}.philo-principles li+li{border-top:1px solid #dedfdd}}
 .education-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}
+.philo-steps{list-style:none;padding:0;margin:44px 0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;max-width:1000px}
+.philo-steps li{position:relative;padding:20px 0 22px;border-top:3px solid var(--yellow)}
+.philo-steps strong{display:block;margin-top:6px;font-size:21px;font-weight:600;line-height:1.4;color:#17191c;word-break:keep-all}
+.philo-steps li:not(:last-child):after{content:"→";position:absolute;right:-22px;top:44px;font-size:16px;color:#80620b}
+@media(max-width:760px){.philo-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px}.philo-steps li:nth-child(2):after{content:"↓";right:auto;left:0;top:auto;bottom:-18px;display:none}}
+@media(max-width:420px){.philo-steps{grid-template-columns:1fr;gap:18px}.philo-steps li:not(:last-child):after{content:"↓";display:block;right:auto;left:auto;top:auto;bottom:-20px;right:4px}}
+.philo-steps{gap:44px}
+.philo-steps li:not(:last-child):after{right:-30px}
+@media(max-width:760px){.philo-steps{gap:20px 44px}}
+@media(max-width:420px){.philo-steps{gap:26px}.philo-steps li:not(:last-child):after{left:50%;right:auto;bottom:-24px;transform:translateX(-50%)}}
