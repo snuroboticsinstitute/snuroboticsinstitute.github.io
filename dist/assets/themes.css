@@ -765,3 +765,8 @@ html[lang] .education-content .education-philosophy>p.philo-close{padding-left:2
 .faculty-content>.research-section-tabs{margin-bottom:36px}
 .side-nav a[aria-current="page"]{color:var(--yellow);background:#3b3c40}
 .mobile-nav a[aria-current="page"]{color:var(--yellow)}
+
+/* Updates: newsletter subscription note */
+.newsletter-subscribe{margin:20px 0 0;padding:14px 18px;font-size:14px;line-height:1.7;color:#33373a;background:#f5f5f3;border-left:3px solid var(--yellow)}
+.newsletter-subscribe a{margin-left:6px;font-weight:600;color:#17191c;text-decoration:none;border-bottom:1px solid var(--yellow);white-space:nowrap}
+.newsletter-subscribe a:hover{color:#80620b}
