@@ -5,6 +5,6 @@
 - 별도 지시가 없으면 국문(`dist/`)과 영문(`dist/en/`)을 함께 변경합니다.
 - `scripts/`의 생성 스크립트를 일괄 실행하지 않습니다. `dist/`의 수작업 수정이 덮어써질 수 있습니다(`README_KO.md` 참고).
 - 작업이 끝나면 배포 완료를 확인한 뒤 "✅ 반영 완료"와 함께 캐시를 우회하는 링크(`?v=<커밋 해시>`)를 알려 줍니다.
-- 교육 › 창의공학설계의 수강생 후기는 `dist/assets/data/reviews.json`에서 관리합니다(`dist/assets/reviews.js`가 읽어 게시판으로 표시). 새 후기는 이 파일의 `reviews` 배열에 추가합니다: `id`, `year`, `robocon`(회차), `team`·`result`·`summary`·`text`(각각 `ko`/`en`), `members`(국문 페이지에만 표시). 연도가 2개 이상이면 연도 필터가, 6개를 넘으면 "더 보기" 버튼이 자동으로 나타납니다. 페이지 HTML의 기존 카드는 데이터 파일을 못 읽을 때를 위한 대체 화면입니다.
+- 교육 메뉴 탭: 교육철학(`/education/`) · 창의공학설계(`/education/creative-engineering-design/`) · 인재양성과정(`/education/talent-development/`). 창의공학설계의 수강생 후기는 `dist/assets/data/reviews.json`에서 관리합니다(`dist/assets/reviews.js`가 읽어 게시판으로 표시). 새 후기는 이 파일의 `reviews` 배열에 추가합니다: `id`, `year`, `robocon`(회차), `team`·`result`·`summary`·`text`(각각 `ko`/`en`), `members`(국문 페이지에만 표시). 연도가 2개 이상이면 연도 필터가, 6개를 넘으면 "더 보기" 버튼이 자동으로 나타납니다. 페이지 HTML의 기존 카드는 데이터 파일을 못 읽을 때를 위한 대체 화면입니다.
 - 창의공학설계 갤러리는 `dist/assets/data/gallery.json`의 `photos` 배열로 관리합니다(`dist/assets/gallery.js`가 표시). 항목: `src`(웹용으로 줄인 이미지, 예: `/assets/gallery/2024-01.jpg`), `thumb`(선택), `year`, `caption`·`alt`(각각 `ko`/`en`). 비어 있으면 "사진은 준비 중입니다."가 보입니다. 학생 얼굴이 나오는 사진은 사용자가 고른 것만 올립니다.
 - 홈 메인 이미지(hero) 전체가 소개 › 비전으로 연결됩니다(`.hero-link`).

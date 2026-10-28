@@ -17,7 +17,7 @@ html[lang=en] .nrl-entry>p:not(.eyebrow){font-size:21px;line-height:1.7}
 .research-page>.nrl-entry{margin:0 clamp(26px,6vw,82px)}
 html[lang] .faculty-content>.faculty-tabs{grid-template-columns:repeat(5,minmax(0,1fr));max-width:1120px;overflow-x:auto}
 @media(max-width:680px){.research-page>.nrl-tabs{margin-left:22px;margin-right:22px}.research-page>.nrl-entry{margin-left:22px;margin-right:22px}}
-.education-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+.education-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}
 .education-tabs.engage-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media(max-width:680px){.education-tabs.engage-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 

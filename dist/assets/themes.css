@@ -729,3 +729,17 @@ p.review-quote{cursor:auto}
 .eco-close p{margin:0;font-size:15px;line-height:1.7;word-break:keep-all}
 .eco-close a{font-size:13px;color:var(--yellow);text-decoration:none;border-bottom:1px solid currentColor;white-space:nowrap}
 @media(max-width:860px){.eco-return{margin:0;height:auto;border:0;border-left:3px solid var(--yellow);background:#fffbea}.eco-return:before{display:none}.eco-return p{position:static;transform:none;width:auto;max-width:none;text-align:left;background:none;padding:14px 18px}.eco-close{margin-top:16px}.eco-flow{grid-template-columns:1fr}.eco-step+.eco-step{border-left:0;border-top:3px solid var(--yellow)}.eco-step:not(:last-child):after{content:"↓";top:auto;bottom:-11px;right:28px}.eco{padding-top:52px;padding-bottom:56px}}
+
+/* Education: philosophy */
+.education-philosophy h2{font-size:clamp(24px,2.7vw,32px);line-height:1.45;max-width:760px;word-break:keep-all;margin-bottom:28px}
+html[lang] .education-content .education-philosophy>p:not(.about-kicker){font-size:16px;line-height:1.95;color:#33373a;max-width:760px;word-break:keep-all}
+.education-philosophy>p:not(.about-kicker)+p{margin-top:18px}
+.philo-principles{list-style:none;padding:0;margin:44px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid #17191c;border-bottom:1px solid #dedfdd;max-width:1000px}
+.philo-principles li{padding:22px 24px 24px 0}
+.philo-principles li+li{padding-left:24px;border-left:1px solid #dedfdd}
+.philo-num{display:block;font-size:12px;font-weight:600;color:#80620b}
+.philo-principles strong{display:block;margin-top:6px;font-size:19px;font-weight:600;color:#17191c}
+.philo-principles p{margin:8px 0 0;font-size:14px;line-height:1.75;color:#50585c;word-break:keep-all}
+html[lang] .education-content .education-philosophy>p.philo-close{padding-left:20px;border-left:3px solid var(--yellow)}
+@media(max-width:760px){.philo-principles{grid-template-columns:1fr}.philo-principles li,.philo-principles li+li{padding:18px 0;border-left:0}.philo-principles li+li{border-top:1px solid #dedfdd}}
+.education-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}
