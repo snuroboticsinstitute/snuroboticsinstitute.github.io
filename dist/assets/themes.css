@@ -659,3 +659,6 @@ html[lang] .education-content .overview-section.education-program>p.program-lead
 .review-toggle[hidden],.review-more[hidden],.review-filters[hidden]{display:none}
 .review-more{display:block;margin:20px auto 0;padding:10px 22px;font:inherit;font-size:14px;color:#17191c;background:#fff;border:1px solid #d4d5d3;cursor:pointer}
 .review-filter:focus-visible,.review-toggle:focus-visible,.review-more:focus-visible{outline:2px solid #089088;outline-offset:2px}
+.program-block>p.program-link{margin-top:14px}
+.program-link a{font-size:15px;font-weight:600;color:#17191c;text-decoration:none;border-bottom:1px solid var(--yellow);padding-bottom:2px}
+.program-link a:hover{color:#80620b}
