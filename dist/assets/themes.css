@@ -747,12 +747,11 @@ html[lang] .education-content .education-philosophy>p.philo-close{padding-left:2
 .philo-steps li{position:relative;padding:20px 0 22px;border-top:3px solid var(--yellow)}
 .philo-steps strong{display:block;margin-top:6px;font-size:21px;font-weight:600;line-height:1.4;color:#17191c;word-break:keep-all}
 .philo-steps li:not(:last-child):after{content:"→";position:absolute;right:-22px;top:44px;font-size:16px;color:#80620b}
-@media(max-width:760px){.philo-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px}.philo-steps li:nth-child(2):after{content:"↓";right:auto;left:0;top:auto;bottom:-18px;display:none}}
-@media(max-width:420px){.philo-steps{grid-template-columns:1fr;gap:18px}.philo-steps li:not(:last-child):after{content:"↓";display:block;right:auto;left:auto;top:auto;bottom:-20px;right:4px}}
 .philo-steps{gap:44px}
 .philo-steps li:not(:last-child):after{right:-30px}
-@media(max-width:760px){.philo-steps{gap:20px 44px}}
-@media(max-width:420px){.philo-steps{gap:26px}.philo-steps li:not(:last-child):after{left:50%;right:auto;bottom:-24px;transform:translateX(-50%)}}
+.philo-en{display:block;margin-top:2px;font-size:13px;font-weight:500;letter-spacing:.02em;color:#7a8084}
+/* Mobile: a compact vertical line instead of four tall blocks */
+@media(max-width:760px){.philo-steps{grid-template-columns:1fr;gap:0;margin:32px 0;border-left:2px solid var(--yellow);padding-left:0}.philo-steps li{display:flex;align-items:baseline;gap:12px;padding:11px 0 11px 20px;border-top:0}.philo-steps li:before{content:"";position:absolute;left:-6px;top:50%;width:10px;height:10px;margin-top:-5px;border-radius:50%;background:var(--yellow)}.philo-steps li:not(:last-child):after{display:none}.philo-num{flex:none;width:20px}.philo-steps strong{margin:0;font-size:18px}.philo-en{margin:0 0 0 auto;font-size:12px}}
 
 /* About: director's message video */
 .message-video{max-width:1100px;margin:0 auto;padding:44px clamp(22px,5vw,64px) 56px;background:#fff}
