@@ -782,3 +782,11 @@ html[lang] .education-content .education-philosophy>p.philo-close{padding-left:2
 @media(max-width:420px){.location-actions.location-maps{grid-template-columns:1fr}.location-actions.location-maps a{padding:15px 12px}}
 .location-panel .copy-status{margin:6px 0 0}.location-panel .copy-status:empty{display:none}
 .location-panel address{word-break:keep-all}
+/* Research people: small portrait left of the name */
+html[lang] .faculty-card.has-photo{display:grid;grid-template-columns:64px minmax(0,1fr);column-gap:16px;align-content:start}
+html[lang] .faculty-card.has-photo>*{grid-column:2}
+html[lang] .faculty-card.has-photo>.faculty-photo{grid-column:1;grid-row:1/span 6;align-self:start;width:64px;height:80px;object-fit:cover;object-position:center top;background:#eceeed}
+html[lang] .faculty-card.has-photo>h2{margin-top:2px}
+.faculty-photo-empty{display:block;background:#eceeed url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 80'%3E%3Ccircle cx='32' cy='30' r='12' fill='%23c2c6c4'/%3E%3Cpath d='M10 80c0-14 10-24 22-24s22 10 22 24z' fill='%23c2c6c4'/%3E%3C/svg%3E") center/cover no-repeat}
+html[lang] .faculty-card .member-head>.faculty-photo-empty{background:#eceeed url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 80'%3E%3Ccircle cx='32' cy='30' r='12' fill='%23c2c6c4'/%3E%3Cpath d='M10 80c0-14 10-24 22-24s22 10 22 24z' fill='%23c2c6c4'/%3E%3C/svg%3E") center/cover no-repeat}
+.member-head{display:flex;gap:16px;align-items:flex-start;margin-bottom:6px}.member-head>.faculty-photo{flex:none;width:64px;height:80px}.member-head h2{margin-top:2px}
