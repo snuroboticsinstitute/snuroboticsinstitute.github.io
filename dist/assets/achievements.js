@@ -4,8 +4,8 @@
   const lang = document.documentElement.lang === 'en' ? 'en' : 'ko';
   const PAGE = 6;
   const T = {
-    ko: { all: '전체', more: '성과 더 보기', play: '영상 보기', lab: n => `${n} 교수`, types: { video: '영상', project: '프로젝트', article: '기사', paper: '논문', award: '수상', patent: '특허·기술이전' } },
-    en: { all: 'All', more: 'Show more', play: 'Watch video', lab: n => `Prof. ${n}`, types: { video: 'Video', project: 'Project', article: 'Article', paper: 'Paper', award: 'Award', patent: 'Patent & Tech Transfer' } }
+    ko: { all: '전체', more: '성과 더 보기', play: '영상 보기', types: { video: '영상', project: '프로젝트', article: '기사', paper: '논문', award: '수상', patent: '특허·기술이전' } },
+    en: { all: 'All', more: 'Show more', play: 'Watch video', types: { video: 'Video', project: 'Project', article: 'Article', paper: 'Paper', award: 'Award', patent: 'Patent & Tech Transfer' } }
   }[lang];
   const ORDER = ['video', 'project', 'article', 'paper', 'award', 'patent'];
   const el = (tag, cls, text) => {
@@ -23,17 +23,18 @@
     .then(data => {
       const items = (data.achievements || []).slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
       if (!items.length) return; // keep the "coming soon" notice
-      const labOf = i => pick(i.lab);
-      const labs = [...new Set((data.achievements || []).map(labOf).filter(Boolean))]; // order as listed in the data file
-      let lab = null, shown = PAGE;
+      // Filter by research field once the data has a `field` on each achievement
+      const fieldOf = i => pick(i.field);
+      const fields = [...new Set((data.achievements || []).map(fieldOf).filter(Boolean))]; // order as listed in the data file
+      let field = null, shown = PAGE;
 
       const filters = el('div', 'review-filters');
       filters.setAttribute('role', 'group');
-      [[null, T.all], ...labs.map(n => [n, T.lab(n)])].forEach(([n, label]) => {
+      [[null, T.all], ...fields.map(n => [n, n])].forEach(([n, label]) => {
         const b = el('button', 'review-filter', label);
         b.type = 'button';
-        b.dataset.lab = n || '';
-        b.addEventListener('click', () => { lab = n; shown = PAGE; render(); });
+        b.dataset.field = n || '';
+        b.addEventListener('click', () => { field = n; shown = PAGE; render(); });
         filters.append(b);
       });
       const list = el('div', 'achievement-list');
@@ -87,11 +88,11 @@
       };
 
       const render = () => {
-        const rows = items.filter(i => lab === null || labOf(i) === lab);
+        const rows = items.filter(i => field === null || fieldOf(i) === field);
         list.replaceChildren(...rows.slice(0, shown).map(card));
         moreBtn.hidden = rows.length <= shown;
-        filters.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lab === (lab || ''))));
-        filters.hidden = labs.length < 2;
+        filters.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.field === (field || ''))));
+        filters.hidden = fields.length < 2;
       };
 
       board.replaceChildren(filters, list, moreBtn);
