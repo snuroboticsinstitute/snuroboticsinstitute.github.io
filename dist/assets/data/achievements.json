@@ -1,8 +1,34 @@
 {
+ "fields": [
+  {
+   "ko": "소프트 로보틱스·메커니즘",
+   "en": "Soft Robotics & Mechanisms"
+  },
+  {
+   "ko": "로봇 조작·그리퍼",
+   "en": "Manipulation & Grippers"
+  },
+  {
+   "ko": "로봇 비전·인식",
+   "en": "Robot Vision & Perception"
+  },
+  {
+   "ko": "로봇 학습·AI",
+   "en": "Robot Learning & AI"
+  },
+  {
+   "ko": "웨어러블 로봇",
+   "en": "Wearable Robotics"
+  }
+ ],
  "achievements": [
   {
    "id": "cho-forogated",
    "date": "2025-11",
+   "field": {
+    "ko": "소프트 로보틱스·메커니즘",
+    "en": "Soft Robotics & Mechanisms"
+   },
    "lab": {
     "ko": "조규진",
     "en": "Kyu-Jin Cho"
@@ -16,8 +42,8 @@
     "en": "The lab developed a deployable robotic structure (FoRoGated-Structure) that combines origami corrugation with interlacing, so it can be folded and rolled up like a tape measure for compact storage and becomes stiff enough to carry heavy loads when deployed."
    },
    "people": {
-    "ko": "BioRobotics Laboratory · 조규진 교수",
-    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
+    "ko": "BioRobotics Laboratory",
+    "en": "BioRobotics Laboratory"
    },
    "venue": "Science Robotics",
    "links": [
@@ -74,6 +100,10 @@
   {
    "id": "cho-hetrm",
    "date": "2025-01",
+   "field": {
+    "ko": "소프트 로보틱스·메커니즘",
+    "en": "Soft Robotics & Mechanisms"
+   },
    "lab": {
     "ko": "조규진",
     "en": "Kyu-Jin Cho"
@@ -87,8 +117,8 @@
     "en": "The lab developed a hyperelastic torque-reversal mechanism (HeTRM) that stores elastic energy in a rubber-like soft joint and releases it at once past a threshold, letting soft robots make fast, strong motions."
    },
    "people": {
-    "ko": "BioRobotics Laboratory · 조규진 교수",
-    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
+    "ko": "BioRobotics Laboratory",
+    "en": "BioRobotics Laboratory"
    },
    "venue": "Science Robotics",
    "links": [
@@ -145,6 +175,10 @@
   {
    "id": "cho-mogrip",
    "date": "2024-12",
+   "field": {
+    "ko": "로봇 조작·그리퍼",
+    "en": "Manipulation & Grippers"
+   },
    "lab": {
     "ko": "조규진",
     "en": "Kyu-Jin Cho"
@@ -158,8 +192,8 @@
     "en": "The lab developed MOGrip, a gripper that, like a human hand, holds several objects in its palm at once and places them one by one where needed, cutting transport time in pick-and-place tasks."
    },
    "people": {
-    "ko": "BioRobotics Laboratory · 조규진 교수",
-    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
+    "ko": "BioRobotics Laboratory",
+    "en": "BioRobotics Laboratory"
    },
    "venue": "Science Robotics",
    "links": [
@@ -216,6 +250,10 @@
   {
    "id": "cho-digital-filament",
    "date": "2024-05",
+   "field": {
+    "ko": "소프트 로보틱스·메커니즘",
+    "en": "Soft Robotics & Mechanisms"
+   },
    "lab": {
     "ko": "조규진",
     "en": "Kyu-Jin Cho"
@@ -229,8 +267,8 @@
     "en": "The lab developed a way to blend several materials into a single filament, like mixing paint, so that a simple low-cost FDM 3D printer can print multi-material parts with gradually varying properties."
    },
    "people": {
-    "ko": "BioRobotics Laboratory · 조규진 교수",
-    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
+    "ko": "BioRobotics Laboratory",
+    "en": "BioRobotics Laboratory"
    },
    "venue": "Nature Communications",
    "links": [
@@ -275,6 +313,10 @@
   {
    "id": "cho-origami-wheel",
    "date": "2021-04",
+   "field": {
+    "ko": "소프트 로보틱스·메커니즘",
+    "en": "Soft Robotics & Mechanisms"
+   },
    "lab": {
     "ko": "조규진",
     "en": "Kyu-Jin Cho"
@@ -288,8 +330,8 @@
     "en": "Working with Hankook Tire and others, the lab used origami principles to build a wheel that changes diameter with road conditions, from 46 cm on flat roads to 80 cm on rough terrain, and tested it on a one-ton vehicle. The paper was a Science Robotics cover article."
    },
    "people": {
-    "ko": "BioRobotics Laboratory · 조규진 교수",
-    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
+    "ko": "BioRobotics Laboratory",
+    "en": "BioRobotics Laboratory"
    },
    "venue": "Science Robotics",
    "links": [
@@ -346,6 +388,10 @@
   {
    "id": "cho-water-strider",
    "date": "2015-07",
+   "field": {
+    "ko": "소프트 로보틱스·메커니즘",
+    "en": "Soft Robotics & Mechanisms"
+   },
    "lab": {
     "ko": "조규진",
     "en": "Kyu-Jin Cho"
@@ -359,8 +405,8 @@
     "en": "Together with Prof. Ho-Young Kim's lab, the team explained how water striders use surface tension to jump and built a 68 mg insect robot that jumps off water in the same way. The work was published in Science."
    },
    "people": {
-    "ko": "BioRobotics Laboratory · 조규진 교수 / Micro Fluids & Soft Matter Laboratory · 김호영 교수",
-    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho / Micro Fluids & Soft Matter Laboratory · Prof. Ho-Young Kim"
+    "ko": "BioRobotics Laboratory · Micro Fluids & Soft Matter Laboratory",
+    "en": "BioRobotics Laboratory · Micro Fluids & Soft Matter Laboratory"
    },
    "venue": "Science",
    "links": [
@@ -393,6 +439,10 @@
   {
    "id": "park-constraint-impedance",
    "date": "2026-10",
+   "field": {
+    "ko": "로봇 조작·그리퍼",
+    "en": "Manipulation & Grippers"
+   },
    "lab": {
     "ko": "박종우",
     "en": "Frank C. Park"
@@ -406,8 +456,8 @@
     "en": "The method reads the spread of trajectories sampled from a generative policy to estimate which motions an articulated object (door, drawer, bolt) allows, then sets impedance gains that are stiff along those directions and compliant along constrained ones. In simulation and real-robot tests it reduced constraint-violating contact loads compared with isotropic impedance control; the paper was selected as a CoRL 2026 Spotlight."
    },
    "people": {
-    "ko": "Robotics & Automation Laboratory · 박종우 교수",
-    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
+    "ko": "Robotics & Automation Laboratory",
+    "en": "Robotics & Automation Laboratory"
    },
    "venue": "CoRL 2026",
    "image": "/assets/highlights/park-constraint-impedance.jpg",
@@ -437,6 +487,10 @@
   {
    "id": "park-compvla",
    "date": "2026-09",
+   "field": {
+    "ko": "로봇 조작·그리퍼",
+    "en": "Manipulation & Grippers"
+   },
    "lab": {
     "ko": "박종우",
     "en": "Frank C. Park"
@@ -450,8 +504,8 @@
     "en": "A vision-language-action (VLA) model that predicts motion together with a time-varying stiffness from RGB images and language, executed through geometric impedance control. It achieved the highest average success rate across contact-rich tasks compared with vanilla and compliance-aware VLA baselines."
    },
    "people": {
-    "ko": "Robotics & Automation Laboratory · 박종우 교수",
-    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
+    "ko": "Robotics & Automation Laboratory",
+    "en": "Robotics & Automation Laboratory"
    },
    "venue": "CoRL 2026",
    "image": "/assets/highlights/park-compvla.jpg",
@@ -481,6 +535,10 @@
   {
    "id": "park-screwsplat",
    "date": "2025-08",
+   "field": {
+    "ko": "로봇 비전·인식",
+    "en": "Robot Vision & Perception"
+   },
    "lab": {
     "ko": "박종우",
     "en": "Frank C. Park"
@@ -494,8 +552,8 @@
     "en": "Recovers both the 3D geometry and the joint structure (screw axes) of articulated objects from RGB images alone by combining 3D Gaussian Splatting with screw theory. The recovered kinematic model, paired with a vision-language model, enables text-guided robot manipulation; the paper was an oral presentation at CoRL 2025."
    },
    "people": {
-    "ko": "Robotics & Automation Laboratory · 박종우 교수",
-    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
+    "ko": "Robotics & Automation Laboratory",
+    "en": "Robotics & Automation Laboratory"
    },
    "venue": "CoRL 2025",
    "links": [
@@ -552,6 +610,10 @@
   {
    "id": "park-t2sqnet",
    "date": "2024-11",
+   "field": {
+    "ko": "로봇 조작·그리퍼",
+    "en": "Manipulation & Grippers"
+   },
    "lab": {
     "ko": "박종우",
     "en": "Frank C. Park"
@@ -565,8 +627,8 @@
     "en": "A neural network that recognizes transparent tableware from partial-view RGB images, where depth sensing is unreliable, using an extended family of deformable superquadrics. With it, a robot sequentially grasped objects without re-recognition and retrieved initially non-graspable targets such as a wineglass."
    },
    "people": {
-    "ko": "Robotics & Automation Laboratory · 박종우 교수",
-    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
+    "ko": "Robotics & Automation Laboratory",
+    "en": "Robotics & Automation Laboratory"
    },
    "venue": "CoRL 2024",
    "links": [
@@ -599,6 +661,10 @@
   {
    "id": "park-dxmi",
    "date": "2024-06",
+   "field": {
+    "ko": "로봇 학습·AI",
+    "en": "Robot Learning & AI"
+   },
    "lab": {
     "ko": "박종우",
     "en": "Frank C. Park"
@@ -612,8 +678,8 @@
     "en": "Proposes training diffusion generative models through maximum-entropy inverse reinforcement learning with energy-based models. The paper was selected for an oral presentation at NeurIPS 2024."
    },
    "people": {
-    "ko": "Robotics & Automation Laboratory · 박종우 교수",
-    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
+    "ko": "Robotics & Automation Laboratory",
+    "en": "Robotics & Automation Laboratory"
    },
    "venue": "NeurIPS 2024",
    "links": [
@@ -634,6 +700,10 @@
   {
    "id": "lim-pathlift",
    "date": "2026-10",
+   "field": {
+    "ko": "로봇 학습·AI",
+    "en": "Robot Learning & AI"
+   },
    "lab": {
     "ko": "임종우",
     "en": "Jongwoo Lim"
@@ -647,8 +717,8 @@
     "en": "An adapter that turns the unitless paths output by pretrained visual-navigation policies into metric paths, correcting each waypoint with depth from RGB-D, stereo or LiDAR. It raised the navigation success rate of four navigation policies in simulation and on a real wheeled robot."
    },
    "people": {
-    "ko": "Robot Vision Laboratory · 임종우 교수",
-    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
+    "ko": "Robot Vision Laboratory",
+    "en": "Robot Vision Laboratory"
    },
    "venue": "CoRL 2026",
    "links": [
@@ -677,6 +747,10 @@
   {
    "id": "lim-omnids",
    "date": "2026-07",
+   "field": {
+    "ko": "로봇 비전·인식",
+    "en": "Robot Vision & Perception"
+   },
    "lab": {
     "ko": "임종우",
     "en": "Jongwoo Lim"
@@ -690,8 +764,8 @@
     "en": "A method for 360-degree depth from multi-fisheye camera rigs that handles view-dependent visibility conflicts with a dual-stream (geometric and semantic) encoder and a multi-view consensus volume. It achieved state-of-the-art results on the OmniThings, OmniHouse and Sunny benchmarks."
    },
    "people": {
-    "ko": "Robot Vision Laboratory · 임종우 교수",
-    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
+    "ko": "Robot Vision Laboratory",
+    "en": "Robot Vision Laboratory"
    },
    "venue": "ECCV 2026",
    "links": [
@@ -720,6 +794,10 @@
   {
    "id": "lim-panogrounder",
    "date": "2025-12",
+   "field": {
+    "ko": "로봇 비전·인식",
+    "en": "Robot Vision & Perception"
+   },
    "lab": {
     "ko": "임종우",
     "en": "Jongwoo Lim"
@@ -733,8 +811,8 @@
     "en": "Renders 3D scenes as panoramas and feeds them to pretrained 2D vision-language models to locate the 3D object described by a text query. It reached state-of-the-art results on ScanRefer and Nr3D."
    },
    "people": {
-    "ko": "Robot Vision Laboratory · 임종우 교수",
-    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
+    "ko": "Robot Vision Laboratory",
+    "en": "Robot Vision Laboratory"
    },
    "venue": "ECCV 2026",
    "image": "/assets/highlights/lim-panogrounder.jpg",
@@ -764,6 +842,10 @@
   {
    "id": "lim-sc-lane",
    "date": "2025-08",
+   "field": {
+    "ko": "로봇 비전·인식",
+    "en": "Robot Vision & Perception"
+   },
    "lab": {
     "ko": "임종우",
     "en": "Jongwoo Lim"
@@ -777,8 +859,8 @@
     "en": "Improves 3D lane detection for autonomous driving by estimating road slope and height consistently; presented at ICCV 2025. It follows the same team's HeightLane (WACV 2025)."
    },
    "people": {
-    "ko": "Robot Vision Laboratory · 임종우 교수",
-    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
+    "ko": "Robot Vision Laboratory",
+    "en": "Robot Vision Laboratory"
    },
    "venue": "ICCV 2025",
    "links": [
@@ -811,6 +893,10 @@
   {
    "id": "lim-tracking-benchmark",
    "date": "2023-06",
+   "field": {
+    "ko": "로봇 비전·인식",
+    "en": "Robot Vision & Perception"
+   },
    "lab": {
     "ko": "임종우",
     "en": "Jongwoo Lim"
@@ -824,8 +910,8 @@
     "en": "A visual object tracking benchmark published at CVPR 2013 that became a standard for evaluating trackers. It received the 2023 Longuet-Higgins Prize, a test-of-time award for influential CVPR papers from ten years earlier."
    },
    "people": {
-    "ko": "Robot Vision Laboratory · 임종우 교수",
-    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
+    "ko": "Robot Vision Laboratory",
+    "en": "Robot Vision Laboratory"
    },
    "venue": "CVPR 2013",
    "links": [
@@ -870,6 +956,10 @@
   {
    "id": "lim-omnislam",
    "date": "2020-03",
+   "field": {
+    "ko": "로봇 비전·인식",
+    "en": "Robot Vision & Perception"
+   },
    "lab": {
     "ko": "임종우",
     "en": "Jongwoo Lim"
@@ -883,8 +973,8 @@
     "en": "A system that estimates 360-degree depth and camera motion with four ultra-wide fisheye cameras and builds large-scale 3D maps, built on the OmniMVS depth network (ICCV 2019). It was a finalist for the ICRA 2020 Best Paper Award in Robot Vision, and the technology led to the start-up MultiplEYE."
    },
    "people": {
-    "ko": "Robot Vision Laboratory · 임종우 교수",
-    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
+    "ko": "Robot Vision Laboratory",
+    "en": "Robot Vision Laboratory"
    },
    "venue": "ICRA 2020",
    "links": [
@@ -958,6 +1048,57 @@
       "en": "SNU College of Engineering webzine, Vol.06"
      },
      "url": "https://webzine-eng.snu.ac.kr/web/snu_en/vol.06/snu_06.html"
+    }
+   ]
+  },
+  {
+   "id": "cho-body-powered",
+   "date": "2021-08",
+   "field": {
+    "ko": "웨어러블 로봇",
+    "en": "Wearable Robotics"
+   },
+   "lab": {
+    "ko": "조규진",
+    "en": "Kyu-Jin Cho"
+   },
+   "title": {
+    "ko": "모터 없이 들어 올리는 자세를 바로잡는 착용형 외골격",
+    "en": "Body-powered variable impedance: An approach to augmenting humans with a passive device by reshaping lifting posture"
+   },
+   "summary": {
+    "ko": "모터 없이 착용자의 몸 움직임만으로 작동하는 수동형 외골격 슈트입니다. 물건을 들 때 허리를 굽히지 않고 안전한 자세를 취하도록 유도해 허리 부담을 줄입니다.",
+    "en": "A passive exo-suit, driven only by the wearer's own body motion and without motors, that guides the wearer into a safer lifting posture and reduces the load on the lower back."
+   },
+   "people": {
+    "ko": "BioRobotics Laboratory",
+    "en": "BioRobotics Laboratory"
+   },
+   "venue": "Science Robotics",
+   "links": [
+    {
+     "type": "video",
+     "title": {
+      "ko": "Movement reshaping exo-suit for safe lifting",
+      "en": "Movement reshaping exo-suit for safe lifting"
+     },
+     "source": {
+      "ko": "YouTube (SNU BioRobotics Lab)",
+      "en": "YouTube (SNU BioRobotics Lab)"
+     },
+     "url": "https://www.youtube.com/watch?v=j5ux5VdPIjE"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Body-powered variable impedance: An approach to augmenting humans with a passive device by reshaping lifting posture",
+      "en": "Body-powered variable impedance: An approach to augmenting humans with a passive device by reshaping lifting posture"
+     },
+     "source": {
+      "ko": "Science Robotics",
+      "en": "Science Robotics"
+     },
+     "url": "https://doi.org/10.1126/scirobotics.abe1243"
     }
    ]
   }

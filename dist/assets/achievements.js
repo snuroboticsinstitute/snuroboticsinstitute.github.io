@@ -25,7 +25,7 @@
       if (!items.length) return; // keep the "coming soon" notice
       // Filter by research field once the data has a `field` on each achievement
       const fieldOf = i => pick(i.field);
-      const fields = [...new Set((data.achievements || []).map(fieldOf).filter(Boolean))]; // order as listed in the data file
+      const fields = (data.fields || []).map(pick).filter(f => items.some(i => fieldOf(i) === f)); // order from `fields`, only those in use
       let field = null, shown = PAGE;
 
       const filters = el('div', 'review-filters');
