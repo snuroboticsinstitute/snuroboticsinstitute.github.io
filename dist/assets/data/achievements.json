@@ -16,8 +16,8 @@
     "en": "The lab developed a deployable robotic structure (FoRoGated-Structure) that combines origami corrugation with interlacing, so it can be folded and rolled up like a tape measure for compact storage and becomes stiff enough to carry heavy loads when deployed."
    },
    "people": {
-    "ko": "조규진 교수 연구실",
-    "en": "Kyu-Jin Cho Lab"
+    "ko": "BioRobotics Laboratory · 조규진 교수",
+    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
    },
    "venue": "Science Robotics",
    "links": [
@@ -87,8 +87,8 @@
     "en": "The lab developed a hyperelastic torque-reversal mechanism (HeTRM) that stores elastic energy in a rubber-like soft joint and releases it at once past a threshold, letting soft robots make fast, strong motions."
    },
    "people": {
-    "ko": "조규진 교수 연구실",
-    "en": "Kyu-Jin Cho Lab"
+    "ko": "BioRobotics Laboratory · 조규진 교수",
+    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
    },
    "venue": "Science Robotics",
    "links": [
@@ -158,8 +158,8 @@
     "en": "The lab developed MOGrip, a gripper that, like a human hand, holds several objects in its palm at once and places them one by one where needed, cutting transport time in pick-and-place tasks."
    },
    "people": {
-    "ko": "조규진 교수 연구실",
-    "en": "Kyu-Jin Cho Lab"
+    "ko": "BioRobotics Laboratory · 조규진 교수",
+    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
    },
    "venue": "Science Robotics",
    "links": [
@@ -229,8 +229,8 @@
     "en": "The lab developed a way to blend several materials into a single filament, like mixing paint, so that a simple low-cost FDM 3D printer can print multi-material parts with gradually varying properties."
    },
    "people": {
-    "ko": "조규진 교수 연구실",
-    "en": "Kyu-Jin Cho Lab"
+    "ko": "BioRobotics Laboratory · 조규진 교수",
+    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
    },
    "venue": "Nature Communications",
    "links": [
@@ -288,8 +288,8 @@
     "en": "Working with Hankook Tire and others, the lab used origami principles to build a wheel that changes diameter with road conditions, from 46 cm on flat roads to 80 cm on rough terrain, and tested it on a one-ton vehicle. The paper was a Science Robotics cover article."
    },
    "people": {
-    "ko": "조규진 교수 연구실",
-    "en": "Kyu-Jin Cho Lab"
+    "ko": "BioRobotics Laboratory · 조규진 교수",
+    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho"
    },
    "venue": "Science Robotics",
    "links": [
@@ -359,8 +359,8 @@
     "en": "Together with Prof. Ho-Young Kim's lab, the team explained how water striders use surface tension to jump and built a 68 mg insect robot that jumps off water in the same way. The work was published in Science."
    },
    "people": {
-    "ko": "조규진 교수 연구실 · 김호영 교수 연구실",
-    "en": "Kyu-Jin Cho Lab · Ho-Young Kim Lab"
+    "ko": "BioRobotics Laboratory · 조규진 교수 / Micro Fluids & Soft Matter Laboratory · 김호영 교수",
+    "en": "BioRobotics Laboratory · Prof. Kyu-Jin Cho / Micro Fluids & Soft Matter Laboratory · Prof. Ho-Young Kim"
    },
    "venue": "Science",
    "links": [
@@ -406,8 +406,8 @@
     "en": "The method reads the spread of trajectories sampled from a generative policy to estimate which motions an articulated object (door, drawer, bolt) allows, then sets impedance gains that are stiff along those directions and compliant along constrained ones. In simulation and real-robot tests it reduced constraint-violating contact loads compared with isotropic impedance control; the paper was selected as a CoRL 2026 Spotlight."
    },
    "people": {
-    "ko": "박종우 교수 연구실",
-    "en": "Frank C. Park Lab"
+    "ko": "Robotics & Automation Laboratory · 박종우 교수",
+    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
    },
    "venue": "CoRL 2026",
    "image": "/assets/highlights/park-constraint-impedance.jpg",
@@ -450,8 +450,8 @@
     "en": "A vision-language-action (VLA) model that predicts motion together with a time-varying stiffness from RGB images and language, executed through geometric impedance control. It achieved the highest average success rate across contact-rich tasks compared with vanilla and compliance-aware VLA baselines."
    },
    "people": {
-    "ko": "박종우 교수 연구실",
-    "en": "Frank C. Park Lab"
+    "ko": "Robotics & Automation Laboratory · 박종우 교수",
+    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
    },
    "venue": "CoRL 2026",
    "image": "/assets/highlights/park-compvla.jpg",
@@ -494,8 +494,8 @@
     "en": "Recovers both the 3D geometry and the joint structure (screw axes) of articulated objects from RGB images alone by combining 3D Gaussian Splatting with screw theory. The recovered kinematic model, paired with a vision-language model, enables text-guided robot manipulation; the paper was an oral presentation at CoRL 2025."
    },
    "people": {
-    "ko": "박종우 교수 연구실",
-    "en": "Frank C. Park Lab"
+    "ko": "Robotics & Automation Laboratory · 박종우 교수",
+    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
    },
    "venue": "CoRL 2025",
    "links": [
@@ -565,8 +565,8 @@
     "en": "A neural network that recognizes transparent tableware from partial-view RGB images, where depth sensing is unreliable, using an extended family of deformable superquadrics. With it, a robot sequentially grasped objects without re-recognition and retrieved initially non-graspable targets such as a wineglass."
    },
    "people": {
-    "ko": "박종우 교수 연구실",
-    "en": "Frank C. Park Lab"
+    "ko": "Robotics & Automation Laboratory · 박종우 교수",
+    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
    },
    "venue": "CoRL 2024",
    "links": [
@@ -612,8 +612,8 @@
     "en": "Proposes training diffusion generative models through maximum-entropy inverse reinforcement learning with energy-based models. The paper was selected for an oral presentation at NeurIPS 2024."
    },
    "people": {
-    "ko": "박종우 교수 연구실",
-    "en": "Frank C. Park Lab"
+    "ko": "Robotics & Automation Laboratory · 박종우 교수",
+    "en": "Robotics & Automation Laboratory · Prof. Frank C. Park"
    },
    "venue": "NeurIPS 2024",
    "links": [
@@ -647,8 +647,8 @@
     "en": "An adapter that turns the unitless paths output by pretrained visual-navigation policies into metric paths, correcting each waypoint with depth from RGB-D, stereo or LiDAR. It raised the navigation success rate of four navigation policies in simulation and on a real wheeled robot."
    },
    "people": {
-    "ko": "임종우 교수 연구실",
-    "en": "Jongwoo Lim Lab"
+    "ko": "Robot Vision Laboratory · 임종우 교수",
+    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
    },
    "venue": "CoRL 2026",
    "links": [
@@ -690,8 +690,8 @@
     "en": "A method for 360-degree depth from multi-fisheye camera rigs that handles view-dependent visibility conflicts with a dual-stream (geometric and semantic) encoder and a multi-view consensus volume. It achieved state-of-the-art results on the OmniThings, OmniHouse and Sunny benchmarks."
    },
    "people": {
-    "ko": "임종우 교수 연구실",
-    "en": "Jongwoo Lim Lab"
+    "ko": "Robot Vision Laboratory · 임종우 교수",
+    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
    },
    "venue": "ECCV 2026",
    "links": [
@@ -733,8 +733,8 @@
     "en": "Renders 3D scenes as panoramas and feeds them to pretrained 2D vision-language models to locate the 3D object described by a text query. It reached state-of-the-art results on ScanRefer and Nr3D."
    },
    "people": {
-    "ko": "임종우 교수 연구실",
-    "en": "Jongwoo Lim Lab"
+    "ko": "Robot Vision Laboratory · 임종우 교수",
+    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
    },
    "venue": "ECCV 2026",
    "image": "/assets/highlights/lim-panogrounder.jpg",
@@ -777,8 +777,8 @@
     "en": "Improves 3D lane detection for autonomous driving by estimating road slope and height consistently; presented at ICCV 2025. It follows the same team's HeightLane (WACV 2025)."
    },
    "people": {
-    "ko": "임종우 교수 연구실",
-    "en": "Jongwoo Lim Lab"
+    "ko": "Robot Vision Laboratory · 임종우 교수",
+    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
    },
    "venue": "ICCV 2025",
    "links": [
@@ -824,8 +824,8 @@
     "en": "A visual object tracking benchmark published at CVPR 2013 that became a standard for evaluating trackers. It received the 2023 Longuet-Higgins Prize, a test-of-time award for influential CVPR papers from ten years earlier."
    },
    "people": {
-    "ko": "임종우 교수 연구실",
-    "en": "Jongwoo Lim Lab"
+    "ko": "Robot Vision Laboratory · 임종우 교수",
+    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
    },
    "venue": "CVPR 2013",
    "links": [
@@ -883,8 +883,8 @@
     "en": "A system that estimates 360-degree depth and camera motion with four ultra-wide fisheye cameras and builds large-scale 3D maps, built on the OmniMVS depth network (ICCV 2019). It was a finalist for the ICRA 2020 Best Paper Award in Robot Vision, and the technology led to the start-up MultiplEYE."
    },
    "people": {
-    "ko": "임종우 교수 연구실",
-    "en": "Jongwoo Lim Lab"
+    "ko": "Robot Vision Laboratory · 임종우 교수",
+    "en": "Robot Vision Laboratory · Prof. Jongwoo Lim"
    },
    "venue": "ICRA 2020",
    "links": [
