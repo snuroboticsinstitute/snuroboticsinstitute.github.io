@@ -814,3 +814,6 @@ html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(4,
 .achievement.no-media{grid-template-columns:1fr}
 .achievement-tile{display:flex;align-items:flex-end;padding:18px 20px;background:#1b1c1f linear-gradient(135deg,transparent 62%,rgba(237,198,79,.14) 62%,rgba(237,198,79,.14) 70%,transparent 70%)}
 .achievement-tile span{color:var(--yellow);font-size:15px;font-weight:600;letter-spacing:.02em}
+/* Creative Engineering Design: curriculum with one sub-section per course */
+.curriculum-course+.curriculum-course{margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+.curriculum-course h4{margin:4px 0 12px;font-size:16px;font-weight:600;line-height:1.5;color:#80620b}
