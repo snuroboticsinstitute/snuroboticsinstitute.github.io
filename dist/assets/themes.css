@@ -817,3 +817,16 @@ html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(4,
 /* Creative Engineering Design: curriculum with one sub-section per course */
 .curriculum-course+.curriculum-course{margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
 .curriculum-course h4{margin:4px 0 12px;font-size:16px;font-weight:600;line-height:1.5;color:#80620b}
+/* Research projects list */
+.project-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px}
+.project-head .review-filters{margin:0}
+.project-count{margin:0;font-size:14px;font-weight:600;color:#17191c}
+.project-list{list-style:none;padding:0;margin:16px 0 0;border-top:1px solid #17191c}
+.project-item{padding:20px 0 22px;border-bottom:1px solid var(--line)}
+.project-title{margin:0 0 12px;font-size:18px;line-height:1.55;font-weight:600;word-break:keep-all}
+.project-title a{text-decoration:none}.project-title a:hover{text-decoration:underline;text-underline-offset:4px;color:#735900}
+.project-title a:after{content:" →";color:#80620b}
+.project-meta{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);gap:8px 24px;margin:0}
+.project-meta div{min-width:0}.project-meta dt{font-size:11px;font-weight:600;color:#80620b;letter-spacing:.02em}
+.project-meta dd{margin:2px 0 0;font-size:14px;line-height:1.6;color:#33373a;word-break:keep-all}
+@media(max-width:760px){.project-meta{grid-template-columns:repeat(2,minmax(0,1fr))}.project-title{font-size:17px}}
