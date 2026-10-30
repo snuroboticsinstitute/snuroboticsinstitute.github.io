@@ -4,10 +4,10 @@
   const lang = document.documentElement.lang === 'en' ? 'en' : 'ko';
   const PAGE = 6;
   const T = {
-    ko: { all: '전체', more: '성과 더 보기', play: '영상 보기', types: { video: '영상', article: '기사', paper: '논문', award: '수상', patent: '특허·기술이전' } },
-    en: { all: 'All', more: 'Show more', play: 'Watch video', types: { video: 'Video', article: 'Article', paper: 'Paper', award: 'Award', patent: 'Patent & Tech Transfer' } }
+    ko: { all: '전체', more: '성과 더 보기', play: '영상 보기', lab: n => `${n} 교수`, types: { video: '영상', project: '프로젝트', article: '기사', paper: '논문', award: '수상', patent: '특허·기술이전' } },
+    en: { all: 'All', more: 'Show more', play: 'Watch video', lab: n => `Prof. ${n}`, types: { video: 'Video', project: 'Project', article: 'Article', paper: 'Paper', award: 'Award', patent: 'Patent & Tech Transfer' } }
   }[lang];
-  const ORDER = ['video', 'article', 'paper', 'award', 'patent'];
+  const ORDER = ['video', 'project', 'article', 'paper', 'award', 'patent'];
   const el = (tag, cls, text) => {
     const node = document.createElement(tag);
     if (cls) node.className = cls;
@@ -23,17 +23,17 @@
     .then(data => {
       const items = (data.achievements || []).slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
       if (!items.length) return; // keep the "coming soon" notice
-      const yearOf = i => String(i.date).slice(0, 4);
-      const years = [...new Set(items.map(yearOf))];
-      let year = null, shown = PAGE;
+      const labOf = i => pick(i.lab);
+      const labs = [...new Set((data.achievements || []).map(labOf).filter(Boolean))]; // order as listed in the data file
+      let lab = null, shown = PAGE;
 
       const filters = el('div', 'review-filters');
       filters.setAttribute('role', 'group');
-      [[null, T.all], ...years.map(y => [y, y])].forEach(([y, label]) => {
+      [[null, T.all], ...labs.map(n => [n, T.lab(n)])].forEach(([n, label]) => {
         const b = el('button', 'review-filter', label);
         b.type = 'button';
-        b.dataset.year = y || '';
-        b.addEventListener('click', () => { year = y; shown = PAGE; render(); });
+        b.dataset.lab = n || '';
+        b.addEventListener('click', () => { lab = n; shown = PAGE; render(); });
         filters.append(b);
       });
       const list = el('div', 'achievement-list');
@@ -59,6 +59,12 @@
           if (video) { media.classList.add('is-video'); media.setAttribute('aria-label', `${T.play}: ${pick(i.title)}`); }
           else media.setAttribute('aria-hidden', 'true'), media.tabIndex = -1;
           art.append(media);
+        } else {
+          // No picture: a quiet tile with the venue keeps the cards aligned
+          const tile = el('div', 'achievement-media achievement-tile');
+          tile.setAttribute('aria-hidden', 'true');
+          tile.append(el('span', '', i.venue || ''));
+          art.append(tile);
         }
         const body = el('div', 'achievement-body');
         body.append(el('p', 'achievement-date', String(i.date).replace('-', '.')), el('h3', 'achievement-title', pick(i.title)));
@@ -81,11 +87,11 @@
       };
 
       const render = () => {
-        const rows = items.filter(i => year === null || yearOf(i) === year);
+        const rows = items.filter(i => lab === null || labOf(i) === lab);
         list.replaceChildren(...rows.slice(0, shown).map(card));
         moreBtn.hidden = rows.length <= shown;
-        filters.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.year === (year || ''))));
-        filters.hidden = years.length < 2;
+        filters.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lab === (lab || ''))));
+        filters.hidden = labs.length < 2;
       };
 
       board.replaceChildren(filters, list, moreBtn);

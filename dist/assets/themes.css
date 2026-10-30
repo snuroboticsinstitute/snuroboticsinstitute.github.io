@@ -811,3 +811,6 @@ html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(4,
 .achievement-link-type{flex:none;width:84px;font-size:12px;font-weight:600;color:#80620b}
 .achievement-links a{color:#17191c;text-underline-offset:4px;overflow-wrap:anywhere}.achievement-links a:hover{color:#735900}
 @media(max-width:760px){.achievement{grid-template-columns:1fr;gap:16px;padding:18px}.achievement-link-type{width:64px}}
+.achievement.no-media{grid-template-columns:1fr}
+.achievement-tile{display:flex;align-items:flex-end;padding:18px 20px;background:#1b1c1f linear-gradient(135deg,transparent 62%,rgba(237,198,79,.14) 62%,rgba(237,198,79,.14) 70%,transparent 70%)}
+.achievement-tile span{color:var(--yellow);font-size:15px;font-weight:600;letter-spacing:.02em}
