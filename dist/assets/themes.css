@@ -864,3 +864,12 @@ html[lang] .glance .glance-stat:hover{background:none}
 .faculty-card .member-duty{margin-top:8px;font-size:14px;line-height:1.7;color:#33373a;word-break:keep-all}
 #management .staff-groups{margin-top:18px}
 .staff-members{margin-top:22px}
+/* Education: talent development */
+.talent-course .program-kicker{margin:0 0 4px;font-size:13px;font-weight:600;color:#80620b;letter-spacing:.02em}
+.talent-facts{margin-top:18px}
+.talent-schedule{width:100%;max-width:780px;margin:24px 0 0;border-collapse:collapse;font-size:14px;line-height:1.6}
+.talent-schedule caption{text-align:left;font-size:13px;font-weight:600;color:#17191c;padding-bottom:8px}
+.talent-schedule th{text-align:left;font-size:12px;font-weight:600;color:#80620b;padding:8px 12px 8px 0;border-bottom:1px solid #17191c}
+.talent-schedule td{padding:10px 12px 10px 0;border-bottom:1px solid var(--line);color:#33373a;vertical-align:top;word-break:keep-all}
+.talent-schedule td:first-child{white-space:nowrap;color:#50585c;width:118px}
+@media(max-width:600px){.talent-schedule td:nth-child(3),.talent-schedule th:nth-child(3){display:none}.talent-schedule td:first-child{width:96px}}
