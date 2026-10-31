@@ -873,3 +873,19 @@ html[lang] .glance .glance-stat:hover{background:none}
 .talent-schedule td{padding:10px 12px 10px 0;border-bottom:1px solid var(--line);color:#33373a;vertical-align:top;word-break:keep-all}
 .talent-schedule td:first-child{white-space:nowrap;color:#50585c;width:118px}
 @media(max-width:600px){.talent-schedule td:nth-child(3),.talent-schedule th:nth-child(3){display:none}.talent-schedule td:first-child{width:96px}}
+.talent-photo{margin:28px 0 8px;max-width:780px}
+.talent-photo img{display:block;width:100%;height:auto;aspect-ratio:1400/924;object-fit:cover}
+.talent-photo figcaption,.talent-poster figcaption{margin-top:8px;font-size:12px;color:var(--muted)}
+.talent-course h3{word-break:keep-all}
+.talent-course-body{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px;align-items:start;max-width:980px}
+.talent-poster{margin:0}.talent-poster img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+.lecturer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:980px}
+.lecturer{display:grid;grid-template-columns:96px minmax(0,1fr);gap:18px;padding:20px;background:#fff;border:1px solid var(--line)}
+.lecturer-photo{display:block;width:96px;height:125px;object-fit:cover;object-position:center top;background:#eceeed}
+span.lecturer-photo{background:#eceeed url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 80'%3E%3Ccircle cx='32' cy='30' r='12' fill='%23c2c6c4'/%3E%3Cpath d='M10 80c0-14 10-24 22-24s22 10 22 24z' fill='%23c2c6c4'/%3E%3C/svg%3E") center/cover no-repeat}
+.lecturer-role{margin:0 0 4px;font-size:12px;font-weight:600;color:#80620b}
+.lecturer h4{margin:0;font-size:18px;font-weight:600;line-height:1.4}.lecturer h4 span{margin-left:6px;font-size:13px;font-weight:400;color:var(--muted)}
+.lecturer-affil{margin:4px 0 10px;font-size:13px;line-height:1.6;color:#50585c;word-break:keep-all}
+.lecturer ul{margin:0;padding-left:16px;font-size:13px;line-height:1.7;color:#33373a;word-break:keep-all}
+@media(max-width:860px){.talent-course-body{grid-template-columns:1fr}.talent-poster{max-width:320px}.lecturer-grid{grid-template-columns:1fr}}
+@media(max-width:420px){.lecturer{grid-template-columns:76px minmax(0,1fr);gap:14px;padding:16px}.lecturer-photo{width:76px;height:99px}}
