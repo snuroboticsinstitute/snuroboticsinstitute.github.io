@@ -861,3 +861,4 @@ html[lang] .glance .glance-stat:hover{background:none}
 .staff-groups .staff-group{margin:0}.staff-groups .faculty-grid{grid-template-columns:1fr}
 .staff-groups+.faculty-grid{margin-top:16px}
 @media(max-width:760px){.staff-groups{grid-template-columns:1fr;gap:18px}}
+.faculty-card .member-duty{margin-top:8px;font-size:14px;line-height:1.7;color:#33373a;word-break:keep-all}
