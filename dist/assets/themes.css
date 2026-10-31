@@ -897,3 +897,23 @@ span.lecturer-photo{background:#eceeed url("data:image/svg+xml,%3Csvg xmlns='htt
 .member-head>img.faculty-photo{object-fit:cover;object-position:center top}
 .message+.message-video{padding-top:0;padding-bottom:64px}
 .message+.message-video .video-frame{max-width:720px}
+/* Research: five section tabs */
+html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media(max-width:680px){html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Research structure: robot flywheel */
+.structure-page h2{word-break:keep-all}
+.flywheel{display:grid;grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:40px;align-items:center;margin:28px 0 36px;max-width:1100px}
+.flywheel-figure{margin:0}.flywheel-svg{display:block;width:100%;height:auto;font-family:var(--sans)}
+.flywheel-steps{list-style:none;padding:0;margin:0;border-top:1px solid #17191c}
+.flywheel-steps li{padding:16px 0 18px;border-bottom:1px solid var(--line)}
+.flywheel-steps strong{display:inline-block;margin-left:10px;font-size:18px;font-weight:600;color:#17191c}
+.flywheel-steps .philo-num{display:inline}
+.flywheel-steps p{margin:6px 0 0;font-size:15px;line-height:1.8;color:#33373a;word-break:keep-all}
+.flywheel-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:1100px}
+.flywheel-compare>div{padding:22px 24px;background:#fff;border:1px solid var(--line)}
+.flywheel-compare>div:last-child{background:#17191c;border-color:#17191c}
+.flywheel-compare h3{margin:0 0 8px;font-size:16px;font-weight:600;color:#17191c}
+.flywheel-compare>div:last-child h3{color:var(--yellow)}
+.flywheel-compare p{margin:0;font-size:14px;line-height:1.8;color:#50585c;word-break:keep-all}
+.flywheel-compare>div:last-child p{color:#d9dadb}
+@media(max-width:860px){.flywheel{grid-template-columns:1fr;gap:24px}.flywheel-figure{max-width:360px;margin:0 auto}.flywheel-compare{grid-template-columns:1fr}}
