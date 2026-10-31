@@ -889,3 +889,9 @@ span.lecturer-photo{background:#eceeed url("data:image/svg+xml,%3Csvg xmlns='htt
 .lecturer ul{margin:0;padding-left:16px;font-size:13px;line-height:1.7;color:#33373a;word-break:keep-all}
 @media(max-width:860px){.talent-course-body{grid-template-columns:1fr}.talent-poster{max-width:320px}.lecturer-grid{grid-template-columns:1fr}}
 @media(max-width:420px){.lecturer{grid-template-columns:76px minmax(0,1fr);gap:14px;padding:16px}.lecturer-photo{width:76px;height:99px}}
+/* Director's message */
+.message-draft{display:inline-block;margin:0 0 20px;padding:3px 10px;font-size:12px;font-weight:600;color:#6b5100;background:#fbf1cf;border:1px solid #edc64f}
+.message-sign{max-width:720px;margin:34px 0 0;padding-top:20px;border-top:1px solid var(--line);font-size:15px;color:#33373a;text-align:right}
+.message-sign strong{margin-left:6px;font-size:18px;font-weight:600;color:#17191c}.message-sign span{font-size:13px;color:var(--muted)}
+.message-body p{word-break:keep-all}.message-lead{word-break:keep-all}
+.member-head>img.faculty-photo{object-fit:cover;object-position:center top}
