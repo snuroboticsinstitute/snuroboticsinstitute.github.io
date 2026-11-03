@@ -933,3 +933,5 @@ html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(5,
 .talent-roadmap li:first-child em{color:#6b5100;font-weight:600}
 .talent-note{margin:12px 0 0;font-size:13px;color:var(--muted);word-break:keep-all}
 @media(max-width:860px){.talent-track-grid{grid-template-columns:1fr}.talent-roadmap{grid-template-columns:repeat(2,minmax(0,1fr))}}
+html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:680px){html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
