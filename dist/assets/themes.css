@@ -958,3 +958,11 @@ html[lang] .education-tabs.people-tabs{grid-template-columns:repeat(6,minmax(0,1
 html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:680px){html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 html[lang] .about-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
+/* About pages: one body-text size for message, vision and history */
+html[lang] .message-body p,html[lang] .vision-content p,html[lang] .history-timeline p{font-size:17px;line-height:1.85;font-weight:400;color:#40484b}
+html[lang=en] .message-body p,html[lang=en] .vision-content p,html[lang=en] .history-timeline p{font-size:20px;line-height:1.65}
+@media(max-width:680px){html[lang] .message-body p,html[lang] .vision-content p,html[lang] .history-timeline p{font-size:16px;line-height:1.8}html[lang=en] .message-body p,html[lang=en] .vision-content p,html[lang=en] .history-timeline p{font-size:18px;line-height:1.65}}
+html[lang] .message .message-lead{font-size:34px;line-height:1.5;font-weight:600;letter-spacing:normal;color:#18191b}
+@media(max-width:680px){html[lang] .message .message-lead{font-size:26px}}
+html[lang=en] body main .message-body p,html[lang=en] body main .vision-content p,html[lang=en] body main .history-timeline p{font-size:20px;line-height:1.65}
+@media(max-width:680px){html[lang=en] body main .message-body p,html[lang=en] body main .vision-content p,html[lang=en] body main .history-timeline p{font-size:18px}}
