@@ -938,3 +938,23 @@ html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(4,
 html[lang] .education-tabs.engage-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:680px){html[lang] .education-tabs.engage-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .engage-soon{color:var(--muted)}
+/* 2026-11 menu restructure: NRL as its own menu in a distinct colour */
+:root{--nrl:#4cc3a6}
+.side-nav a.nrl-nav,.mobile-nav a.nrl-nav{color:var(--nrl)}
+.side-nav a.nrl-nav[aria-current="page"],.mobile-nav a.nrl-nav[aria-current="page"]{color:#111214;background:var(--nrl)}
+.side-nav a.nrl-nav:hover{color:#111214;background:var(--nrl)}
+html[lang] .nrl-tabs a[aria-current=page]{border-bottom-color:var(--nrl)}
+/* NRL: TC + PG panel */
+.tc-pg-intro{max-width:1100px;margin:0 auto;padding:44px clamp(24px,6vw,82px) 8px}
+.tc-pg-intro p{max-width:820px;font-size:16px;line-height:1.9;color:#33373a;word-break:keep-all}
+.tc-pg-intro strong{color:#17191c}
+/* NRL faculty: participating / affiliated badge */
+.member-status{display:inline-block;padding:2px 8px;margin-right:6px;font-size:11px;font-weight:600;border:1px solid #2f8f78;color:#1f6f5c;background:#fff}
+.faculty-card[data-groups^="participating"] .member-status{background:#2f8f78;color:#fff}
+/* People page */
+html[lang] .education-tabs.people-tabs{grid-template-columns:repeat(6,minmax(0,1fr))}
+@media(max-width:680px){html[lang] .education-tabs.people-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}html[lang] .education-tabs.people-tabs a{min-height:48px;padding:8px 4px;font-size:13px}}
+.people-content>.member-section,.people-content .member-section{scroll-margin-top:28px}
+html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:680px){html[lang] .education-tabs.research-section-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+html[lang] .about-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
