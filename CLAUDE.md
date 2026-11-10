@@ -1,5 +1,6 @@
 # 작업 규칙
 
+- 호칭: **기본 사이트** = https://snuroboticsinstitute.github.io/ (`dist/`에서 `dist/design/`을 뺀 나머지), **디자인 사이트** = https://snuroboticsinstitute.github.io/design/ (`dist/design/`).
 - `dist/`가 공개 사이트의 웹 루트입니다. `main`에 push하면 GitHub Pages로 자동 배포됩니다.
 - 사이트는 검정·노랑(`dark`) 테마 하나만 사용합니다. 화이트·NRL 테마와 테마 전환 버튼은 2026-10-27에 삭제했습니다(각 페이지의 인라인 스크립트가 `data-theme='dark'`로 고정).
 - 별도 지시가 없으면 국문(`dist/`)과 영문(`dist/en/`)을 함께 변경합니다.
