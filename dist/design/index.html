@@ -539,6 +539,44 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
 .pop-foot{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 16px;margin:0;font-size:14px;color:#fff}
 @media (max-width:640px){.pop-x{top:8px;right:8px;transform:none}}
 @media (prefers-reduced-motion:reduce){.pop[open]{animation:none}}
+
+/* research projects + highlights: read from the main site's data files (/assets/data/*.json) */
+.rx{margin:0 0 8px}
+.rx-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:0 0 4px}
+.rx-head .seg{margin:4px 0 20px}
+.rx-count{margin:0 0 20px;font-size:15px;color:var(--ink-2)}
+.rx .seg[hidden],.rx-more[hidden]{display:none}
+.proj{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.proj li{margin:0}
+.proj h3{font-size:clamp(18px,1.5vw,21px);line-height:1.4;letter-spacing:-.01em;margin:0 0 14px}
+.proj h3 a{text-decoration:none}
+.proj h3 a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:.2em}
+.proj dl{display:flex;flex-wrap:wrap;gap:6px 28px;margin:0;font-size:15px}
+.proj dl div{display:flex;gap:8px}
+.proj dt{color:var(--accent);font-weight:600}
+.proj dd{margin:0;color:var(--ink-2)}
+.hl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.hl article{display:flex;flex-direction:column;padding:0;overflow:hidden}
+.hl .media{position:relative;display:block;aspect-ratio:16/9;background:var(--wash);overflow:hidden}
+.hl .media img{width:100%;height:100%;object-fit:cover;transition:transform .4s cubic-bezier(.22,1,.36,1)}
+.hl a.media:hover img{transform:scale(1.03)}
+.hl .media.play::after{content:"";position:absolute;left:50%;top:50%;width:56px;height:56px;margin:-28px 0 0 -28px;border-radius:50%;background:rgba(0,0,0,.55) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 7l9 5-9 5z' fill='%23fff'/%3E%3C/svg%3E") center/28px no-repeat;border:1px solid var(--edge-hi)}
+.hl .media.tile{display:grid;place-items:center;padding:16px;background:rgba(255,227,165,.1)}
+.hl .media.tile span{font-size:clamp(18px,1.6vw,24px);font-weight:700;color:var(--accent);text-align:center}
+.hl .body{padding:20px 24px 24px}
+.hl .date{margin:0 0 6px;font-size:13px;font-weight:600;color:var(--accent)}
+.hl h3{font-size:clamp(18px,1.5vw,21px);line-height:1.4;letter-spacing:-.01em;margin:0 0 10px}
+.hl .sum{margin:0 0 10px;font-size:15.5px;color:var(--ink-2)}
+.hl .who{margin:0 0 14px;font-size:14px;color:var(--grey-type)}
+.hl ul{list-style:none;margin:0;padding:14px 0 0;border-top:1px solid var(--rule);display:grid;gap:6px;font-size:14px}
+.hl li{display:flex;gap:10px;align-items:baseline}
+.hl li b{flex:none;min-width:4.5em;font-weight:600;color:var(--accent);font-size:12.5px}
+.hl li a{color:var(--ink-2);text-underline-offset:.2em}
+.hl li a:hover{color:var(--ink)}
+.rx-more{display:flex;justify-content:center;margin:16px 0 8px}
+.rx-more button{min-height:44px;padding:0 24px;border:1px solid var(--edge);border-radius:999px;background:var(--glass);-webkit-backdrop-filter:blur(30px);backdrop-filter:blur(30px);color:var(--ink);font:inherit;font-size:15px;font-weight:600;cursor:pointer}
+.rx-more button:hover{border-color:var(--edge-hi);background:var(--glass-hi)}
+@media (max-width:760px){.hl{grid-template-columns:1fr}.hl .body{padding:18px 20px 22px}.proj dl{flex-direction:column}}
 </style>
 </head>
 <body>
@@ -654,7 +692,7 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
       <div class="eco-cols">
         <div class="eco-col"><h3>교육</h3><p class="line">꿈을 질문으로</p><h4>직접 만들며 배우는 인재</h4><p>학생들이 직접 설계하고 제작하며 실험하는 실습 중심 교육으로, 이론과 구현 능력을 함께 갖춘 로보틱스 인재를 기릅니다.</p><a class="u" href="#/education/">교육 프로그램</a></div>
         <div class="eco-col"><h3>연구</h3><p class="line">질문을 연구로, 연구를 기술로</p><h4>전공의 경계를 넘는 융합연구</h4><p>공학·인공지능·의학 등 여러 분야의 연구자가 함께 문제를 정의하고, 사회와 산업이 실제로 필요로 하는 인간중심 피지컬 AI 로봇 기술을 개발합니다.</p><a class="u" href="#/nrl/">국가연구소</a></div>
-        <div class="eco-col"><h3>창업</h3><p class="line">기술을 현실로</p><h4>연구실에서 시장으로</h4><p>기술 개발부터 스케일업, 사업화까지 이어지는 Lab to Market 체계로 연구성과가 창업으로 이어지도록 지원합니다.</p><a class="u" href="#/venture/">창업</a></div>
+        <div class="eco-col"><h3>창업</h3><p class="line">기술을 현실로</p><h4>연구에서 현장으로</h4><p>기술 개발부터 스케일업, 사업화까지 이어지는 Lab to Market 체계로 연구성과가 창업으로 이어지도록 지원합니다.</p><a class="u" href="#/venture/">창업</a></div>
       </div>
       <div class="loop" role="note">
         <svg viewBox="0 0 44 32" aria-hidden="true"><path d="M40 4H6v22h34"/><path d="M34 20l6 6-6 6"/></svg>
@@ -720,8 +758,8 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
   <section class="panel prose"><h2 class="h-md">대중교통</h2><h3 class="h-sm">서울대입구역에서</h3><p>2호선 서울대입구역 3번 출구 → 5513번 버스 → 제2공학관 하차. 내리막길로 내려와 길 건너편 해동첨단공학관(303동)으로 이동합니다.</p><h3 class="h-sm">낙성대역에서</h3><p>2호선 낙성대역 4번 출구 → 관악02번 마을버스 → 제2공학관 하차. 내리막길로 내려와 길 건너편 303동으로 이동합니다.</p></section>
   <section class="panel prose"><h2 class="h-md">자가용·택시</h2><p>내비게이션 목적지에 ‘서울대학교 해동첨단공학관’ 또는 ‘서울대학교 303동’을 입력해 주세요.</p><p>주차 안내가 필요한 경우 방문 전 담당자에게 문의해 주세요.</p><p><a class="u" href="https://www.snu.ac.kr/about/gwanak/transportation/public" target="_blank" rel="noopener noreferrer">서울대학교 교통 안내 ↗</a></p><p class="note">방문 전 담당자와 만날 장소·호실 및 시간을 확인해 주세요.</p></section>
 </div></div></section>
-<section class="page " data-route="/research/" data-site="ri" data-title="연구과제" hidden><div class="wrap"><header class="pg-head"><p class="crumb">연구</p><h1>연구과제</h1><p class="lead">서울대학교 로보틱스연구소 연구진이 수행하고 있는 연구과제입니다.</p></header><nav class="subtabs" aria-label="연구과제 세부 메뉴"><a href="#/research/" aria-current=page>연구과제</a><a href="#/research/achievements/">주요 연구성과</a></nav><div class="panel empty"><p>연구과제 목록은 준비 중입니다.</p></div><a class="panel linkcard" href="#/nrl/"><img src="assets/5829220a7c.png" alt="" width="121" height="36"><span><strong>국가연구소(NRL 2.0)는 별도 사이트에서 소개합니다</strong><small>TC + PG · 교수진 78명</small></span><b aria-hidden="true">→</b></a></div></section>
-<section class="page " data-route="/research/achievements/" data-site="ri" data-title="주요 연구성과" hidden><div class="wrap"><header class="pg-head"><p class="crumb">연구</p><h1>주요 연구성과</h1><p class="lead">로보틱스연구소 연구진의 주요 연구성과를 소개합니다. 성과마다 관련 영상, 기사, 논문, 수상 내역을 함께 묶었습니다.</p></header><nav class="subtabs" aria-label="주요 연구성과 세부 메뉴"><a href="#/research/">연구과제</a><a href="#/research/achievements/" aria-current=page>주요 연구성과</a></nav><div class="panel empty"><p>주요 연구성과는 준비 중입니다.</p></div><a class="panel linkcard" href="#/nrl/"><img src="assets/5829220a7c.png" alt="" width="121" height="36"><span><strong>국가연구소(NRL 2.0)는 별도 사이트에서 소개합니다</strong><small>TC + PG · 교수진 78명</small></span><b aria-hidden="true">→</b></a></div></section>
+<section class="page " data-route="/research/" data-site="ri" data-title="연구과제" hidden><div class="wrap"><header class="pg-head"><p class="crumb">연구</p><h1>연구과제</h1><p class="lead">서울대학교 로보틱스연구소 연구진이 수행하고 있는 연구과제입니다.</p></header><nav class="subtabs" aria-label="연구과제 세부 메뉴"><a href="#/research/" aria-current=page>연구과제</a><a href="#/research/achievements/">주요 연구성과</a></nav><div class="rx" data-projects="/assets/data/projects.json"><div class="panel empty"><p>연구과제 목록은 준비 중입니다.</p></div></div><a class="panel linkcard" href="#/nrl/"><img src="assets/5829220a7c.png" alt="" width="121" height="36"><span><strong>국가연구소(NRL 2.0)는 별도 사이트에서 소개합니다</strong><small>TC + PG · 교수진 78명</small></span><b aria-hidden="true">→</b></a></div></section>
+<section class="page " data-route="/research/achievements/" data-site="ri" data-title="주요 연구성과" hidden><div class="wrap"><header class="pg-head"><p class="crumb">연구</p><h1>주요 연구성과</h1><p class="lead">로보틱스연구소 연구진의 주요 연구성과를 소개합니다. 성과마다 관련 영상, 기사, 논문, 수상 내역을 함께 묶었습니다.</p></header><nav class="subtabs" aria-label="주요 연구성과 세부 메뉴"><a href="#/research/">연구과제</a><a href="#/research/achievements/" aria-current=page>주요 연구성과</a></nav><div class="rx" data-achievements="/assets/data/achievements.json"><div class="panel empty"><p>주요 연구성과는 준비 중입니다.</p></div></div><a class="panel linkcard" href="#/nrl/"><img src="assets/5829220a7c.png" alt="" width="121" height="36"><span><strong>국가연구소(NRL 2.0)는 별도 사이트에서 소개합니다</strong><small>TC + PG · 교수진 78명</small></span><b aria-hidden="true">→</b></a></div></section>
 <section class="page " data-route="/education/" data-site="ri" data-title="교육철학" hidden><div class="wrap"><header class="pg-head"><p class="crumb">교육</p><h1>교육철학</h1></header><nav class="subtabs" aria-label="교육철학 세부 메뉴"><a href="#/education/" aria-current=page>교육철학</a><a href="#/education/talent-development/">인재양성과정</a></nav>
 <div class="panel prose"><h2 class="h-md">AI 시대에 어떻게 인재를 교육해야 하는지 우리는 알고 있습니다</h2>
 <p>인공지능이 질문에 답하고 지식을 정리해 주는 시대입니다. 정보는 그 어느 때보다 쉽게 얻을 수 있지만, 그만큼 ‘안다는 것’의 의미는 달라지고 있습니다. 서울대학교 로보틱스연구소는 AI 시대에 끝까지 자신의 것으로 남는 지식은 스스로 부딪히고 겪어 낸 경험에서 나온다고 믿습니다.</p>
@@ -744,7 +782,7 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
 <h2 class="h-md sec">강사 소개</h2>
 <div class="two"><section class="panel tutor"><img src="https://snuroboticsinstitute.github.io/assets/education/hugo-rodrigue.jpg" alt="" loading="lazy" onerror="this.remove()"><div class="prose"><p class="kick">이론 교육</p><h3 class="h-sm">Hugo Rodrigue 휴고 로드리그</h3><p class="dept">성균관대학교 기계공학부 교수 · Soft Robotics Lab</p><ul><li>서울대학교 기계항공공학 박사</li><li>소프트 액추에이터와 소프트 센서, 생체모사 기계 연구</li><li>IEEE RAS 소프트 로보틱스 기술위원회 공동위원장(2023–2025), RoboSoft 2025 프로그램 위원장</li><li>2022 한국로봇학회 젊은연구자상</li></ul></div></section>
 <section class="panel tutor"><img src="https://snuroboticsinstitute.github.io/assets/education/ali-shtarbanov.jpg" alt="" loading="lazy" onerror="this.remove()"><div class="prose"><p class="kick">연구 사례 · 실습 교육</p><h3 class="h-sm">Ali Shtarbanov 알리 슈타르바노브</h3><p class="dept">서울대학교 로보틱스연구소 박사후 연구원</p><ul><li>MIT 미디어랩 박사</li><li>소프트 로보틱스용 공압 개발 플랫폼 FlowIO 개발자, SoftRobotics.IO 설립</li><li>FlowIO로 2022 Create the Future 디자인 공모전 대상</li><li>인간-컴퓨터 상호작용(HCI), 소프트 로보틱스 연구</li></ul></div></section></div></div></section>
-<section class="page venture" data-route="/venture/" data-site="ri" data-title="창업" hidden><div class="wrap"><header class="pg-head"><p class="crumb">창업</p><h1>창업</h1><p class="lead">연구실에서 시장으로</p></header>
+<section class="page venture" data-route="/venture/" data-site="ri" data-title="창업" hidden><div class="wrap"><header class="pg-head"><p class="crumb">창업</p><h1>창업</h1><p class="lead">연구에서 현장으로</p></header>
 <div class="panel prose"><p class="big">서울대학교 로보틱스연구소는 연구성과가 논문에 머물지 않고 기술과 창업으로 이어지도록, 기술 개발부터 사업화와 그 이후까지 연속적으로 지원합니다.</p></div>
 <div class="two"><section class="panel prose"><p class="kick">01</p><h2 class="h-md">Lab to Market</h2><p>연구성과의 기술 개발, 스케일업, 사업화를 연속적으로 지원하는 Lab to Market 체계를 구축합니다. 테크니컬 스태프는 상용화에 필요한 기술 고도화를 지원하고, 시장 전문가와 창업가는 기술의 적용 시장과 사업 기회를 구체화합니다. 연구자가 기술을 발전시키는 과정과 창업을 준비하는 과정이 연결되도록 합니다.</p></section>
 <section class="panel prose"><p class="kick">02</p><h2 class="h-md">Return to RI</h2><p>연구자가 창업에 도전한 뒤에도 연구소로 돌아와 후속 연구와 새로운 시도를 이어갈 수 있는 ‘Return to RI’ 지원체계를 지향합니다. 창업 과정의 위험을 줄이고, 현장에서 얻은 경험이 다시 연구와 교육에 축적되도록 하겠습니다.</p></section></div>
@@ -1210,6 +1248,83 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
   }
 
   show();
+})();
+</script>
+<script>
+// Research projects and highlights: the same data files the main site uses, drawn in this design's style
+(() => {
+  const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text) n.textContent = text; return n; };
+  const pick = v => (v && typeof v === 'object' && !Array.isArray(v) ? v.ko || '' : v || '');
+  const ext = (a, url) => { a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; };
+  const local = url => url === '/research/nrl/' ? '#/nrl/' : url; // main-site pages that live inside this design
+  const seg = (label, items, onPick) => {
+    const s = el('div', 'seg'); s.setAttribute('role', 'tablist'); s.setAttribute('aria-label', label);
+    items.forEach(([v, text], i) => {
+      const b = el('button', '', text); b.type = 'button'; b.setAttribute('role', 'tab'); b.setAttribute('aria-selected', String(i === 0));
+      b.addEventListener('click', () => { s.querySelectorAll('button').forEach(x => x.setAttribute('aria-selected', String(x === b))); onPick(v); });
+      s.append(b);
+    });
+    s.hidden = items.length < 3; // "전체" plus at least two choices
+    return s;
+  };
+  const load = (box, key) => fetch(box.dataset[key], { cache: 'no-cache' }).then(r => r.ok ? r.json() : Promise.reject(r.status));
+
+  const pbox = document.querySelector('[data-projects]');
+  if (pbox) load(pbox, 'projects').then(data => {
+    const projects = data.projects || []; if (!projects.length) return;
+    const pis = [...new Set(projects.map(p => pick(p.pi)).filter(Boolean))];
+    let pi = null;
+    const count = el('p', 'rx-count'), list = el('ol', 'proj');
+    const row = p => {
+      const li = el('li', 'panel'), h = el('h3'), url = local(pick(p.url));
+      if (url) { const a = el('a', '', pick(p.title)); if (url.startsWith('#')) a.href = url; else ext(a, url); h.append(a); } else h.textContent = pick(p.title);
+      const dl = el('dl');
+      [['사업', pick(p.program)], ['지원', pick(p.agency)], ['기간', p.period], ['연구책임자', pick(p.pi)]].forEach(([k, v]) => { if (!v) return; const d = el('div'); d.append(el('dt', '', k), el('dd', '', v)); dl.append(d); });
+      li.append(h, dl); return li;
+    };
+    const render = () => { const rows = projects.filter(p => pi === null || pick(p.pi) === pi); count.textContent = `연구과제 ${rows.length}건`; list.replaceChildren(...rows.map(row)); };
+    const head = el('div', 'rx-head'); head.append(seg('연구책임자', [[null, '전체'], ...pis.map(n => [n, n])], v => { pi = v; render(); }), count);
+    pbox.replaceChildren(head, list); render();
+  }).catch(() => {});
+
+  const abox = document.querySelector('[data-achievements]');
+  if (abox) load(abox, 'achievements').then(data => {
+    const items = (data.achievements || []).slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    if (!items.length) return;
+    const PAGE = 6, ORDER = ['video', 'project', 'article', 'paper', 'award', 'patent'];
+    const TYPES = { video: '영상', project: '프로젝트', article: '기사', paper: '논문', award: '수상', patent: '특허·기술이전' };
+    const yt = url => (String(url).match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/) || [])[1];
+    const fields = (data.fields || []).map(pick).filter(f => items.some(i => pick(i.field) === f));
+    let field = null, shown = PAGE;
+    const list = el('div', 'hl'), more = el('div', 'rx-more'), moreBtn = el('button', '', '성과 더 보기');
+    moreBtn.type = 'button'; moreBtn.addEventListener('click', () => { shown += PAGE; render(); }); more.append(moreBtn);
+    const card = i => {
+      const art = el('article', 'panel'); art.id = 'achievement-' + i.id;
+      const links = (i.links || []).slice().sort((a, b) => ORDER.indexOf(a.type) - ORDER.indexOf(b.type));
+      const video = links.find(l => l.type === 'video' && yt(l.url));
+      const thumb = i.image || (video && `https://i.ytimg.com/vi/${yt(video.url)}/hqdefault.jpg`);
+      if (thumb) {
+        const m = ext(el('a', 'media'), video ? video.url : (i.image_url || links[0]?.url || '#'));
+        const img = el('img'); img.src = thumb; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async'; m.append(img);
+        if (video) { m.classList.add('play'); m.setAttribute('aria-label', `영상 보기: ${pick(i.title)}`); } else { m.setAttribute('aria-hidden', 'true'); m.tabIndex = -1; }
+        art.append(m);
+      } else { const t = el('div', 'media tile'); t.setAttribute('aria-hidden', 'true'); t.append(el('span', '', i.venue || '')); art.append(t); }
+      const body = el('div', 'body');
+      body.append(el('p', 'date', String(i.date).replace('-', '.')), el('h3', '', pick(i.title)));
+      if (pick(i.summary)) body.append(el('p', 'sum', pick(i.summary)));
+      if (pick(i.people)) body.append(el('p', 'who', pick(i.people)));
+      if (links.length) {
+        const ul = el('ul');
+        links.forEach(l => { const li = el('li'); li.append(el('b', '', TYPES[l.type] || '')); const label = [pick(l.title), pick(l.source)].filter(Boolean).join(' · ');
+          li.append(l.url ? ext(el('a', '', label + ' ↗'), l.url) : el('span', '', label)); ul.append(li); });
+        body.append(ul);
+      }
+      art.append(body); return art;
+    };
+    const render = () => { const rows = items.filter(i => field === null || pick(i.field) === field); list.replaceChildren(...rows.slice(0, shown).map(card)); more.hidden = rows.length <= shown; };
+    const head = el('div', 'rx-head'); head.append(seg('연구 분야', [[null, '전체'], ...fields.map(f => [f, f])], v => { field = v; shown = PAGE; render(); }));
+    abox.replaceChildren(head, list, more); render();
+  }).catch(() => {});
 })();
 </script>
 </body>
