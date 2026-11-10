@@ -82,7 +82,7 @@
     "name_search_alias": "Nojun Kwak"
   },
   {
-    "name": "Kim, Kee Won",
+    "name": "Kim, Keewon",
     "dept": "College of Medicine",
     "org": "Seoul National University",
     "category": "Participating",
@@ -97,7 +97,7 @@
     "name_ko": "김기원",
     "profile_url": "https://www.snuh.org/global/en/blog/65660/career.do",
     "profile_hospital": "서울대학교병원",
-    "name_search_alias": "Kee Won Kim",
+    "name_search_alias": "Keewon Kim",
     "profile_url_en": "https://www.snuh.org/global/en/blog/65660/career.do"
   },
   {
@@ -265,7 +265,7 @@
     "name_search_alias": "H. Jin Kim"
   },
   {
-    "name": "Kim, Ho-young",
+    "name": "Kim, Ho-Young",
     "dept": "Dept. of Mechanical Engineering",
     "org": "Seoul National University",
     "category": "Participating",
@@ -1127,7 +1127,7 @@
       "TC1",
       "PG1"
     ],
-    "lab": "BEI Robotics lab.",
+    "lab": "BioRobotics Laboratory",
     "url": "https://www.biorobotics.snu.ac.kr/",
     "roles": {
       "TC1": "leader",
