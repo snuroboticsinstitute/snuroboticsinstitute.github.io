@@ -409,6 +409,7 @@
     "en": "BioRobotics Laboratory · Micro Fluids & Soft Matter Laboratory"
    },
    "venue": "Science",
+   "image": "/assets/highlights/cho-water-strider.jpg",
    "links": [
     {
      "type": "paper",
@@ -682,6 +683,7 @@
     "en": "Robotics & Automation Laboratory"
    },
    "venue": "NeurIPS 2024",
+   "image": "/assets/highlights/park-dxmi.jpg",
    "links": [
     {
      "type": "paper",
@@ -721,6 +723,7 @@
     "en": "Robot Vision Laboratory"
    },
    "venue": "CoRL 2026",
+   "image": "/assets/highlights/lim-pathlift.jpg",
    "links": [
     {
      "type": "paper",
@@ -768,6 +771,7 @@
     "en": "Robot Vision Laboratory"
    },
    "venue": "ECCV 2026",
+   "image": "/assets/highlights/lim-omnids.jpg",
    "links": [
     {
      "type": "paper",
@@ -863,6 +867,7 @@
     "en": "Robot Vision Laboratory"
    },
    "venue": "ICCV 2025",
+   "image": "/assets/highlights/lim-sc-lane.jpg",
    "links": [
     {
      "type": "paper",
@@ -914,6 +919,7 @@
     "en": "Robot Vision Laboratory"
    },
    "venue": "CVPR 2013",
+   "image": "/assets/highlights/lim-tracking-benchmark.jpg",
    "links": [
     {
      "type": "award",
