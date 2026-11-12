@@ -175,7 +175,7 @@
   },
   {
    "id": "cho-mogrip",
-   "home": 2,
+   "home": 6,
    "date": "2024-12",
    "field": {
     "ko": "로봇 조작·그리퍼",
@@ -314,7 +314,6 @@
   },
   {
    "id": "cho-origami-wheel",
-   "home": 1,
    "date": "2021-04",
    "field": {
     "ko": "소프트 로보틱스·메커니즘",
@@ -390,7 +389,6 @@
   },
   {
    "id": "cho-water-strider",
-   "home": 4,
    "date": "2015-07",
    "field": {
     "ko": "소프트 로보틱스·메커니즘",
@@ -443,7 +441,7 @@
   },
   {
    "id": "park-constraint-impedance",
-   "home": 6,
+   "home": 1,
    "date": "2026-10",
    "field": {
     "ko": "로봇 조작·그리퍼",
@@ -492,6 +490,7 @@
   },
   {
    "id": "park-compvla",
+   "home": 3,
    "date": "2026-09",
    "field": {
     "ko": "로봇 조작·그리퍼",
@@ -706,6 +705,7 @@
   },
   {
    "id": "lim-pathlift",
+   "home": 2,
    "date": "2026-10",
    "field": {
     "ko": "로봇 학습·AI",
@@ -802,6 +802,7 @@
   },
   {
    "id": "lim-panogrounder",
+   "home": 4,
    "date": "2025-12",
    "field": {
     "ko": "로봇 비전·인식",
@@ -1064,7 +1065,6 @@
   },
   {
    "id": "cho-body-powered",
-   "home": 3,
    "date": "2021-08",
    "field": {
     "ko": "웨어러블 로봇",
