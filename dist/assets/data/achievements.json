@@ -47,6 +47,7 @@
     "en": "BioRobotics Laboratory"
    },
    "venue": "Science Robotics",
+   "image": "/assets/highlights/cho-forogated.jpg",
    "links": [
     {
      "type": "paper",
@@ -122,6 +123,7 @@
     "en": "BioRobotics Laboratory"
    },
    "venue": "Science Robotics",
+   "image": "/assets/highlights/cho-hetrm.jpg",
    "links": [
     {
      "type": "paper",
@@ -198,6 +200,7 @@
     "en": "BioRobotics Laboratory"
    },
    "venue": "Science Robotics",
+   "image": "/assets/highlights/cho-mogrip.jpg",
    "links": [
     {
      "type": "paper",
@@ -273,6 +276,7 @@
     "en": "BioRobotics Laboratory"
    },
    "venue": "Nature Communications",
+   "image": "/assets/highlights/cho-digital-filament.jpg",
    "links": [
     {
      "type": "paper",
@@ -336,6 +340,7 @@
     "en": "BioRobotics Laboratory"
    },
    "venue": "Science Robotics",
+   "image": "/assets/highlights/cho-origami-wheel.jpg",
    "links": [
     {
      "type": "paper",
@@ -561,6 +566,7 @@
     "en": "Robotics & Automation Laboratory"
    },
    "venue": "CoRL 2025",
+   "image": "/assets/highlights/park-screwsplat.jpg",
    "links": [
     {
      "type": "paper",
@@ -636,6 +642,7 @@
     "en": "Robotics & Automation Laboratory"
    },
    "venue": "CoRL 2024",
+   "image": "/assets/highlights/park-t2sqnet.jpg",
    "links": [
     {
      "type": "paper",
@@ -989,6 +996,7 @@
     "en": "Robot Vision Laboratory"
    },
    "venue": "ICRA 2020",
+   "image": "/assets/highlights/lim-omnislam.jpg",
    "links": [
     {
      "type": "paper",
@@ -1087,6 +1095,7 @@
     "en": "BioRobotics Laboratory"
    },
    "venue": "Science Robotics",
+   "image": "/assets/highlights/cho-body-powered.jpg",
    "links": [
     {
      "type": "video",
