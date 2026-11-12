@@ -1,5 +1,6 @@
 # 작업 규칙
 
+- **넣지 않는 내용(2026-11-12 사용자 지시, 반드시 지킬 것): 장병탁 교수와 관련된 것은 기본 사이트·디자인 사이트 어디에도 넣지 않습니다.** 연구성과, 창업기업(투모로로보틱스 포함), 소식, 사람 목록, 공저 논문·수상 소개 모두 해당합니다. 새 내용을 넣기 전에 `장병탁`, `Byoung-Tak Zhang`, `투모로로보틱스`, `Tommoro`로 검색해 확인합니다.
 - 호칭: **기본 사이트** = https://snuroboticsinstitute.github.io/ (`dist/`에서 `dist/design/`을 뺀 나머지), **디자인 사이트** = https://snuroboticsinstitute.github.io/design/ (`dist/design/`).
 - `dist/`가 공개 사이트의 웹 루트입니다. `main`에 push하면 GitHub Pages로 자동 배포됩니다.
 - 사이트는 검정·노랑(`dark`) 테마 하나만 사용합니다. 화이트·NRL 테마와 테마 전환 버튼은 2026-10-27에 삭제했습니다(각 페이지의 인라인 스크립트가 `data-theme='dark'`로 고정).
