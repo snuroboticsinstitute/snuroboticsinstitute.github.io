@@ -1309,7 +1309,8 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
   const pbox = document.querySelector('[data-projects]');
   if (pbox) load(pbox, 'projects').then(data => {
     const projects = data.projects || []; if (!projects.length) return;
-    const pis = [...new Set(projects.map(p => pick(p.pi)).filter(Boolean))];
+    const key = p => pick(p.pi_key) || pick(p.pi);
+    const pis = [...new Set(projects.map(key).filter(Boolean))];
     let pi = null;
     const count = el('p', 'rx-count'), list = el('ol', 'proj');
     const row = p => {
@@ -1319,7 +1320,7 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
       [['사업', pick(p.program)], ['지원', pick(p.agency)], ['기간', p.period], ['연구책임자', pick(p.pi)]].forEach(([k, v]) => { if (!v) return; const d = el('div'); d.append(el('dt', '', k), el('dd', '', v)); dl.append(d); });
       li.append(h, dl); return li;
     };
-    const render = () => { const rows = projects.filter(p => pi === null || pick(p.pi) === pi); count.textContent = `연구과제 ${rows.length}건`; list.replaceChildren(...rows.map(row)); };
+    const render = () => { const rows = projects.filter(p => pi === null || key(p) === pi); count.textContent = `연구과제 ${rows.length}건`; list.replaceChildren(...rows.map(row)); };
     const head = el('div', 'rx-head'); head.append(seg('연구책임자', [[null, '전체'], ...pis.map(n => [n, n])], v => { pi = v; render(); }), count);
     pbox.replaceChildren(head, list); render();
   }).catch(() => {});

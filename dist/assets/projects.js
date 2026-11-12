@@ -19,7 +19,8 @@
     .then(data => {
       const projects = data.projects || [];
       if (!projects.length) return; // keep the "coming soon" notice
-      const pis = [...new Set(projects.map(p => pick(p.pi)).filter(Boolean))];
+      const key = p => pick(p.pi_key) || pick(p.pi); // pi_key: the name to file a project under when `pi` lists more than one person
+      const pis = [...new Set(projects.map(key).filter(Boolean))];
       let pi = null;
 
       const head = el('div', 'project-head');
@@ -58,7 +59,7 @@
       };
 
       const render = () => {
-        const rows = projects.filter(p => pi === null || pick(p.pi) === pi);
+        const rows = projects.filter(p => pi === null || key(p) === pi);
         count.textContent = T.count(rows.length);
         list.replaceChildren(...rows.map(row));
         filters.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.pi === (pi || ''))));
