@@ -19,12 +19,32 @@
   {
    "ko": "웨어러블 로봇",
    "en": "Wearable Robotics"
+  },
+  {
+   "ko": "자율주행·공간지능",
+   "en": "Navigation & Spatial AI"
+  },
+  {
+   "ko": "의료·헬스케어 로봇",
+   "en": "Medical & Healthcare Robotics"
+  },
+  {
+   "ko": "디지털 트윈·시뮬레이션",
+   "en": "Digital Twin & Simulation"
+  },
+  {
+   "ko": "인간·사회와 로봇",
+   "en": "Humans, Society & Robots"
+  },
+  {
+   "ko": "뇌·인지과학",
+   "en": "Brain & Cognitive Science"
   }
  ],
  "achievements": [
   {
    "id": "cho-forogated",
-   "home": 5,
+   "home": 4,
    "date": "2025-11",
    "field": {
     "ko": "소프트 로보틱스·메커니즘",
@@ -177,7 +197,6 @@
   },
   {
    "id": "cho-mogrip",
-   "home": 6,
    "date": "2024-12",
    "field": {
     "ko": "로봇 조작·그리퍼",
@@ -495,7 +514,6 @@
   },
   {
    "id": "park-compvla",
-   "home": 3,
    "date": "2026-09",
    "field": {
     "ko": "로봇 조작·그리퍼",
@@ -712,7 +730,7 @@
   },
   {
    "id": "lim-pathlift",
-   "home": 2,
+   "home": 3,
    "date": "2026-10",
    "field": {
     "ko": "로봇 학습·AI",
@@ -809,7 +827,6 @@
   },
   {
    "id": "lim-panogrounder",
-   "home": 4,
    "date": "2025-12",
    "field": {
     "ko": "로봇 비전·인식",
@@ -1120,6 +1137,1799 @@
       "en": "Science Robotics"
      },
      "url": "https://doi.org/10.1126/scirobotics.abe1243"
+    }
+   ]
+  },
+  {
+   "id": "akim-go-rio",
+   "date": "2025-05",
+   "field": {
+    "ko": "자율주행·공간지능",
+    "en": "Navigation & Spatial AI"
+   },
+   "lab": {
+    "ko": "김아영",
+    "en": "Ayoung Kim"
+   },
+   "title": {
+    "ko": "악천후에도 쓸 수 있는 4D 레이더·관성센서 기반 위치 추정 Go-RIO",
+    "en": "Go-RIO: Ground-Optimized 4D Radar-Inertial Odometry via Continuous Velocity Integration using Gaussian Process"
+   },
+   "summary": {
+    "ko": "잡음이 많은 4D 레이더 측정에서 지면을 불확실성까지 고려해 구역별로 모델링하고, 레이더 속도와 관성센서(IMU) 측정을 가우시안 프로세스로 연속 시간에서 결합하는 레이더-관성 오도메트리 기법입니다. 공개 데이터셋에서 수직 방향 누적 오차를 1% 미만으로 줄였으며, ICRA 2025 최우수 논문상 최종 후보에 올랐습니다.",
+    "en": "A radar-inertial odometry method that models the ground from noisy 4D radar returns zone by zone with uncertainty, and fuses radar velocity with IMU measurements in continuous time using Gaussian processes. It kept vertical drift below 1% on public datasets and was a finalist for the ICRA 2025 Best Paper Award."
+   },
+   "people": {
+    "ko": "RPM Robotics Lab",
+    "en": "RPM Robotics Lab"
+   },
+   "venue": "ICRA 2025",
+   "image": "/assets/highlights/akim-go-rio.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Go-RIO (ICRA 2025)",
+      "en": "Go-RIO (ICRA 2025)"
+     },
+     "source": {
+      "ko": "arXiv",
+      "en": "arXiv"
+     },
+     "url": "https://arxiv.org/abs/2502.08093"
+    },
+    {
+     "type": "video",
+     "title": {
+      "ko": "Ground-Optimized 4D Radar-Inertial Odometry via Continuous Velocity Integration using GP",
+      "en": "Ground-Optimized 4D Radar-Inertial Odometry via Continuous Velocity Integration using GP"
+     },
+     "source": {
+      "ko": "YouTube (RPM Robotics LAB)",
+      "en": "YouTube (RPM Robotics LAB)"
+     },
+     "url": "https://www.youtube.com/watch?v=0FnJ_BZe3vo"
+    },
+    {
+     "type": "project",
+     "title": {
+      "ko": "소스 코드 (ICRA 2025 최우수 논문상 최종 후보)",
+      "en": "Source code (ICRA 2025 Best Paper Award Finalist)"
+     },
+     "source": {
+      "ko": "GitHub",
+      "en": "GitHub"
+     },
+     "url": "https://github.com/wooseongY/Go-RIO"
+    }
+   ]
+  },
+  {
+   "id": "akim-garlileo",
+   "home": 2,
+   "date": "2026-06",
+   "field": {
+    "ko": "자율주행·공간지능",
+    "en": "Navigation & Spatial AI"
+   },
+   "lab": {
+    "ko": "김아영",
+    "en": "Ayoung Kim"
+   },
+   "title": {
+    "ko": "계단·경사로에서도 정확한 보행 로봇 위치 추정 GaRLILEO",
+    "en": "GaRLILEO: Gravity-aligned Radar-Leg-Inertial Enhanced Odometry"
+   },
+   "summary": {
+    "ko": "레이더 도플러 속도와 다리 관절 정보로 연속 시간 속도 스플라인을 만들고 중력 방향을 함께 추정해, 라이다나 카메라 없이도 보행 로봇의 수직 방향 위치 오차를 줄이는 오도메트리 기법입니다. 직접 수집한 실내외 데이터셋의 계단·경사로 구간에서 높은 수직 정확도를 보였으며, 데이터셋과 알고리즘을 공개했습니다. Robotics and AI Institute(RAI)와의 공동 연구입니다.",
+    "en": "An odometry framework for legged robots that builds a continuous-time ego-velocity spline from radar Doppler and leg kinematics and estimates the gravity direction, reducing vertical drift without relying on LiDAR or cameras. On a self-collected indoor-outdoor dataset it was most accurate in vertical odometry on stairs and slopes, and both the dataset and the algorithm are open-sourced. The work was done with the Robotics and AI Institute (RAI)."
+   },
+   "people": {
+    "ko": "RPM Robotics Lab",
+    "en": "RPM Robotics Lab"
+   },
+   "venue": "IJRR",
+   "image": "/assets/highlights/akim-garlileo.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "GaRLILEO: Gravity-aligned radar-leg-inertial enhanced odometry",
+      "en": "GaRLILEO: Gravity-aligned radar-leg-inertial enhanced odometry"
+     },
+     "source": {
+      "ko": "The International Journal of Robotics Research",
+      "en": "The International Journal of Robotics Research"
+     },
+     "url": "https://doi.org/10.1177/02783649261457941"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "GaRLILEO (arXiv)",
+      "en": "GaRLILEO (arXiv)"
+     },
+     "source": {
+      "ko": "arXiv",
+      "en": "arXiv"
+     },
+     "url": "https://arxiv.org/abs/2511.13216"
+    },
+    {
+     "type": "video",
+     "title": {
+      "ko": "GaRLILEO: Gravity-aligned Radar-Leg-Inertial Enhanced Odometry",
+      "en": "GaRLILEO: Gravity-aligned Radar-Leg-Inertial Enhanced Odometry"
+     },
+     "source": {
+      "ko": "YouTube (RPM Robotics LAB)",
+      "en": "YouTube (RPM Robotics LAB)"
+     },
+     "url": "https://www.youtube.com/watch?v=SgGc2kqXyaA"
+    },
+    {
+     "type": "project",
+     "title": {
+      "ko": "소스 코드·데이터셋",
+      "en": "Source code and dataset"
+     },
+     "source": {
+      "ko": "GitHub",
+      "en": "GitHub"
+     },
+     "url": "https://github.com/ChiyunNoh/GaRLILEO"
+    }
+   ]
+  },
+  {
+   "id": "akim-moana",
+   "date": "2025-07",
+   "field": {
+    "ko": "자율주행·공간지능",
+    "en": "Navigation & Spatial AI"
+   },
+   "lab": {
+    "ko": "김아영",
+    "en": "Ayoung Kim"
+   },
+   "title": {
+    "ko": "선박 자율운항 연구를 위한 다중 레이더 해상 데이터셋 MOANA",
+    "en": "MOANA: Multi-Radar Dataset for Maritime Odometry and Autonomous Navigation Application"
+   },
+   "summary": {
+    "ko": "원거리용 X-밴드 레이더, 접안 등 근거리에 강한 W-밴드 레이더, 근거리 라이다를 한 체계로 묶어 수집한 해상 센서 데이터셋입니다. 난이도가 다른 여러 해역의 7개 시퀀스와 해상 물체 라벨을 담아 위치 인식, 오도메트리, SLAM, 물체 검출 연구에 쓸 수 있도록 공개했습니다.",
+    "en": "A maritime sensor dataset that combines long-range X-band radar, W-band radar suited to near-field tasks such as berthing, and short-range LiDAR in one framework. It provides seven sequences from regions of varying difficulty, with labels for objects at sea, and is released for research on place recognition, odometry, SLAM and object detection."
+   },
+   "people": {
+    "ko": "RPM Robotics Lab",
+    "en": "RPM Robotics Lab"
+   },
+   "venue": "IJRR",
+   "image": "/assets/highlights/akim-moana.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "MOANA: Multi-radar dataset for maritime odometry and autonomous navigation application",
+      "en": "MOANA: Multi-radar dataset for maritime odometry and autonomous navigation application"
+     },
+     "source": {
+      "ko": "The International Journal of Robotics Research",
+      "en": "The International Journal of Robotics Research"
+     },
+     "url": "https://doi.org/10.1177/02783649251354897"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "MOANA (arXiv)",
+      "en": "MOANA (arXiv)"
+     },
+     "source": {
+      "ko": "arXiv",
+      "en": "arXiv"
+     },
+     "url": "https://arxiv.org/abs/2412.03887"
+    },
+    {
+     "type": "video",
+     "title": {
+      "ko": "MOANA: Multi-Radar Dataset for Maritime Odometry and Autonomous Navigation Application",
+      "en": "MOANA: Multi-Radar Dataset for Maritime Odometry and Autonomous Navigation Application"
+     },
+     "source": {
+      "ko": "YouTube (RPM Robotics LAB)",
+      "en": "YouTube (RPM Robotics LAB)"
+     },
+     "url": "https://www.youtube.com/watch?v=gX5uf2lRQCo"
+    },
+    {
+     "type": "project",
+     "title": {
+      "ko": "MOANA 데이터셋 페이지",
+      "en": "MOANA dataset page"
+     },
+     "url": "https://sites.google.com/view/rpmmoana"
+    }
+   ]
+  },
+  {
+   "id": "hykim-liquid-robot",
+   "date": "2025-03",
+   "field": {
+    "ko": "소프트 로보틱스·메커니즘",
+    "en": "Soft Robotics & Mechanisms"
+   },
+   "lab": {
+    "ko": "김호영",
+    "en": "Ho-Young Kim"
+   },
+   "title": {
+    "ko": "세포처럼 변형하고 나뉘고 합쳐지는 입자 갑옷 액체 로봇",
+    "en": "Particle-armored liquid robots"
+   },
+   "summary": {
+    "ko": "물방울 표면을 초소수성 입자로 촘촘히 감싸 잘 터지지 않으면서도 자유롭게 변형되는 밀리미터 크기의 액체 로봇(PB)을 만들었습니다. 좁은 장애물 사이를 통과하고, 물체를 삼켜 운반하고, 서로 합쳐지는 기능을 실험으로 보였으며, 형상 변화와 동역학을 예측하는 이론 모델도 함께 제시했습니다.",
+    "en": "The team made a millimetre-scale liquid robot (PB): a liquid blob densely coated with superhydrophobic particles, which makes it robust yet highly deformable. Experiments showed it passing through obstacles, engulfing and transporting cargo, and merging with other robots, and the paper gives a theoretical framework that predicts its shape evolution and dynamics."
+   },
+   "people": {
+    "ko": "Micro Fluids & Soft Matter Laboratory",
+    "en": "Micro Fluids & Soft Matter Laboratory"
+   },
+   "venue": "Science Advances",
+   "image": "/assets/highlights/hykim-liquid-robot.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Particle-armored liquid robots",
+      "en": "Particle-armored liquid robots"
+     },
+     "source": {
+      "ko": "Science Advances",
+      "en": "Science Advances"
+     },
+     "url": "https://doi.org/10.1126/sciadv.adt5888"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "'터미네이터 T1000' 로봇처럼 좁은 틈 통과하는 '액체 로봇'",
+      "en": "'Liquid robot' squeezes through narrow gaps like the Terminator T-1000 (in Korean)"
+     },
+     "source": {
+      "ko": "동아사이언스",
+      "en": "Dong-A Science"
+     },
+     "url": "https://www.dongascience.com/ko/news/70724"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "영화 터미네이터처럼…‘껍질 두른 물방울’ 액체로봇 개발",
+      "en": "Like the Terminator film: a liquid robot made of a shell-coated droplet (in Korean)"
+     },
+     "source": {
+      "ko": "한겨레",
+      "en": "The Hankyoreh"
+     },
+     "url": "https://www.hani.co.kr/arti/science/technology/1190862.html"
+    }
+   ]
+  },
+  {
+   "id": "hykim-link-bots",
+   "home": 5,
+   "date": "2025-05",
+   "field": {
+    "ko": "소프트 로보틱스·메커니즘",
+    "en": "Soft Robotics & Mechanisms"
+   },
+   "lab": {
+    "ko": "김호영",
+    "en": "Ho-Young Kim"
+   },
+   "title": {
+    "ko": "센서도 연산도 없이 사슬로 이어져 협동하는 군집 로봇 '링크봇'",
+    "en": "Emergent functional dynamics of link-bots"
+   },
+   "summary": {
+    "ko": "스스로 움직이는 작은 개체들을 V자 모양 사슬로 연결한 '링크봇'을 만들고, 개체 사이의 기하학적 연결 조건만으로 이동, 탐색, 운반, 협동 같은 집단 행동이 나타남을 보였습니다. 연결 조건 몇 가지를 바꾸면 좁은 틈을 지나거나 막고, 물체를 둘러싸고, 짐을 여러 방향으로 미는 일을 수행합니다. 하버드대 L. Mahadevan 교수팀과의 공동 연구입니다.",
+    "en": "The team built the link-bot, a V-shaped chain of small self-propelled units, and showed that geometric linking constraints alone give rise to locomotion, navigation, transport and cooperative behaviour. By adjusting a few link parameters, link-bots traverse or block narrow gaps, enclose objects and push loads in different directions. The work was done with L. Mahadevan's group at Harvard University."
+   },
+   "people": {
+    "ko": "Micro Fluids & Soft Matter Laboratory",
+    "en": "Micro Fluids & Soft Matter Laboratory"
+   },
+   "venue": "Science Advances",
+   "image": "/assets/highlights/hykim-link-bots.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Emergent functional dynamics of link-bots",
+      "en": "Emergent functional dynamics of link-bots"
+     },
+     "source": {
+      "ko": "Science Advances",
+      "en": "Science Advances"
+     },
+     "url": "https://doi.org/10.1126/sciadv.adu8326"
+    },
+    {
+     "type": "video",
+     "title": {
+      "ko": "Tiny Robots Mimic The Swarm Behavior Found in Nature",
+      "en": "Tiny Robots Mimic The Swarm Behavior Found in Nature"
+     },
+     "source": {
+      "ko": "YouTube (Harvard SEAS)",
+      "en": "YouTube (Harvard SEAS)"
+     },
+     "url": "https://www.youtube.com/watch?v=Xki6XiA-lAI"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "복잡한 제어 없이도 개미처럼 유기적으로 움직이는 입자 군집 개발",
+      "en": "Particle collective that moves organically like ants without complex control (in Korean)"
+     },
+     "source": {
+      "ko": "로봇신문",
+      "en": "Robot Newspaper (irobotnews)"
+     },
+     "url": "https://www.irobotnews.com/news/articleView.html?idxno=38547"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "개미 모방한 군집 로봇…단순 개체 모여 복잡한 행동 구현",
+      "en": "Ant-inspired swarm robots: simple units produce complex behaviour (in Korean)"
+     },
+     "source": {
+      "ko": "조선비즈",
+      "en": "ChosunBiz"
+     },
+     "url": "https://biz.chosun.com/science-chosun/technology/2025/05/12/FZIBTNAWOFAVBCNFWZKFJPSTSI/"
+    }
+   ]
+  },
+  {
+   "id": "hykim-viola-zipping-actuator",
+   "date": "2026-06",
+   "field": {
+    "ko": "소프트 로보틱스·메커니즘",
+    "en": "Soft Robotics & Mechanisms"
+   },
+   "lab": {
+    "ko": "김호영",
+    "en": "Ho-Young Kim"
+   },
+   "title": {
+    "ko": "씨앗을 하나씩 쏘는 제비꽃 꼬투리 원리와 이를 본뜬 지퍼형 구동기",
+    "en": "Viola seed pod architecture shapes sequential, force-augmented pinching"
+   },
+   "summary": {
+    "ko": "제비꽃 열매 꼬투리가 마르면서 지퍼처럼 차례로 오므라들어 씨앗을 하나씩 일정한 힘으로 튕겨 내는 원리를 생물학적·수학적 분석으로 밝혔습니다. 이 설계 원리를 적용해 스스로 닫히는 지퍼형 구동기를 만들고 의공학용 소프트 머신 등으로의 활용 가능성을 제시했습니다. 서울대 생명과학부 현유봉 교수, DGIST 정소현 교수와의 공동 연구입니다.",
+    "en": "Through biological and mathematical analysis, the team showed how a drying violet seed pod closes in sequence like a zipper, pinching out its seeds one at a time with consistent force. They applied this design principle to build autonomous zipping actuators and pointed to uses that include biomedical soft machines. The work was done with Prof. Youbong Hyun (SNU Biological Sciences) and Prof. Sohyun Jung (DGIST)."
+   },
+   "people": {
+    "ko": "Micro Fluids & Soft Matter Laboratory",
+    "en": "Micro Fluids & Soft Matter Laboratory"
+   },
+   "venue": "Science",
+   "image": "/assets/highlights/hykim-viola-zipping-actuator.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Viola seed pod architecture shapes sequential, force-augmented pinching",
+      "en": "Viola seed pod architecture shapes sequential, force-augmented pinching"
+     },
+     "source": {
+      "ko": "Science",
+      "en": "Science"
+     },
+     "url": "https://doi.org/10.1126/science.aed2953"
+    },
+    {
+     "type": "video",
+     "title": {
+      "ko": "총알 쏘듯 씨앗 튕기는 제비꽃의 비밀…의료 로봇으로 개발",
+      "en": "The secret of violets that shoot seeds like bullets, applied to medical robots (in Korean)"
+     },
+     "source": {
+      "ko": "YouTube (YTN 사이언스)",
+      "en": "YouTube (YTN Science)"
+     },
+     "url": "https://www.youtube.com/watch?v=Ei0l7Ws_g3Q"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "씨앗 하나씩 튕겨내는 제비꽃 번식 비밀…국내 연구진이 풀었다",
+      "en": "Korean researchers explain how violets eject seeds one by one (in Korean)"
+     },
+     "source": {
+      "ko": "연합뉴스",
+      "en": "Yonhap News"
+     },
+     "url": "https://www.yna.co.kr/view/AKR20260618143800017"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "제비꽃은 지퍼처럼 닫히며 씨앗을 쐈다…로봇 응용 가능성도",
+      "en": "Violet pods close like a zipper to shoot seeds, with possible robot applications (in Korean)"
+     },
+     "source": {
+      "ko": "조선일보",
+      "en": "The Chosun Ilbo"
+     },
+     "url": "https://www.chosun.com/economy/science/2026/06/19/IMLCGOZVNJBRPNEHDNLPXIAUXM/"
+    }
+   ]
+  },
+  {
+   "id": "jkim-walk-run-exosuit",
+   "date": "2019-08",
+   "field": {
+    "ko": "웨어러블 로봇",
+    "en": "Wearable Robotics"
+   },
+   "lab": {
+    "ko": "김진수",
+    "en": "Jinsoo Kim"
+   },
+   "title": {
+    "ko": "걷기와 달리기를 모두 돕는 휴대형 소프트 엑소수트",
+    "en": "Reducing the metabolic rate of walking and running with a versatile, portable exosuit"
+   },
+   "summary": {
+    "ko": "엉덩관절을 펴는 힘을 보조하는 휴대형 소프트 엑소수트로, 착용자의 무게중심 움직임을 추정해 걷기와 달리기에 맞는 보조 방식을 자동으로 전환합니다. 트레드밀 실험에서 착용하지 않았을 때보다 대사율이 걷기(1.5 m/s)에서 9.3%, 달리기(2.5 m/s)에서 4.0% 줄었습니다. 김진수 교수가 하버드대 Conor Walsh 교수 연구실 재직 시 제1저자로 수행한 연구입니다.",
+    "en": "A portable soft exosuit that assists hip extension and switches automatically between walking and running assistance by estimating the motion of the wearer's centre of mass. In treadmill tests it lowered metabolic rate by 9.3% for walking at 1.5 m/s and 4.0% for running at 2.5 m/s compared with no exosuit. Prof. Jinsoo Kim was first author of this work, carried out in Conor Walsh's group at Harvard University."
+   },
+   "people": {
+    "ko": "Wearable Robotics Laboratory",
+    "en": "Wearable Robotics Laboratory"
+   },
+   "venue": "Science",
+   "image": "/assets/highlights/jkim-walk-run-exosuit.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Reducing the metabolic rate of walking and running with a versatile, portable exosuit",
+      "en": "Reducing the metabolic rate of walking and running with a versatile, portable exosuit"
+     },
+     "source": {
+      "ko": "Science",
+      "en": "Science"
+     },
+     "url": "https://doi.org/10.1126/science.aav7536"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "Suit up with a robot to walk AND run more easily",
+      "en": "Suit up with a robot to walk AND run more easily"
+     },
+     "source": {
+      "ko": "Wyss Institute, Harvard University",
+      "en": "Wyss Institute, Harvard University"
+     },
+     "url": "https://wyss.harvard.edu/news/suit-up-with-a-robot-to-walk-and-run-more-easily/"
+    }
+   ]
+  },
+  {
+   "id": "jkim-parkinson-freezing-apparel",
+   "date": "2024-01",
+   "field": {
+    "ko": "웨어러블 로봇",
+    "en": "Wearable Robotics"
+   },
+   "lab": {
+    "ko": "김진수",
+    "en": "Jinsoo Kim"
+   },
+   "title": {
+    "ko": "파킨슨병 환자의 보행 동결을 막는 입는 소프트 로봇",
+    "en": "Soft robotic apparel to avert freezing of gait in Parkinson’s disease"
+   },
+   "summary": {
+    "ko": "케이블 구동기와 센서를 넣은 의복형 소프트 로봇으로 엉덩관절 굽힘을 보조해, 걷다가 갑자기 발이 떨어지지 않는 파킨슨병의 '보행 동결'을 막을 수 있음을 개념 증명했습니다. 73세 환자 한 명을 6개월에 걸쳐 반복 측정한 결과, 보조를 켠 실내 보행에서 보행 동결이 나타나지 않았고(보조 없을 때 보행 시간의 39 ± 16%) 보행 거리와 속도도 늘었습니다. 김진수 교수가 하버드대 재직 시 제1저자로 수행한 연구입니다.",
+    "en": "A proof-of-concept study showing that a garment-like soft robot with cable-driven actuators and sensors, assisting hip flexion, can avert freezing of gait, the sudden unintended stops that occur in Parkinson's disease. In repeated measurements over six months with one 73-year-old participant, freezing did not occur during assisted indoor walking (versus 39 ± 16% of walking time unassisted), and walking distance and speed increased. Prof. Jinsoo Kim was first author of this work, carried out at Harvard University."
+   },
+   "people": {
+    "ko": "Wearable Robotics Laboratory",
+    "en": "Wearable Robotics Laboratory"
+   },
+   "venue": "Nature Medicine",
+   "image": "/assets/highlights/jkim-parkinson-freezing-apparel.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Soft robotic apparel to avert freezing of gait in Parkinson’s disease",
+      "en": "Soft robotic apparel to avert freezing of gait in Parkinson’s disease"
+     },
+     "source": {
+      "ko": "Nature Medicine",
+      "en": "Nature Medicine"
+     },
+     "url": "https://doi.org/10.1038/s41591-023-02731-8"
+    },
+    {
+     "type": "video",
+     "title": {
+      "ko": "Scientists Make Walking Easier for Parkinson's Patients",
+      "en": "Scientists Make Walking Easier for Parkinson's Patients"
+     },
+     "source": {
+      "ko": "YouTube (Harvard SEAS)",
+      "en": "YouTube (Harvard SEAS)"
+     },
+     "url": "https://www.youtube.com/watch?v=pAWrypkeDXM"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "Soft robotic, wearable device improves walking for individual with Parkinson’s disease",
+      "en": "Soft robotic, wearable device improves walking for individual with Parkinson’s disease"
+     },
+     "source": {
+      "ko": "Wyss Institute, Harvard University",
+      "en": "Wyss Institute, Harvard University"
+     },
+     "url": "https://wyss.harvard.edu/news/soft-robotic-wearable-device-improves-walking-for-individual-with-parkinsons-disease/"
+    }
+   ]
+  },
+  {
+   "id": "jkim-hip-flexion-exosuit",
+   "date": "2022-06",
+   "field": {
+    "ko": "웨어러블 로봇",
+    "en": "Wearable Robotics"
+   },
+   "lab": {
+    "ko": "김진수",
+    "en": "Jinsoo Kim"
+   },
+   "title": {
+    "ko": "적은 힘으로 걷기 에너지 소모를 줄이는 엉덩관절 굽힘 보조 엑소수트",
+    "en": "Reducing the energy cost of walking with low assistance levels through optimized hip flexion assistance from a soft exosuit"
+   },
+   "summary": {
+    "ko": "사람의 대사율을 실시간으로 추정해 보조 방식을 개인별로 맞추는 최적화 기법(human-in-the-loop)을 엉덩관절 굽힘 보조에 적용했습니다. 유선 엑소수트는 평균 89 N의 낮은 보조력으로 보조를 껐을 때보다 걷기 대사율을 최대 15.2% 줄였고, 이를 바탕으로 만든 2.31 kg 휴대형 엑소수트는 착용하지 않았을 때보다 7.2% 줄였습니다. 김진수 교수가 하버드대 재직 시 제1저자로 수행한 연구입니다.",
+    "en": "The study applied human-in-the-loop optimization, which personalizes assistance from real-time estimates of metabolic rate, to hip flexion. A tethered exosuit reduced the metabolic rate of walking by up to 15.2% relative to assistance turned off, using low forces (89 N on average), and a 2.31 kg portable exosuit built on these findings gave a 7.2% reduction compared with walking without it. Prof. Jinsoo Kim was first author of this work, carried out at Harvard University."
+   },
+   "people": {
+    "ko": "Wearable Robotics Laboratory",
+    "en": "Wearable Robotics Laboratory"
+   },
+   "venue": "Scientific Reports",
+   "image": "/assets/highlights/jkim-hip-flexion-exosuit.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Reducing the energy cost of walking with low assistance levels through optimized hip flexion assistance from a soft exosuit",
+      "en": "Reducing the energy cost of walking with low assistance levels through optimized hip flexion assistance from a soft exosuit"
+     },
+     "source": {
+      "ko": "Scientific Reports",
+      "en": "Scientific Reports"
+     },
+     "url": "https://doi.org/10.1038/s41598-022-14784-9"
+    }
+   ]
+  },
+  {
+   "id": "han-ecad",
+   "date": "2025-06",
+   "field": {
+    "ko": "의료·헬스케어 로봇",
+    "en": "Medical & Healthcare Robotics"
+   },
+   "lab": {
+    "ko": "한경원",
+    "en": "Amy Kyungwon Han"
+   },
+   "title": {
+    "ko": "심장을 감싸 박동을 돕는 저전력 전기활성 고분자 심장 보조 장치",
+    "en": "E-CAD: Electroactive Polymer-Based Cardiac Assist Device with Low Power Consumption"
+   },
+   "summary": {
+    "ko": "심장을 감싸는 유연한 슬리브에 전기활성 고분자(EAP) 구동기를 달아, 혈액에 직접 닿지 않고 심장 수축을 돕는 60 g 미만의 심장 보조 장치(E-CAD)를 개발했습니다. 실리콘 모형과 적출한 돼지 심장 실험에서 박출되는 부피가 각각 1.21배, 1.17배로 늘었고, 소비 전력은 0.3 W 미만이었습니다. 이 논문은 Advanced Intelligent Systems의 내지 앞표지(Inside Front Cover)로 선정되었습니다.",
+    "en": "The lab developed E-CAD, a cardiac assist device weighing under 60 g that mounts electroactive polymer (EAP) actuators on a flexible sleeve wrapped around the heart and assists its compression without contacting blood. In tests with a silicone phantom and ex vivo porcine hearts it increased volume displacement 1.21-fold and 1.17-fold, respectively, while running on less than 0.3 W. The paper was selected as an inside front cover of Advanced Intelligent Systems."
+   },
+   "people": {
+    "ko": "Healthcare Robotics Lab",
+    "en": "Healthcare Robotics Lab"
+   },
+   "venue": "Advanced Intelligent Systems",
+   "image": "/assets/highlights/han-ecad.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "E-CAD: Electroactive Polymer-Based Cardiac Assist Device with Low Power Consumption",
+      "en": "E-CAD: Electroactive Polymer-Based Cardiac Assist Device with Low Power Consumption"
+     },
+     "source": {
+      "ko": "Advanced Intelligent Systems",
+      "en": "Advanced Intelligent Systems"
+     },
+     "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.202500076"
+    },
+    {
+     "type": "award",
+     "title": {
+      "ko": "Advanced Intelligent Systems 내지 앞표지(Inside Front Cover) 선정",
+      "en": "Selected as Inside Front Cover of Advanced Intelligent Systems"
+     },
+     "source": {
+      "ko": "Advanced Intelligent Systems",
+      "en": "Advanced Intelligent Systems"
+     },
+     "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.70095"
+    }
+   ]
+  },
+  {
+   "id": "han-scs",
+   "date": "2025-02",
+   "field": {
+    "ko": "의료·헬스케어 로봇",
+    "en": "Medical & Healthcare Robotics"
+   },
+   "lab": {
+    "ko": "한경원",
+    "en": "Amy Kyungwon Han"
+   },
+   "title": {
+    "ko": "상대정맥을 바깥에서 조여 심장 부담을 줄이는 형상기억합금 이식형 장치",
+    "en": "SCS: Superior-Vena-Cava Compressing Shape-Memory-Alloy-Based Implantable Device for Heart Failure"
+   },
+   "summary": {
+    "ko": "급성 비대상성 심부전 환자의 울혈을 줄이기 위해, 상대정맥을 감싸 바깥에서 눌러 혈류를 조절하는 형상기억합금(SMA) 구동 이식형 장치(SCS)를 개발했습니다. 혈액에 직접 닿지 않는 방식이며, 벤치 실험에서 유량이 68% 줄었고 돼지 심부전 모델에서 좌심실 이완기말 용적이 18.6% 감소했습니다. 이 논문은 Advanced Engineering Materials의 뒤표지(Back Cover)로 선정되었습니다.",
+    "en": "To relieve congestion in acute decompensated heart failure, the lab developed SCS, an implantable device driven by shape-memory-alloy (SMA) actuators that wraps around the superior vena cava and compresses it from outside to regulate blood flow, without direct blood contact. Benchtop tests showed a 68% decrease in flow rate, and in a porcine heart-failure model the left-ventricular end-diastolic volume fell by 18.6%. The paper was selected as a back cover of Advanced Engineering Materials."
+   },
+   "people": {
+    "ko": "Healthcare Robotics Lab",
+    "en": "Healthcare Robotics Lab"
+   },
+   "venue": "Advanced Engineering Materials",
+   "image": "/assets/highlights/han-scs.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "SCS: Superior-Vena-Cava Compressing Shape-Memory-Alloy-Based Implantable Device for Heart Failure",
+      "en": "SCS: Superior-Vena-Cava Compressing Shape-Memory-Alloy-Based Implantable Device for Heart Failure"
+     },
+     "source": {
+      "ko": "Advanced Engineering Materials",
+      "en": "Advanced Engineering Materials"
+     },
+     "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202402632"
+    },
+    {
+     "type": "award",
+     "title": {
+      "ko": "Advanced Engineering Materials 뒤표지(Back Cover) 선정",
+      "en": "Selected as Back Cover of Advanced Engineering Materials"
+     },
+     "source": {
+      "ko": "Advanced Engineering Materials",
+      "en": "Advanced Engineering Materials"
+     },
+     "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202570021"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Device-driven cyclic compression of the superior vena cava as a preload reduction strategy to improve cardiac function in heart failure: a pilot feasibility study (후속 전임상 연구)",
+      "en": "Device-driven cyclic compression of the superior vena cava as a preload reduction strategy to improve cardiac function in heart failure: a pilot feasibility study (follow-up preclinical study)"
+     },
+     "source": {
+      "ko": "Scientific Reports",
+      "en": "Scientific Reports"
+     },
+     "url": "https://www.nature.com/articles/s41598-026-35769-y"
+    }
+   ]
+  },
+  {
+   "id": "han-slip-sensing",
+   "date": "2025-07",
+   "field": {
+    "ko": "의료·헬스케어 로봇",
+    "en": "Medical & Healthcare Robotics"
+   },
+   "lab": {
+    "ko": "한경원",
+    "en": "Amy Kyungwon Han"
+   },
+   "title": {
+    "ko": "수술 로봇 집게가 조직의 미끄러짐을 감지하게 하는 광학식 슬립 센서",
+    "en": "Reliable Tissue Grasping in Robotic Minimally Invasive Surgery Enabled by Optical-Based Slip Sensing"
+   },
+   "summary": {
+    "ko": "로봇 최소침습수술에서 집게가 조직을 너무 세게 쥐면 손상이, 약하게 쥐면 미끄러짐이 생깁니다. 연구실은 미끄러진 거리·방향·속도를 추정하는 광학식 슬립 센서를 개발해, 0.3–104 mm/s의 속도 범위에서 30 ms 미만의 응답 시간으로 미끄러짐을 감지했습니다. 이 센서를 다빈치 수술용 그래스퍼에 넣어 적출한 돼지 조직을 잡는 실험에서 병진·회전 미끄러짐과 조직 늘어남을 구분할 수 있음을 확인했습니다.",
+    "en": "In robotic minimally invasive surgery, grasping tissue too hard damages it and grasping too lightly lets it slip. The lab developed an optical slip sensor that estimates slip displacement, direction and speed, detecting slip across speeds of 0.3–104 mm/s with a response time under 30 ms. Integrated into a da Vinci surgical grasper and tested on ex vivo porcine tissue, paired sensors could distinguish translational slip, rotational slip and tissue stretch."
+   },
+   "people": {
+    "ko": "Healthcare Robotics Lab",
+    "en": "Healthcare Robotics Lab"
+   },
+   "venue": "Advanced Engineering Materials",
+   "image": "/assets/highlights/han-slip-sensing.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Reliable Tissue Grasping in Robotic Minimally Invasive Surgery Enabled by Optical-Based Slip Sensing",
+      "en": "Reliable Tissue Grasping in Robotic Minimally Invasive Surgery Enabled by Optical-Based Slip Sensing"
+     },
+     "source": {
+      "ko": "Advanced Engineering Materials",
+      "en": "Advanced Engineering Materials"
+     },
+     "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202500910"
+    },
+    {
+     "type": "video",
+     "title": {
+      "ko": "HeroLab 소개영상 [Surgical robot - patient side] (연구 분야 소개)",
+      "en": "HeroLab introduction video [Surgical robot - patient side] (research-area overview, in Korean)"
+     },
+     "source": {
+      "ko": "YouTube (Healthcare Robotics Lab at SNU)",
+      "en": "YouTube (Healthcare Robotics Lab at SNU)"
+     },
+     "url": "https://youtu.be/-gVm90ctIPc"
+    }
+   ]
+  },
+  {
+   "id": "dkim-paper-folding-dna-origami",
+   "date": "2023-07",
+   "field": {
+    "ko": "소프트 로보틱스·메커니즘",
+    "en": "Soft Robotics & Mechanisms"
+   },
+   "lab": {
+    "ko": "김도년",
+    "en": "Do-Nyun Kim"
+   },
+   "title": {
+    "ko": "종이접기처럼 접었다 펴는 DNA 나노 구조체",
+    "en": "Harnessing a paper-folding mechanism for reconfigurable DNA origami"
+   },
+   "summary": {
+    "ko": "종이접기의 접는 선 패턴을 따르는 평면 DNA 와이어프레임 구조를 만들어, 하나의 구조를 여러 모양으로 접었다 펼 수 있는 DNA 오리가미 설계 방법을 제안했습니다. DNA 가닥 치환 반응으로 반복해서 접고 펴는 동작을 구현했고, pH나 빛에 반응해 접히는 구조와 접힘을 이용한 마이크로RNA 검출도 시연했습니다. 이 논문은 Nature 표지 논문으로 실렸습니다.",
+    "en": "The lab proposed a way to build DNA origami that folds and unfolds like paper: a flat DNA wireframe whose edges follow a paper-folding crease pattern, so that one structure can be folded into several target shapes. Folding and unfolding were driven repeatedly by DNA strand displacement, and the team also showed folding triggered by pH or light and folding-based microRNA detection. The paper appeared as a cover article in Nature."
+   },
+   "people": {
+    "ko": "AI주도 시뮬레이션 및 설계 연구실",
+    "en": "AI-driven Simulation and Design Lab"
+   },
+   "venue": "Nature",
+   "image": "/assets/highlights/dkim-paper-folding-dna-origami.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Harnessing a paper-folding mechanism for reconfigurable DNA origami",
+      "en": "Harnessing a paper-folding mechanism for reconfigurable DNA origami"
+     },
+     "source": {
+      "ko": "Nature",
+      "en": "Nature"
+     },
+     "url": "https://www.nature.com/articles/s41586-023-06181-7"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "Nanoscale origami with DNA-wireframe paper",
+      "en": "Nanoscale origami with DNA-wireframe paper"
+     },
+     "source": {
+      "ko": "Nature (News & Views)",
+      "en": "Nature (News & Views)"
+     },
+     "url": "https://www.nature.com/articles/d41586-023-02022-9"
+    },
+    {
+     "type": "video",
+     "title": {
+      "ko": "Tech for Good: Origami folding at a nanoscale",
+      "en": "Tech for Good: Origami folding at a nanoscale"
+     },
+     "source": {
+      "ko": "YouTube (Kristie Lu Stout, CNN)",
+      "en": "YouTube (Kristie Lu Stout, CNN)"
+     },
+     "url": "https://www.youtube.com/watch?v=8MIm0depRIM"
+    }
+   ]
+  },
+  {
+   "id": "dkim-dna-origami-gnn",
+   "date": "2024-03",
+   "field": {
+    "ko": "디지털 트윈·시뮬레이션",
+    "en": "Digital Twin & Simulation"
+   },
+   "lab": {
+    "ko": "김도년",
+    "en": "Do-Nyun Kim"
+   },
+   "title": {
+    "ko": "DNA 나노 구조체의 3차원 모양을 거의 실시간으로 예측하는 그래프 신경망",
+    "en": "Prediction of DNA origami shape using graph neural network"
+   },
+   "summary": {
+    "ko": "DNA 오리가미 구조체가 조립된 뒤의 3차원 형상을 빠르게 예측하는 그래프 신경망 모델을 개발했습니다. 검증된 구조 데이터가 부족한 점을 보완하기 위해 데이터 기반 손실과 물리 기반 손실을 함께 줄이도록 학습시켰으며, 수십~수백 개의 DNA 블록으로 이루어진 초분자 조립체 해석과 목표 형상에 맞춘 자동 역설계에도 적용했습니다.",
+    "en": "The lab built a graph neural network that rapidly predicts the three-dimensional shape of DNA origami assemblies. To make up for the scarcity of validated structural data, it is trained with both a data-driven loss and a physics-informed loss; the model was also applied to supramolecular assemblies of tens to hundreds of DNA blocks and to automated inverse design for given target shapes."
+   },
+   "people": {
+    "ko": "AI주도 시뮬레이션 및 설계 연구실",
+    "en": "AI-driven Simulation and Design Lab"
+   },
+   "venue": "Nature Materials",
+   "image": "/assets/highlights/dkim-dna-origami-gnn.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Prediction of DNA origami shape using graph neural network",
+      "en": "Prediction of DNA origami shape using graph neural network"
+     },
+     "source": {
+      "ko": "Nature Materials",
+      "en": "Nature Materials"
+     },
+     "url": "https://www.nature.com/articles/s41563-024-01846-8"
+    }
+   ]
+  },
+  {
+   "id": "dkim-dna-origami-diffusion",
+   "date": "2026-05",
+   "field": {
+    "ko": "디지털 트윈·시뮬레이션",
+    "en": "Digital Twin & Simulation"
+   },
+   "lab": {
+    "ko": "김도년",
+    "en": "Do-Nyun Kim"
+   },
+   "title": {
+    "ko": "원하는 모양을 그리면 DNA 나노 구조체를 설계해 주는 생성형 AI",
+    "en": "De novo design of DNA origami with a generative diffusion model"
+   },
+   "summary": {
+    "ko": "사용자가 정한 목표 형상에 맞는 DNA 오리가미 설계를 만들어 내는 확산 모델 기반 생성형 설계 프레임워크를 개발했습니다. 실험 데이터가 부족한 문제를 다중 스케일 계산 모델로 시뮬레이션한 평형 구조로 학습해 해결했으며, 생성된 100개 이상의 후보 가운데 선별한 구조를 실제로 제작해 접힘과 기능을 실험으로 확인했습니다.",
+    "en": "The lab developed a diffusion-based generative framework that produces DNA origami designs for user-defined target shapes. It addresses the lack of experimental datasets by training on equilibrium conformations simulated with a multiscale computational model; from more than 100 generated candidates, selected structures were fabricated and their folding and function confirmed experimentally."
+   },
+   "people": {
+    "ko": "AI주도 시뮬레이션 및 설계 연구실",
+    "en": "AI-driven Simulation and Design Lab"
+   },
+   "venue": "Nature Communications",
+   "image": "/assets/highlights/dkim-dna-origami-diffusion.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "De novo design of DNA origami with a generative diffusion model",
+      "en": "De novo design of DNA origami with a generative diffusion model"
+     },
+     "source": {
+      "ko": "Nature Communications",
+      "en": "Nature Communications"
+     },
+     "url": "https://www.nature.com/articles/s41467-026-73578-z"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "This AI Folds DNA Into Mini Masterpieces",
+      "en": "This AI Folds DNA Into Mini Masterpieces"
+     },
+     "source": {
+      "ko": "IEEE Spectrum",
+      "en": "IEEE Spectrum"
+     },
+     "url": "https://spectrum.ieee.org/ai-dna-origami"
+    }
+   ]
+  },
+  {
+   "id": "ahn-back-exoskeleton",
+   "date": "2025-01",
+   "field": {
+    "ko": "웨어러블 로봇",
+    "en": "Wearable Robotics"
+   },
+   "lab": {
+    "ko": "안주은",
+    "en": "Jooeun Ahn"
+   },
+   "title": {
+    "ko": "무거운 짐을 드는 작업자를 돕는 수동형 허리 보조 외골격의 종합 평가",
+    "en": "A comprehensive assessment of a passive back support exoskeleton for load handling assistance"
+   },
+   "summary": {
+    "ko": "중량물을 다루는 작업자를 위해 새로 개발된 수동형 허리 보조 외골격의 효과를 근육 활성도, 근피로, 에너지 소비, 주관적 불편감까지 함께 평가했습니다. 건강한 젊은 남성 15명이 상자를 들고 버티거나 반복해서 들어 올리는 실험에서, 외골격을 착용하면 주요 근육의 활성도와 피로가 줄고 에너지 소비가 13.6%, 운동 자각도가 14.7%, 국소 근골격계 불편감이 30.5% 감소했습니다.",
+    "en": "The study evaluated a newly developed passive back-support exoskeleton for workers who handle heavy loads, looking at muscle activation, muscle fatigue, energy expenditure and perceived discomfort together. In static holding and repetitive lifting tasks with fifteen healthy young men, wearing the exoskeleton reduced activation and fatigue in key muscles, cut energy expenditure by 13.6%, and lowered perceived exertion and local musculoskeletal discomfort by 14.7% and 30.5%."
+   },
+   "people": {
+    "ko": "Sports Engineering Lab",
+    "en": "Sports Engineering Lab"
+   },
+   "venue": "Scientific Reports",
+   "image": "/assets/highlights/ahn-back-exoskeleton.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "A comprehensive assessment of a passive back support exoskeleton for load handling assistance",
+      "en": "A comprehensive assessment of a passive back support exoskeleton for load handling assistance"
+     },
+     "source": {
+      "ko": "Scientific Reports",
+      "en": "Scientific Reports"
+     },
+     "url": "https://www.nature.com/articles/s41598-025-88471-w"
+    }
+   ]
+  },
+  {
+   "id": "ahn-emg-glove",
+   "date": "2021-02",
+   "field": {
+    "ko": "웨어러블 로봇",
+    "en": "Wearable Robotics"
+   },
+   "lab": {
+    "ko": "안주은",
+    "en": "Jooeun Ahn"
+   },
+   "title": {
+    "ko": "근전도 센서 하나로 쥐는 힘을 보조하는 로봇 장갑",
+    "en": "Single EMG Sensor-Driven Robotic Glove Control for Reliable Augmentation of Power Grasping"
+   },
+   "summary": {
+    "ko": "손목 부근 힘줄과 근육이 만나는 부위에서 나오는 근전도 신호 하나만으로 착용자의 쥐려는 의도를 읽어, 물건을 꽉 쥐는 힘을 보조하는 로봇 장갑 제어 방법을 개발했습니다. 여러 근육에 센서를 여러 개 붙여야 했던 기존 방식과 달리 센서 하나로 직관적으로 제어할 수 있으며, 서울대 기계공학부 조규진 교수 연구실, KAIST, 분당서울대병원과 함께 수행한 연구입니다.",
+    "en": "The team developed a control method for a robotic glove that augments power grasping by reading the wearer's intent from a single EMG signal picked up near the wrist, at the junction of tendon and muscle. Unlike earlier approaches that needed several sensors on several muscles, one sensor is enough for intuitive control. The work was carried out with Prof. Kyu-Jin Cho's lab at SNU Mechanical Engineering, KAIST and Seoul National University Bundang Hospital."
+   },
+   "people": {
+    "ko": "Sports Engineering Lab",
+    "en": "Sports Engineering Lab"
+   },
+   "venue": "IEEE Transactions on Medical Robotics and Bionics",
+   "image": "/assets/highlights/ahn-emg-glove.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Single EMG Sensor-Driven Robotic Glove Control for Reliable Augmentation of Power Grasping",
+      "en": "Single EMG Sensor-Driven Robotic Glove Control for Reliable Augmentation of Power Grasping"
+     },
+     "source": {
+      "ko": "IEEE Transactions on Medical Robotics and Bionics",
+      "en": "IEEE Transactions on Medical Robotics and Bionics"
+     },
+     "url": "https://doi.org/10.1109/TMRB.2020.3046847"
+    },
+    {
+     "type": "video",
+     "title": {
+      "ko": "[다큐S프라임] 신체강화와 재활에도 사용될 수 있는 근력강화로봇… 악력보조장갑",
+      "en": "[Docu S Prime] Strength-assist robots and a grip-assist glove (in Korean)"
+     },
+     "source": {
+      "ko": "YouTube (YTN 사이언스)",
+      "en": "YouTube (YTN Science)"
+     },
+     "url": "https://www.youtube.com/watch?v=X8jUvLrlSc0&t=270s"
+    },
+    {
+     "type": "article",
+     "title": {
+      "ko": "무거운 짐 장시간 단단히 쥐는 로봇 장갑 나왔다",
+      "en": "Robotic glove that keeps a firm grip on heavy loads for long periods (in Korean)"
+     },
+     "source": {
+      "ko": "동아사이언스",
+      "en": "Dong-A Science"
+     },
+     "url": "https://www.dongascience.com/ko/news/43001"
+    }
+   ]
+  },
+  {
+   "id": "ro-osteophyte-ct",
+   "date": "2026-10",
+   "field": {
+    "ko": "의료·헬스케어 로봇",
+    "en": "Medical & Healthcare Robotics"
+   },
+   "lab": {
+    "ko": "노두현",
+    "en": "Du Hyun Ro"
+   },
+   "title": {
+    "ko": "로봇 인공관절 수술 전 CT에서 무릎 골극의 양을 자동으로 재는 AI",
+    "en": "Automated CT-based quantification of knee osteophytes for robotic-assisted total knee arthroplasty: a multi-cohort study"
+   },
+   "summary": {
+    "ko": "로봇 보조 무릎 인공관절 전치환술을 계획할 때 찍는 수술 전 CT에서 골극(뼈 돌기)을 자동으로 분할해 부피를 재는 3차원 U-Net 모델을 387건의 무릎 CT로 개발했습니다. 서로 다른 두 외부 기관 자료(각 100건)에서 전문가 합의 판독과 비교한 Dice 계수 중앙값은 0.913과 0.909였고, 로봇 수술 66건에서는 수술 중 실제로 떼어 낸 골극의 부피와도 집단 수준에서 일치했습니다(ICC 0.876).",
+    "en": "Using 387 knee CT scans, the team developed a 3D U-Net that automatically segments osteophytes and measures their volume on the preoperative CT acquired for planning robotic-assisted total knee arthroplasty. Against blinded expert-consensus annotations in two independent external cohorts (100 knees each), the median Dice coefficient was 0.913 and 0.909, and in a prospective cohort of 66 robotic-assisted surgeries the CT-derived volume showed cohort-level agreement with the volume of osteophytes actually resected (ICC 0.876)."
+   },
+   "people": {
+    "ko": "서울대학교병원 정형외과",
+    "en": "Department of Orthopedic Surgery, Seoul National University Hospital"
+   },
+   "venue": "Journal of Robotic Surgery",
+   "image": "/assets/highlights/ro-osteophyte-ct.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Automated CT-based quantification of knee osteophytes for robotic-assisted total knee arthroplasty: a multi-cohort study",
+      "en": "Automated CT-based quantification of knee osteophytes for robotic-assisted total knee arthroplasty: a multi-cohort study"
+     },
+     "source": {
+      "ko": "Journal of Robotic Surgery",
+      "en": "Journal of Robotic Surgery"
+     },
+     "url": "https://doi.org/10.1007/s11701-026-04015-y"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "전문 공개본 (PubMed Central)",
+      "en": "Open-access full text (PubMed Central)"
+     },
+     "source": {
+      "ko": "PubMed Central",
+      "en": "PubMed Central"
+     },
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13642435/"
+    }
+   ]
+  },
+  {
+   "id": "ro-leg-alignment",
+   "date": "2022-08",
+   "field": {
+    "ko": "의료·헬스케어 로봇",
+    "en": "Medical & Healthcare Robotics"
+   },
+   "lab": {
+    "ko": "노두현",
+    "en": "Du Hyun Ro"
+   },
+   "title": {
+    "ko": "다리 전체 X선 사진에서 하지 정렬 각도를 자동으로 재는 딥러닝",
+    "en": "Deep learning-based landmark recognition and angle measurement of full-leg plain radiographs can be adopted to assess lower extremity alignment"
+   },
+   "summary": {
+    "ko": "무릎 관절염 진단과 치료 계획에 필요한 하지 정렬을 평가하기 위해, 다리 전체 X선 사진 11,212장으로 15개 해부학적 기준점을 찾아 각도를 계산하는 딥러닝 모델을 만들었습니다. 모델의 측정값은 14년 경력 정형외과 전문의의 기준 측정과 관찰자 간 급내상관계수(ICC) 0.98 이상으로 일치했고, 같은 사진을 다시 재도 결과가 같았습니다.",
+    "en": "To assess lower-limb alignment, an essential step in diagnosing and treating knee osteoarthritis, the team built a deep-learning model from 11,212 full-leg radiographs that locates 15 anatomical landmarks and computes the alignment angles. Its measurements agreed with reference measurements by an orthopaedic specialist with 14 years of experience (inter-observer ICC of 0.98 or higher) and were identical on repeated measurement."
+   },
+   "people": {
+    "ko": "서울대학교병원 정형외과",
+    "en": "Department of Orthopedic Surgery, Seoul National University Hospital"
+   },
+   "venue": "Knee Surgery, Sports Traumatology, Arthroscopy",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Deep learning-based landmark recognition and angle measurement of full-leg plain radiographs can be adopted to assess lower extremity alignment",
+      "en": "Deep learning-based landmark recognition and angle measurement of full-leg plain radiographs can be adopted to assess lower extremity alignment"
+     },
+     "source": {
+      "ko": "Knee Surgery, Sports Traumatology, Arthroscopy",
+      "en": "Knee Surgery, Sports Traumatology, Arthroscopy"
+     },
+     "url": "https://doi.org/10.1007/s00167-022-07124-x"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "PubMed 초록",
+      "en": "PubMed abstract"
+     },
+     "source": {
+      "ko": "PubMed",
+      "en": "PubMed"
+     },
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36006418/"
+    }
+   ]
+  },
+  {
+   "id": "kwak-sketcherx",
+   "home": 6,
+   "date": "2024-12",
+   "field": {
+    "ko": "인간·사회와 로봇",
+    "en": "Humans, Society & Robots"
+   },
+   "lab": {
+    "ko": "곽노준",
+    "en": "Nojun Kwak"
+   },
+   "title": {
+    "ko": "사람과 대화하며 초상화를 그려 주는 로봇 SketcherX",
+    "en": "SketcherX: AI-Driven Interactive Robotic drawing with Diffusion model and Vectorization Techniques"
+   },
+   "summary": {
+    "ko": "6축 로봇 팔 두 대로 이루어진 초상화 로봇 시스템입니다. 카메라와 대규모 언어 모델(LLM)을 갖춘 '얼굴 로봇'이 사람과 대화하고, '드로잉 로봇'이 미세조정한 확산 모델과 벡터화 기법으로 얼굴 사진을 펜 선 그림으로 바꿔 그립니다. 논문은 2분 이내에 개인 맞춤 초상화를 완성한다고 보고했으며, NeurIPS 2024 Creative AI 트랙에서 발표했습니다.",
+    "en": "A portrait-drawing system built from two 6-axis robot arms: a 'face robot' with a camera and a large language model converses with the visitor, while a 'drawing robot' turns the face photo into pen strokes using a fine-tuned diffusion model and vectorization. The paper reports personalized portraits completed within two minutes; it was presented in the NeurIPS 2024 Creative AI track."
+   },
+   "people": {
+    "ko": "컴퓨터 지능 및 패턴인식 연구실 (MIPAL)",
+    "en": "Machine Intelligence & Pattern Analysis Laboratory (MIPAL)"
+   },
+   "venue": "NeurIPS 2024 Creative AI",
+   "image": "/assets/highlights/kwak-sketcherx.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "SketcherX: AI-Driven Interactive Robotic drawing with Diffusion model and Vectorization Techniques",
+      "en": "SketcherX: AI-Driven Interactive Robotic drawing with Diffusion model and Vectorization Techniques"
+     },
+     "source": {
+      "ko": "arXiv",
+      "en": "arXiv"
+     },
+     "url": "https://arxiv.org/abs/2409.15292"
+    },
+    {
+     "type": "project",
+     "title": {
+      "ko": "NeurIPS 2024 Creative AI 트랙 발표 페이지",
+      "en": "NeurIPS 2024 Creative AI Track listing"
+     },
+     "source": {
+      "ko": "NeurIPS",
+      "en": "NeurIPS"
+     },
+     "url": "https://neurips.cc/virtual/2024/105411"
+    }
+   ]
+  },
+  {
+   "id": "kwak-pa-aug",
+   "date": "2021-09",
+   "field": {
+    "ko": "로봇 비전·인식",
+    "en": "Robot Vision & Perception"
+   },
+   "lab": {
+    "ko": "곽노준",
+    "en": "Nojun Kwak"
+   },
+   "title": {
+    "ko": "라이다 점군 속 물체를 부분별로 변형해 3D 검출기를 더 잘 학습시키는 데이터 증강",
+    "en": "Part-Aware Data Augmentation for 3D Object Detection in Point Cloud"
+   },
+   "summary": {
+    "ko": "라이다 점군의 3D 물체 상자를 여러 부분으로 나누고, 부분마다 다섯 가지 증강 기법(드롭아웃·교환·혼합·희소화·잡음)을 확률적으로 적용하는 데이터 증강 방법 PA-AUG를 제안했습니다. KITTI 데이터셋의 모든 클래스에서 3D 물체 검출 성능이 높아졌고, 학습 데이터를 약 2.5배 늘린 것과 같은 효과를 보였습니다. 코드를 공개했습니다.",
+    "en": "The lab proposed PA-AUG, a data augmentation method that divides each 3D object box in a LiDAR point cloud into parts and stochastically applies five augmentations (dropout, swap, mix, sparsify, noise) to each part. It improved a 3D object detector on all classes of the KITTI dataset, with an effect equivalent to about 2.5 times more training data, and the code is public."
+   },
+   "people": {
+    "ko": "컴퓨터 지능 및 패턴인식 연구실 (MIPAL)",
+    "en": "Machine Intelligence & Pattern Analysis Laboratory (MIPAL)"
+   },
+   "venue": "IROS 2021",
+   "image": "/assets/highlights/kwak-pa-aug.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Part-Aware Data Augmentation for 3D Object Detection in Point Cloud",
+      "en": "Part-Aware Data Augmentation for 3D Object Detection in Point Cloud"
+     },
+     "source": {
+      "ko": "IEEE Xplore (IROS 2021)",
+      "en": "IEEE Xplore (IROS 2021)"
+     },
+     "url": "https://ieeexplore.ieee.org/document/9635887"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Part-Aware Data Augmentation for 3D Object Detection in Point Cloud (preprint)",
+      "en": "Part-Aware Data Augmentation for 3D Object Detection in Point Cloud (preprint)"
+     },
+     "source": {
+      "ko": "arXiv",
+      "en": "arXiv"
+     },
+     "url": "https://arxiv.org/abs/2007.13373"
+    },
+    {
+     "type": "project",
+     "title": {
+      "ko": "공개 코드: pa-aug.pytorch",
+      "en": "Code: pa-aug.pytorch"
+     },
+     "source": {
+      "ko": "GitHub",
+      "en": "GitHub"
+     },
+     "url": "https://github.com/sky77764/pa-aug.pytorch"
+    }
+   ]
+  },
+  {
+   "id": "kwak-detector-tta",
+   "date": "2024-06",
+   "field": {
+    "ko": "로봇 비전·인식",
+    "en": "Robot Vision & Perception"
+   },
+   "lab": {
+    "ko": "곽노준",
+    "en": "Nojun Kwak"
+   },
+   "title": {
+    "ko": "날씨·화질이 계속 바뀌는 환경에서 스스로 적응하는 물체 검출기",
+    "en": "What, How, and When Should Object Detectors Update in Continually Changing Test Domains?"
+   },
+   "summary": {
+    "ko": "학습 때와 다른 환경이 연속해서 나타나는 상황에서 물체 검출기가 추론 중에 스스로 적응하도록 하는 방법입니다. 사전학습된 백본은 그대로 두고 가벼운 어댑터만 갱신하며, 적응이 충분한지 판단해 필요할 때만 갱신합니다. COCO→COCO-corrupted와 SHIFT 벤치마크에서 기준 방법보다 mAP가 각각 최대 4.9%p, 7.9%p 높았고 약 20 FPS 이상의 속도를 유지했습니다.",
+    "en": "A test-time adaptation method that lets an object detector adapt online as the test environment keeps changing. It leaves the pretrained backbone untouched and updates only lightweight adaptor modules, and decides when further adaptation is needed. It improved mAP over baselines by up to 4.9%p on COCO to COCO-corrupted and 7.9%p on SHIFT while running at about 20 FPS or higher."
+   },
+   "people": {
+    "ko": "컴퓨터 지능 및 패턴인식 연구실 (MIPAL)",
+    "en": "Machine Intelligence & Pattern Analysis Laboratory (MIPAL)"
+   },
+   "venue": "CVPR 2024",
+   "image": "/assets/highlights/kwak-detector-tta.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "What, How, and When Should Object Detectors Update in Continually Changing Test Domains?",
+      "en": "What, How, and When Should Object Detectors Update in Continually Changing Test Domains?"
+     },
+     "source": {
+      "ko": "CVPR 2024 Open Access (CVF)",
+      "en": "CVPR 2024 Open Access (CVF)"
+     },
+     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yoo_What_How_and_When_Should_Object_Detectors_Update_in_Continually_CVPR_2024_paper.html"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "What, How, and When Should Object Detectors Update in Continually Changing Test Domains? (preprint)",
+      "en": "What, How, and When Should Object Detectors Update in Continually Changing Test Domains? (preprint)"
+     },
+     "source": {
+      "ko": "arXiv",
+      "en": "arXiv"
+     },
+     "url": "https://arxiv.org/abs/2312.08875"
+    }
+   ]
+  },
+  {
+   "id": "ilee-vr-goal-navigation",
+   "date": "2024-07",
+   "field": {
+    "ko": "뇌·인지과학",
+    "en": "Brain & Cognitive Science"
+   },
+   "lab": {
+    "ko": "이인아",
+    "en": "Inah Lee"
+   },
+   "title": {
+    "ko": "가상현실 속 길 찾기에서 해마의 두 영역이 맡는 서로 다른 역할",
+    "en": "Differential functions of the dorsal and intermediate regions of the hippocampus for optimal goal-directed navigation in VR space"
+   },
+   "summary": {
+    "ko": "쥐가 구형 트레드밀 위에서 2차원으로 이동할 수 있는 가상현실 환경을 만들고, 보상 크기가 다른 두 목표 지점 중 더 큰 보상이 있는 곳을 찾아가는 과제를 학습시켰습니다. 등쪽 해마와 중간 해마를 각각 일시적으로 억제하자 두 경우 모두 길 찾기의 효율과 정밀도가 달라졌고, 중간 해마를 억제했을 때는 더 가치 있는 장소를 선호하는 행동까지 손상되었습니다. 중간 해마가 가치에 기반한 목표 지향 내비게이션에 더 중요함을 시사하는 결과입니다.",
+    "en": "Rats on a spherical treadmill learned, in a visually rich virtual reality environment allowing two-dimensional navigation, to head for the reward zone with the higher reward. Temporarily inactivating either the dorsal or the intermediate hippocampus altered the efficiency and precision of wayfinding, but inactivating the intermediate hippocampus also impaired the preference for the higher-value place, suggesting that it is more critical for value-dependent, goal-directed navigation."
+   },
+   "people": {
+    "ko": "Laboratory for Behavioral Neurophysiology of Memory",
+    "en": "Laboratory for Behavioral Neurophysiology of Memory"
+   },
+   "venue": "eLife",
+   "image": "/assets/highlights/ilee-vr-goal-navigation.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Differential functions of the dorsal and intermediate regions of the hippocampus for optimal goal-directed navigation in VR space",
+      "en": "Differential functions of the dorsal and intermediate regions of the hippocampus for optimal goal-directed navigation in VR space"
+     },
+     "source": {
+      "ko": "eLife",
+      "en": "eLife"
+     },
+     "url": "https://doi.org/10.7554/eLife.97114"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Differential functions of the dorsal and intermediate regions of the hippocampus for optimal goal-directed navigation in VR space (full text)",
+      "en": "Differential functions of the dorsal and intermediate regions of the hippocampus for optimal goal-directed navigation in VR space (full text)"
+     },
+     "source": {
+      "ko": "PubMed Central",
+      "en": "PubMed Central"
+     },
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11251721/"
+    }
+   ]
+  },
+  {
+   "id": "ilee-ripple-value-replay",
+   "date": "2024-08",
+   "field": {
+    "ko": "뇌·인지과학",
+    "en": "Brain & Cognitive Science"
+   },
+   "lab": {
+    "ko": "이인아",
+    "en": "Inah Lee"
+   },
+   "title": {
+    "ko": "가치가 높은 장소의 기억을 더 자주 되새기는 해마의 재활성 패턴",
+    "en": "Selective reactivation of value- and place-dependent information during sharp-wave ripples in the intermediate and dorsal hippocampus"
+   },
+   "summary": {
+    "ko": "쥐가 T자 미로에서 더 큰 보상이 있는 장소를 학습하는 동안 등쪽 해마와 중간 해마의 장소세포 활동을 기록했습니다. 해마의 뇌파 현상인 샤프웨이브 리플(sharp-wave ripple) 동안 중간 해마에서는 보상 가치가 높은 장소를 나타내는 세포가 낮은 장소의 세포보다 유의하게 자주 재활성되었고, 등쪽 해마에서는 가치가 높은 장소로 가는 경로를 나타내는 세포 활동이 더 많이 재생되었습니다. 해마가 보상을 최대화하는 방향으로 공간 학습을 최적화하는 방식을 보여 주는 결과입니다.",
+    "en": "The lab recorded place cells in the dorsal and intermediate hippocampus while rats learned which arm of a T-maze held the higher-value reward. During sharp-wave ripples, intermediate-hippocampus cells representing the high-value location were reactivated significantly more often than those for the low-value location, whereas in the dorsal hippocampus the routes leading to high-value locations were replayed more. The results suggest how the hippocampus may optimize goal-directed spatial learning for maximal reward."
+   },
+   "people": {
+    "ko": "Laboratory for Behavioral Neurophysiology of Memory",
+    "en": "Laboratory for Behavioral Neurophysiology of Memory"
+   },
+   "venue": "Science Advances",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Selective reactivation of value- and place-dependent information during sharp-wave ripples in the intermediate and dorsal hippocampus",
+      "en": "Selective reactivation of value- and place-dependent information during sharp-wave ripples in the intermediate and dorsal hippocampus"
+     },
+     "source": {
+      "ko": "Science Advances",
+      "en": "Science Advances"
+     },
+     "url": "https://doi.org/10.1126/sciadv.adn0416"
+    }
+   ]
+  },
+  {
+   "id": "ilee-vr-remapping",
+   "date": "2022-12",
+   "field": {
+    "ko": "뇌·인지과학",
+    "en": "Brain & Cognitive Science"
+   },
+   "lab": {
+    "ko": "이인아",
+    "en": "Inah Lee"
+   },
+   "title": {
+    "ko": "가상 환경이 조금 달라질 때 해마 CA1과 CA3의 공간 지도가 다르게 바뀌는 방식",
+    "en": "Subtle visual change in a virtual environment induces heterogeneous remapping systematically in CA1, but not CA3"
+   },
+   "summary": {
+    "ko": "가상현실 환경에서 쥐 해마의 CA1과 CA3 장소세포를 동시에 기록했습니다. 시각적으로 풍부한 환경에 '가상 안개'로 시각 잡음을 넣자 CA1의 장소세포는 위치는 유지한 채 발화율만 바꾸는 집단과 지도를 완전히 새로 짜는 집단으로 나뉘었고, CA3는 주로 발화율만 바꾸었습니다. CA1이 같은 환경에 대해 서로 다른 지도를 동시에 표상할 수 있음을 시사합니다.",
+    "en": "The lab recorded place cells simultaneously from hippocampal CA1 and CA3 of rats in a virtual reality environment. When visual noise ('virtual fog') was added to a visually enriched environment, CA1 place cells split into one subpopulation that kept its field locations while changing firing rates and another that remapped globally, whereas CA3 cells showed mainly rate remapping. The results suggest CA1 may hold heterogeneous maps of the same environment at once."
+   },
+   "people": {
+    "ko": "Laboratory for Behavioral Neurophysiology of Memory",
+    "en": "Laboratory for Behavioral Neurophysiology of Memory"
+   },
+   "venue": "Cell Reports",
+   "image": "/assets/highlights/ilee-vr-remapping.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Subtle visual change in a virtual environment induces heterogeneous remapping systematically in CA1, but not CA3",
+      "en": "Subtle visual change in a virtual environment induces heterogeneous remapping systematically in CA1, but not CA3"
+     },
+     "source": {
+      "ko": "Cell Reports",
+      "en": "Cell Reports"
+     },
+     "url": "https://doi.org/10.1016/j.celrep.2022.111823"
+    }
+   ]
+  },
+  {
+   "id": "jung-zicio",
+   "date": "2025-02",
+   "field": {
+    "ko": "디지털 트윈·시뮬레이션",
+    "en": "Digital Twin & Simulation"
+   },
+   "lab": {
+    "ko": "정형수",
+    "en": "Hyungsoo Jung"
+   },
+   "title": {
+    "ko": "데이터베이스와 운영체제를 함께 설계해 대용량 데이터 읽기를 빠르게 하는 zicIO",
+    "en": "Rapid Data Ingestion through DB-OS Co-design"
+   },
+   "summary": {
+    "ko": "데이터 웨어하우스에서 큰 테이블을 저장장치로부터 순차적으로 읽어 들이는 작업을 저장장치의 최대 속도로 지원하도록 데이터베이스와 운영체제를 함께 설계한 zicIO를 제안했습니다. DBMS가 데이터에 접근하기 직전에 필요한 데이터를 미리 준비하고, 같은 테이블을 동시에 읽을 때 생기는 중복 읽기를 줄입니다. 네 가지 데이터베이스에 적용했으며 TPC-H 부하에서 최대 9.95배의 성능 향상을 보였습니다.",
+    "en": "The lab proposed zicIO, a database-operating system co-design that supports sequential ingestion of large tables from storage at full device speed. It prepares the required data just before the DBMS accesses it and avoids redundant fetching when several queries read the same table. Integrated with four databases, it improved performance by up to 9.95x under TPC-H loads."
+   },
+   "people": {
+    "ko": "DBX Lab",
+    "en": "DBX Lab"
+   },
+   "venue": "SIGMOD 2025",
+   "image": "/assets/highlights/jung-zicio.jpg",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Rapid Data Ingestion through DB-OS Co-design",
+      "en": "Rapid Data Ingestion through DB-OS Co-design"
+     },
+     "source": {
+      "ko": "Proceedings of the ACM on Management of Data (SIGMOD 2025)",
+      "en": "Proceedings of the ACM on Management of Data (SIGMOD 2025)"
+     },
+     "url": "https://dl.acm.org/doi/10.1145/3709718"
+    }
+   ]
+  },
+  {
+   "id": "jung-vista-htap",
+   "date": "2026-05",
+   "field": {
+    "ko": "디지털 트윈·시뮬레이션",
+    "en": "Digital Twin & Simulation"
+   },
+   "lab": {
+    "ko": "정형수",
+    "en": "Hyungsoo Jung"
+   },
+   "title": {
+    "ko": "거래 처리와 분석을 한 서버에서 서로 방해 없이 함께 수행하게 하는 버퍼 가상화 Vista",
+    "en": "Translytical Processing via DB-OS Co-designed Buffer: Cross-Engine Isolation and Tunable Update Visibility for HTAP"
+   },
+   "summary": {
+    "ko": "한 서버에서 거래 처리(OLTP) 엔진과 분석(OLAP) 엔진이 같은 데이터를 다룰 때 생기는 간섭을 줄이기 위해, 데이터베이스와 운영체제를 함께 설계한 버퍼 가상화 프레임워크 Vista를 제안했습니다. 거래 처리가 쓰는 메모리 구간을 주기적으로 봉인해 분석 엔진에 읽기 전용으로 넘겨, 두 엔진을 물리적으로 분리하면서도 최신 데이터가 보이기까지의 지연을 조절할 수 있습니다. PostgreSQL에 구현하고 DuckDB와 연동했으며, 기존 방법 대비 최대 12.8배 빠른 질의 속도를 보였습니다.",
+    "en": "The lab presented Vista, a DB-OS co-designed buffer virtualization framework that reduces interference when a transactional (OLTP) engine and an analytical (OLAP) engine work on the same data on one node. Memory segments used by transactions are periodically sealed and remapped read-only into the analytical engine, physically isolating the two while keeping the lag before fresh updates become visible bounded and tunable. Implemented in PostgreSQL and integrated with DuckDB, it achieved up to 12.8x speedup over state-of-the-art baselines."
+   },
+   "people": {
+    "ko": "DBX Lab",
+    "en": "DBX Lab"
+   },
+   "venue": "SIGMOD 2026",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Translytical Processing via DB-OS Co-designed Buffer: Cross-Engine Isolation and Tunable Update Visibility for HTAP",
+      "en": "Translytical Processing via DB-OS Co-designed Buffer: Cross-Engine Isolation and Tunable Update Visibility for HTAP"
+     },
+     "source": {
+      "ko": "Proceedings of the ACM on Management of Data (SIGMOD 2026)",
+      "en": "Proceedings of the ACM on Management of Data (SIGMOD 2026)"
+     },
+     "url": "https://dl.acm.org/doi/10.1145/3802123"
+    }
+   ]
+  },
+  {
+   "id": "hskim-precision-digital-care",
+   "date": "2026-04",
+   "field": {
+    "ko": "의료·헬스케어 로봇",
+    "en": "Medical & Healthcare Robotics"
+   },
+   "lab": {
+    "ko": "김홍수",
+    "en": "Hongsoo Kim"
+   },
+   "title": {
+    "ko": "혼자 사는 어르신에게 맞는 돌봄 프로그램을 골라 주는 강화학습 모델",
+    "en": "Personalized Digital Care Program Allocation for Older Adults: Reinforcement Learning-Based Simulation Study"
+   },
+   "summary": {
+    "ko": "AI 안부 전화(케어콜) 서비스에서 어르신 개인의 특성과 변화하는 필요에 맞춰 디지털 돌봄 프로그램을 배정하는 강화학습(톰슨 샘플링 기반 컨텍스추얼 밴딧) 모델을 제안했습니다. 두 데이터셋을 이용한 시뮬레이션에서 일률적으로 배정하는 방식보다 통화 성공률이 84.2%·54.4% 높아지고 우울 선별 점수(PHQ-2)는 32.1%·41.4% 낮아졌습니다.",
+    "en": "The team proposed a reinforcement-learning model (contextual bandits with Thompson Sampling) that assigns digital care programs within an AI care call service according to each older adult's characteristics and changing needs. In simulations on two datasets it raised call success rates by 84.2% and 54.4% and lowered PHQ-2 depression scores by 32.1% and 41.4% compared with systematic allocation."
+   },
+   "people": {
+    "ko": "Aging Health Policy & Systems Research Lab (AgeLab)",
+    "en": "Aging Health Policy & Systems Research Lab (AgeLab)"
+   },
+   "venue": "JMIR Aging",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Personalized Digital Care Program Allocation for Older Adults: Reinforcement Learning-Based Simulation Study",
+      "en": "Personalized Digital Care Program Allocation for Older Adults: Reinforcement Learning-Based Simulation Study"
+     },
+     "source": {
+      "ko": "JMIR Aging",
+      "en": "JMIR Aging"
+     },
+     "url": "https://doi.org/10.2196/86710"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Personalized Digital Care Program Allocation for Older Adults: Reinforcement Learning-Based Simulation Study (전문)",
+      "en": "Personalized Digital Care Program Allocation for Older Adults: Reinforcement Learning-Based Simulation Study (full text)"
+     },
+     "source": {
+      "ko": "PubMed Central",
+      "en": "PubMed Central"
+     },
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13122136/"
+    }
+   ]
+  },
+  {
+   "id": "hskim-bandit-care-planning",
+   "date": "2023-06",
+   "field": {
+    "ko": "의료·헬스케어 로봇",
+    "en": "Medical & Healthcare Robotics"
+   },
+   "lab": {
+    "ko": "김홍수",
+    "en": "Hongsoo Kim"
+   },
+   "title": {
+    "ko": "요양시설 어르신의 돌봄 계획 수립을 돕는 AI 모델",
+    "en": "Bandit-supported care planning for older people with complex health and care needs"
+   },
+   "summary": {
+    "ko": "돌봄 인력이 부족한 요양시설에서 입소 어르신 개개인에게 맞는 돌봄 계획을 세울 수 있도록, 과거 결정에 대한 피드백을 학습해 임상적 의사결정을 최적화하는 밴딧 알고리즘 기반 돌봄 계획 지원 모델을 제안했습니다. ICT 기반 케어 매니지먼트 프로그램인 SPEC 연구의 실제 자료로 모델을 평가했습니다.",
+    "en": "For nursing homes short of care workers, the team proposed an AI-assisted care planning model that uses bandit algorithms to optimize clinical decisions by learning from feedback on past decisions, so that residents can receive care suited to their individual needs. The model was evaluated on empirical data from the SPEC study, an ICT-enhanced care management program."
+   },
+   "people": {
+    "ko": "Aging Health Policy & Systems Research Lab (AgeLab)",
+    "en": "Aging Health Policy & Systems Research Lab (AgeLab)"
+   },
+   "venue": "IEEE AICAS 2023",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Bandit-supported care planning for older people with complex health and care needs",
+      "en": "Bandit-supported care planning for older people with complex health and care needs"
+     },
+     "source": {
+      "ko": "IEEE AICAS 2023",
+      "en": "IEEE AICAS 2023"
+     },
+     "url": "https://doi.org/10.1109/AICAS57966.2023.10168530"
+    },
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Bandit-supported care planning for older people with complex health and care needs (프리프린트)",
+      "en": "Bandit-supported care planning for older people with complex health and care needs (preprint)"
+     },
+     "source": {
+      "ko": "arXiv",
+      "en": "arXiv"
+     },
+     "url": "https://arxiv.org/abs/2303.07053"
+    }
+   ]
+  },
+  {
+   "id": "hskim-ai-aging-scoping-review",
+   "date": "2025-02",
+   "field": {
+    "ko": "인간·사회와 로봇",
+    "en": "Humans, Society & Robots"
+   },
+   "lab": {
+    "ko": "김홍수",
+    "en": "Hongsoo Kim"
+   },
+   "title": {
+    "ko": "국내 노인 건강·돌봄 분야 인공지능 연구 동향 분석",
+    "en": "Artificial Intelligence Research in Health and Care for Older Adults in Korea: A Scoping Review"
+   },
+   "summary": {
+    "ko": "한국 노인을 대상으로 한 건강·돌봄 분야 인공지능 연구 36편을 주제범위 문헌고찰 방법으로 분석해 중재, 수용성, 예측 분석 연구로 분류했습니다. 중재 연구는 모두 로봇을 활용했고 우울과 일상생활 능력에는 긍정적 효과가 보고되었으나 인지 기능에 대한 결과는 일관되지 않았으며, 연구 주제의 다양화와 방법론 강화가 필요하다고 제언했습니다.",
+    "en": "A scoping review of 36 studies on artificial intelligence in health and care for older adults in Korea, grouped into intervention, acceptability and predictive-analysis studies. All intervention studies used robots and reported positive effects on depression and daily living ability but inconsistent results for cognitive function; the authors call for more diverse topics and stronger methods."
+   },
+   "people": {
+    "ko": "Aging Health Policy & Systems Research Lab (AgeLab)",
+    "en": "Aging Health Policy & Systems Research Lab (AgeLab)"
+   },
+   "venue": "한국노년학",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "한국 노인 대상 건강·돌봄 분야 인공지능 연구동향 분석: 주제범위 문헌고찰",
+      "en": "Artificial Intelligence Research in Health and Care for Older Adults in Korea: A Scoping Review"
+     },
+     "source": {
+      "ko": "한국노년학 (DBpia)",
+      "en": "Journal of the Korean Gerontological Society (DBpia)"
+     },
+     "url": "https://doi.org/10.31888/JKGS.2025.45.1.001"
+    }
+   ]
+  },
+  {
+   "id": "hwpark-abs-automated-judgment",
+   "date": "2026-04",
+   "field": {
+    "ko": "인간·사회와 로봇",
+    "en": "Humans, Society & Robots"
+   },
+   "lab": {
+    "ko": "박현우",
+    "en": "Hyunwoo Park"
+   },
+   "title": {
+    "ko": "프로야구 '로봇 심판'(ABS) 도입에 심판·선수·팬은 어떻게 적응했나",
+    "en": "From Ballpark to Society: Understanding Stakeholders’ Adaptation to Automated Judgment via ABS in Baseball"
+   },
+   "summary": {
+    "ko": "KBO 리그가 도입한 자동 볼 판정 시스템(ABS)을 사례로, 심판·선수·코치·팬 등 이해관계자 38명을 인터뷰해 AI 판정에 대한 적응 과정을 분석했습니다. 수용 여부는 정확도보다 검증 가능한 일관성에 달려 있었고, 선수는 전략을 다시 맞춰야 하는 부담을, 심판은 권위 약화를 겪는 등 적응 부담이 재분배되었음을 밝히고 투명성과 역할 재구성을 강조하는 거버넌스 원칙을 제안했습니다.",
+    "en": "Taking the Korea Baseball Organization's league-wide Automated Ball-Strike System (ABS) as a case, the team interviewed 38 stakeholders (umpires, players, coaches and fans) about adapting to an AI adjudicator. Acceptance depended less on accuracy than on verifiable consistency, while adaptive burdens were redistributed: players had to recalibrate strategies and umpires faced diminished authority. The paper proposes governance principles centred on transparency and adaptive role reconfiguration."
+   },
+   "people": {
+    "ko": "Data Intelligence and Learning Lab",
+    "en": "Data Intelligence and Learning Lab"
+   },
+   "venue": "CHI 2026",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "From Ballpark to Society: Understanding Stakeholders’ Adaptation to Automated Judgment via ABS in Baseball",
+      "en": "From Ballpark to Society: Understanding Stakeholders’ Adaptation to Automated Judgment via ABS in Baseball"
+     },
+     "source": {
+      "ko": "ACM CHI 2026",
+      "en": "ACM CHI 2026"
+     },
+     "url": "https://doi.org/10.1145/3772318.3791249"
+    }
+   ]
+  },
+  {
+   "id": "jhlee-telepresence-family",
+   "date": "2024-05",
+   "field": {
+    "ko": "인간·사회와 로봇",
+    "en": "Humans, Society & Robots"
+   },
+   "lab": {
+    "ko": "이준환",
+    "en": "Joonhwan Lee"
+   },
+   "title": {
+    "ko": "멀리 떨어져 사는 가족을 이어 주는 텔레프레즌스 로봇",
+    "en": "I feel being there, they feel being together: Exploring How Telepresence Robots Facilitate Long-Distance Family Communication"
+   },
+   "summary": {
+    "ko": "떨어져 사는 여덟 가족의 집에 텔레프레즌스 로봇을 2주간 두고, 가족 간 상호작용 영상과 사전·사후 인터뷰를 분석했습니다. 로봇의 물리적 몸체와 자율적 이동 덕분에 여럿이 함께하는 대화, 집 둘러보기, 가족 일과 되살리기, 도움 주기, 함께하는 신체 활동 등 다섯 가지 유형의 상호작용이 나타났으며, 이를 바탕으로 가족 소통용 텔레프레즌스 로봇의 디자인 지침을 제시했습니다.",
+    "en": "The team placed telepresence robots with eight long-distance families for two weeks and analyzed videos of their interactions and pre- and post-deployment interviews. Physical embodiment and autonomy enabled five kinds of family interaction: multi-party communication, exploring the home, restoring family routines, providing support and joint physical activities. The paper presents design guidelines for telepresence robots as family communication tools."
+   },
+   "people": {
+    "ko": "Human-Computer Interaction+Design Lab.",
+    "en": "Human-Computer Interaction+Design Lab."
+   },
+   "venue": "CHI 2024",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "I feel being there, they feel being together: Exploring How Telepresence Robots Facilitate Long-Distance Family Communication",
+      "en": "I feel being there, they feel being together: Exploring How Telepresence Robots Facilitate Long-Distance Family Communication"
+     },
+     "source": {
+      "ko": "ACM CHI 2024",
+      "en": "ACM CHI 2024"
+     },
+     "url": "https://doi.org/10.1145/3613904.3642305"
+    }
+   ]
+  },
+  {
+   "id": "jhlee-groupfeedbot",
+   "date": "2020-04",
+   "field": {
+    "ko": "인간·사회와 로봇",
+    "en": "Humans, Society & Robots"
+   },
+   "lab": {
+    "ko": "이준환",
+    "en": "Joonhwan Lee"
+   },
+   "title": {
+    "ko": "단체 채팅 토론을 진행해 주는 챗봇 GroupfeedBot",
+    "en": "Bot in the Bunch: Facilitating Group Chat Discussion by Improving Efficiency and Participation with a Chatbot"
+   },
+   "summary": {
+    "ko": "단체 채팅방 토론에서 시간을 관리하고, 구성원이 고르게 참여하도록 독려하며, 의견을 정리해 주는 진행자 챗봇 GroupfeedBot을 만들었습니다. 과제와 그룹 크기를 달리한 예비 사용자 실험에서 챗봇이 있는 그룹은 더 다양한 의견을 냈고, 중간 크기 그룹에서는 고른 참여와 효과적인 소통이 촉진되었습니다.",
+    "en": "The team built GroupfeedBot, a facilitator chatbot that manages discussion time, encourages members to participate evenly and organizes opinions in group chats. In preliminary user studies across tasks and group sizes, groups with the chatbot showed more diverse opinions, and in medium-sized groups it promoted even participation and effective communication."
+   },
+   "people": {
+    "ko": "Human-Computer Interaction+Design Lab.",
+    "en": "Human-Computer Interaction+Design Lab."
+   },
+   "venue": "CHI 2020",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Bot in the Bunch: Facilitating Group Chat Discussion by Improving Efficiency and Participation with a Chatbot",
+      "en": "Bot in the Bunch: Facilitating Group Chat Discussion by Improving Efficiency and Participation with a Chatbot"
+     },
+     "source": {
+      "ko": "ACM CHI 2020",
+      "en": "ACM CHI 2020"
+     },
+     "url": "https://doi.org/10.1145/3313831.3376785"
+    }
+   ]
+  },
+  {
+   "id": "jhlee-newsrobot",
+   "date": "2020-04",
+   "field": {
+    "ko": "인간·사회와 로봇",
+    "en": "Humans, Society & Robots"
+   },
+   "lab": {
+    "ko": "이준환",
+    "en": "Joonhwan Lee"
+   },
+   "title": {
+    "ko": "올림픽 소식을 자동으로 쓰는 '로봇 기자'를 독자는 어떻게 받아들이나",
+    "en": "Understanding User Perception of Automated News Generation System"
+   },
+   "summary": {
+    "ko": "2018 평창 동계올림픽의 주요 경기 소식을 실시간으로 자동 생성하는 연구용 시스템 NewsRobot을 만들고, 30명이 사용한 뒤 설문과 인터뷰에 참여했습니다. 사용자는 개인 맞춤형 뉴스를 선호하면서도 신뢰도는 낮게 보았고, 자동 생성 뉴스가 사실적이고 정확하지만 깊이는 얕다고 평가했습니다.",
+    "en": "The team designed NewsRobot, a research prototype that automatically generated real-time news on major events of the PyeongChang 2018 Winter Olympic Games, and studied 30 users through surveys and interviews. Users preferred individualized news yet considered it less credible, and saw the automated news as factual and accurate but shallow in depth."
+   },
+   "people": {
+    "ko": "Human-Computer Interaction+Design Lab.",
+    "en": "Human-Computer Interaction+Design Lab."
+   },
+   "venue": "CHI 2020",
+   "links": [
+    {
+     "type": "paper",
+     "title": {
+      "ko": "Understanding User Perception of Automated News Generation System",
+      "en": "Understanding User Perception of Automated News Generation System"
+     },
+     "source": {
+      "ko": "ACM CHI 2020",
+      "en": "ACM CHI 2020"
+     },
+     "url": "https://doi.org/10.1145/3313831.3376811"
     }
    ]
   }
