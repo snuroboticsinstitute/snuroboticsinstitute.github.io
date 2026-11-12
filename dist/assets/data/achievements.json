@@ -926,169 +926,6 @@
    ]
   },
   {
-   "id": "lim-tracking-benchmark",
-   "date": "2023-06",
-   "field": {
-    "ko": "로봇 비전·인식",
-    "en": "Robot Vision & Perception"
-   },
-   "lab": {
-    "ko": "임종우",
-    "en": "Jongwoo Lim"
-   },
-   "title": {
-    "ko": "물체 추적 연구의 표준이 된 벤치마크, 롱게-히긴스상 수상",
-    "en": "Online Object Tracking: A Benchmark"
-   },
-   "summary": {
-    "ko": "CVPR 2013에 발표한 시각 물체 추적 벤치마크로, 추적 알고리즘 평가의 표준으로 쓰이고 있습니다. 10년간 가장 영향력이 컸던 CVPR 논문에 주는 롱게-히긴스상(Longuet-Higgins Prize)을 2023년에 받았습니다.",
-    "en": "A visual object tracking benchmark published at CVPR 2013 that became a standard for evaluating trackers. It received the 2023 Longuet-Higgins Prize, a test-of-time award for influential CVPR papers from ten years earlier."
-   },
-   "people": {
-    "ko": "Robot Vision Laboratory",
-    "en": "Robot Vision Laboratory"
-   },
-   "venue": "CVPR 2013",
-   "image": "/assets/highlights/lim-tracking-benchmark.jpg",
-   "links": [
-    {
-     "type": "award",
-     "title": {
-      "ko": "2023 롱게-히긴스상 (IEEE PAMI TC)",
-      "en": "2023 Longuet-Higgins Prize (IEEE PAMI TC)"
-     },
-     "source": {
-      "ko": "IEEE Computer Society TCPAMI",
-      "en": "IEEE Computer Society TCPAMI"
-     },
-     "url": "https://tc.computer.org/tcpami/awards/longuet-higgins-prize/"
-    },
-    {
-     "type": "paper",
-     "title": {
-      "ko": "Online Object Tracking: A Benchmark (CVPR 2013)",
-      "en": "Online Object Tracking: A Benchmark (CVPR 2013)"
-     },
-     "source": {
-      "ko": "CVF Open Access",
-      "en": "CVF Open Access"
-     },
-     "url": "https://openaccess.thecvf.com/content_cvpr_2013/html/Wu_Online_Object_Tracking_2013_CVPR_paper.html"
-    },
-    {
-     "type": "article",
-     "title": {
-      "ko": "Visual Tracker Benchmark 데이터셋 페이지",
-      "en": "Visual Tracker Benchmark dataset page"
-     },
-     "source": {
-      "ko": "SNU Robot Vision Lab",
-      "en": "SNU Robot Vision Lab"
-     },
-     "url": "https://rvlab.snu.ac.kr/research/tracker_benchmark"
-    }
-   ]
-  },
-  {
-   "id": "lim-omnislam",
-   "date": "2020-03",
-   "field": {
-    "ko": "로봇 비전·인식",
-    "en": "Robot Vision & Perception"
-   },
-   "lab": {
-    "ko": "임종우",
-    "en": "Jongwoo Lim"
-   },
-   "title": {
-    "ko": "어안 카메라 4대로 360도 3차원 지도를 만드는 OmniSLAM",
-    "en": "OmniSLAM: Omnidirectional Localization and Dense Mapping for Wide-baseline Multi-camera Systems"
-   },
-   "summary": {
-    "ko": "초광각 어안 카메라 4대로 360도 깊이와 위치를 추정하고 대규모 3차원 지도를 만드는 시스템으로, 깊이 추정 신경망 OmniMVS(ICCV 2019)를 바탕으로 합니다. ICRA 2020 로봇 비전 최우수 논문상 최종 후보에 올랐고, 이 기술로 창업 기업 멀티플아이(MultiplEYE)가 설립되었습니다.",
-    "en": "A system that estimates 360-degree depth and camera pose with four ultra-wide fisheye cameras and builds large-scale 3D maps, built on the OmniMVS depth network (ICCV 2019). It was a finalist for the ICRA 2020 Best Paper Award in Robot Vision, and the technology led to the start-up MultiplEYE."
-   },
-   "people": {
-    "ko": "Robot Vision Laboratory",
-    "en": "Robot Vision Laboratory"
-   },
-   "venue": "ICRA 2020",
-   "image": "/assets/highlights/lim-omnislam.jpg",
-   "links": [
-    {
-     "type": "paper",
-     "title": {
-      "ko": "OmniSLAM (ICRA 2020)",
-      "en": "OmniSLAM (ICRA 2020)"
-     },
-     "source": {
-      "ko": "IEEE Xplore",
-      "en": "IEEE Xplore"
-     },
-     "url": "https://ieeexplore.ieee.org/document/9196695"
-    },
-    {
-     "type": "award",
-     "title": {
-      "ko": "ICRA 2020 로봇 비전 최우수 논문상 최종 후보",
-      "en": "ICRA 2020 Best Paper Award in Robot Vision finalist"
-     },
-     "source": {
-      "ko": "ICRA 2020",
-      "en": "ICRA 2020"
-     }
-    },
-    {
-     "type": "video",
-     "title": {
-      "ko": "OmniSLAM: Omnidirectional Localization and Dense Mapping, ICRA 2020",
-      "en": "OmniSLAM: Omnidirectional Localization and Dense Mapping, ICRA 2020"
-     },
-     "source": {
-      "ko": "YouTube",
-      "en": "YouTube"
-     },
-     "url": "https://www.youtube.com/watch?v=RFhH4j0gzsI"
-    },
-    {
-     "type": "paper",
-     "title": {
-      "ko": "OmniMVS: End-to-End Learning for Omnidirectional Stereo Matching (ICCV 2019)",
-      "en": "OmniMVS: End-to-End Learning for Omnidirectional Stereo Matching (ICCV 2019)"
-     },
-     "source": {
-      "ko": "CVF Open Access",
-      "en": "CVF Open Access"
-     },
-     "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Won_OmniMVS_End-to-End_Learning_for_Omnidirectional_Stereo_Matching_ICCV_2019_paper.html"
-    },
-    {
-     "type": "video",
-     "title": {
-      "ko": "OmniMVS: End-to-End Learning for Omnidirectional Stereo Matching, ICCV 2019",
-      "en": "OmniMVS: End-to-End Learning for Omnidirectional Stereo Matching, ICCV 2019"
-     },
-     "source": {
-      "ko": "YouTube",
-      "en": "YouTube"
-     },
-     "url": "https://www.youtube.com/watch?v=6DKen2MQocQ"
-    },
-    {
-     "type": "article",
-     "title": {
-      "ko": "어안 카메라를 이용한 전방위 깊이·움직임 추정 (서울대 공대 연구 하이라이트 웹진)",
-      "en": "Omnidirectional Depth and Motion Estimation Using Fisheye Cameras for Autonomous Navigation and Large-scale 3D Modeling"
-     },
-     "source": {
-      "ko": "서울대학교 공과대학 웹진 Vol.06",
-      "en": "SNU College of Engineering webzine, Vol.06"
-     },
-     "url": "https://webzine-eng.snu.ac.kr/web/snu_en/vol.06/snu_06.html"
-    }
-   ]
-  },
-  {
    "id": "cho-body-powered",
    "date": "2021-08",
    "field": {
@@ -1571,162 +1408,6 @@
    ]
   },
   {
-   "id": "jkim-walk-run-exosuit",
-   "date": "2019-08",
-   "field": {
-    "ko": "웨어러블 로봇",
-    "en": "Wearable Robotics"
-   },
-   "lab": {
-    "ko": "김진수",
-    "en": "Jinsoo Kim"
-   },
-   "title": {
-    "ko": "걷기와 달리기를 모두 돕는 휴대형 소프트 엑소수트",
-    "en": "Reducing the metabolic rate of walking and running with a versatile, portable exosuit"
-   },
-   "summary": {
-    "ko": "엉덩관절을 펴는 힘을 보조하는 휴대형 소프트 엑소수트로, 착용자의 무게중심 움직임을 추정해 걷기와 달리기에 맞는 보조 방식을 자동으로 전환합니다. 트레드밀 실험에서 착용하지 않았을 때보다 대사율이 걷기(1.5 m/s)에서 9.3%, 달리기(2.5 m/s)에서 4.0% 줄었습니다. 김진수 교수가 하버드대 Conor Walsh 교수 연구실 재직 시 제1저자로 수행한 연구입니다.",
-    "en": "A portable soft exosuit that assists hip extension and switches automatically between walking and running assistance by estimating the motion of the wearer's centre of mass. In treadmill tests it lowered metabolic rate by 9.3% for walking at 1.5 m/s and 4.0% for running at 2.5 m/s compared with no exosuit. Prof. Jinsoo Kim was first author of this work, carried out in Conor Walsh's group at Harvard University."
-   },
-   "people": {
-    "ko": "Wearable Robotics Laboratory",
-    "en": "Wearable Robotics Laboratory"
-   },
-   "venue": "Science",
-   "image": "/assets/highlights/jkim-walk-run-exosuit.jpg",
-   "links": [
-    {
-     "type": "paper",
-     "title": {
-      "ko": "Reducing the metabolic rate of walking and running with a versatile, portable exosuit",
-      "en": "Reducing the metabolic rate of walking and running with a versatile, portable exosuit"
-     },
-     "source": {
-      "ko": "Science",
-      "en": "Science"
-     },
-     "url": "https://doi.org/10.1126/science.aav7536"
-    },
-    {
-     "type": "article",
-     "title": {
-      "ko": "Suit up with a robot to walk AND run more easily",
-      "en": "Suit up with a robot to walk AND run more easily"
-     },
-     "source": {
-      "ko": "Wyss Institute, Harvard University",
-      "en": "Wyss Institute, Harvard University"
-     },
-     "url": "https://wyss.harvard.edu/news/suit-up-with-a-robot-to-walk-and-run-more-easily/"
-    }
-   ]
-  },
-  {
-   "id": "jkim-parkinson-freezing-apparel",
-   "date": "2024-01",
-   "field": {
-    "ko": "웨어러블 로봇",
-    "en": "Wearable Robotics"
-   },
-   "lab": {
-    "ko": "김진수",
-    "en": "Jinsoo Kim"
-   },
-   "title": {
-    "ko": "파킨슨병 환자의 보행 동결을 막는 입는 소프트 로봇",
-    "en": "Soft robotic apparel to avert freezing of gait in Parkinson’s disease"
-   },
-   "summary": {
-    "ko": "케이블 구동기와 센서를 넣은 의복형 소프트 로봇으로 엉덩관절 굽힘을 보조해, 걷다가 갑자기 발이 떨어지지 않는 파킨슨병의 '보행 동결'을 막을 수 있음을 개념 증명했습니다. 73세 환자 한 명을 6개월에 걸쳐 반복 측정한 결과, 보조를 켠 실내 보행에서 보행 동결이 나타나지 않았고(보조 없을 때 보행 시간의 39 ± 16%) 보행 거리와 속도도 늘었습니다. 김진수 교수가 하버드대 재직 시 제1저자로 수행한 연구입니다.",
-    "en": "A proof-of-concept study showing that a garment-like soft robot with cable-driven actuators and sensors, assisting hip flexion, can avert freezing of gait, the sudden unintended stops that occur in Parkinson's disease. In repeated measurements over six months with one 73-year-old participant, freezing did not occur during assisted indoor walking (versus 39 ± 16% of walking time unassisted), and walking distance and speed increased. Prof. Jinsoo Kim was first author of this work, carried out at Harvard University."
-   },
-   "people": {
-    "ko": "Wearable Robotics Laboratory",
-    "en": "Wearable Robotics Laboratory"
-   },
-   "venue": "Nature Medicine",
-   "image": "/assets/highlights/jkim-parkinson-freezing-apparel.jpg",
-   "links": [
-    {
-     "type": "paper",
-     "title": {
-      "ko": "Soft robotic apparel to avert freezing of gait in Parkinson’s disease",
-      "en": "Soft robotic apparel to avert freezing of gait in Parkinson’s disease"
-     },
-     "source": {
-      "ko": "Nature Medicine",
-      "en": "Nature Medicine"
-     },
-     "url": "https://doi.org/10.1038/s41591-023-02731-8"
-    },
-    {
-     "type": "video",
-     "title": {
-      "ko": "Scientists Make Walking Easier for Parkinson's Patients",
-      "en": "Scientists Make Walking Easier for Parkinson's Patients"
-     },
-     "source": {
-      "ko": "YouTube (Harvard SEAS)",
-      "en": "YouTube (Harvard SEAS)"
-     },
-     "url": "https://www.youtube.com/watch?v=pAWrypkeDXM"
-    },
-    {
-     "type": "article",
-     "title": {
-      "ko": "Soft robotic, wearable device improves walking for individual with Parkinson’s disease",
-      "en": "Soft robotic, wearable device improves walking for individual with Parkinson’s disease"
-     },
-     "source": {
-      "ko": "Wyss Institute, Harvard University",
-      "en": "Wyss Institute, Harvard University"
-     },
-     "url": "https://wyss.harvard.edu/news/soft-robotic-wearable-device-improves-walking-for-individual-with-parkinsons-disease/"
-    }
-   ]
-  },
-  {
-   "id": "jkim-hip-flexion-exosuit",
-   "date": "2022-06",
-   "field": {
-    "ko": "웨어러블 로봇",
-    "en": "Wearable Robotics"
-   },
-   "lab": {
-    "ko": "김진수",
-    "en": "Jinsoo Kim"
-   },
-   "title": {
-    "ko": "적은 힘으로 걷기 에너지 소모를 줄이는 엉덩관절 굽힘 보조 엑소수트",
-    "en": "Reducing the energy cost of walking with low assistance levels through optimized hip flexion assistance from a soft exosuit"
-   },
-   "summary": {
-    "ko": "사람의 대사율을 실시간으로 추정해 보조 방식을 개인별로 맞추는 최적화 기법(human-in-the-loop)을 엉덩관절 굽힘 보조에 적용했습니다. 유선 엑소수트는 평균 89 N의 낮은 보조력으로 보조를 껐을 때보다 걷기 대사율을 최대 15.2% 줄였고, 이를 바탕으로 만든 2.31 kg 휴대형 엑소수트는 착용하지 않았을 때보다 7.2% 줄였습니다. 김진수 교수가 하버드대 재직 시 제1저자로 수행한 연구입니다.",
-    "en": "The study applied human-in-the-loop optimization, which personalizes assistance from real-time estimates of metabolic rate, to hip flexion. A tethered exosuit reduced the metabolic rate of walking by up to 15.2% relative to assistance turned off, using low forces (89 N on average), and a 2.31 kg portable exosuit built on these findings gave a 7.2% reduction compared with walking without it. Prof. Jinsoo Kim was first author of this work, carried out at Harvard University."
-   },
-   "people": {
-    "ko": "Wearable Robotics Laboratory",
-    "en": "Wearable Robotics Laboratory"
-   },
-   "venue": "Scientific Reports",
-   "image": "/assets/highlights/jkim-hip-flexion-exosuit.jpg",
-   "links": [
-    {
-     "type": "paper",
-     "title": {
-      "ko": "Reducing the energy cost of walking with low assistance levels through optimized hip flexion assistance from a soft exosuit",
-      "en": "Reducing the energy cost of walking with low assistance levels through optimized hip flexion assistance from a soft exosuit"
-     },
-     "source": {
-      "ko": "Scientific Reports",
-      "en": "Scientific Reports"
-     },
-     "url": "https://doi.org/10.1038/s41598-022-14784-9"
-    }
-   ]
-  },
-  {
    "id": "han-ecad",
    "date": "2025-06",
    "field": {
@@ -1735,7 +1416,7 @@
    },
    "lab": {
     "ko": "한경원",
-    "en": "Amy Kyungwon Han"
+    "en": "Kyungwon Han"
    },
    "title": {
     "ko": "심장을 감싸 박동을 돕는 저전력 전기활성 고분자 심장 보조 장치",
@@ -1787,7 +1468,7 @@
    },
    "lab": {
     "ko": "한경원",
-    "en": "Amy Kyungwon Han"
+    "en": "Kyungwon Han"
    },
    "title": {
     "ko": "상대정맥을 바깥에서 조여 심장 부담을 줄이는 형상기억합금 이식형 장치",
@@ -1851,7 +1532,7 @@
    },
    "lab": {
     "ko": "한경원",
-    "en": "Amy Kyungwon Han"
+    "en": "Kyungwon Han"
    },
    "title": {
     "ko": "수술 로봇 집게가 조직의 미끄러짐을 감지하게 하는 광학식 슬립 센서",
