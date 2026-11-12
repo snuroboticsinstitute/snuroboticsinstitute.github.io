@@ -594,6 +594,13 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
 .robots-grid a:hover h3{text-decoration:underline;text-underline-offset:.2em}
 @media (max-width:900px){.robots-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:520px){.robots-grid h3{font-size:14.5px}.robots-grid .tx{padding:10px 10px 12px}}
+
+/* NRL home: introduction, TC + PG and faculty stacked on one long page */
+.page.in-stack{padding-bottom:40px}
+.page.in-stack~.page.in-stack{padding-top:8px}
+.page.in-stack~.page.in-stack .pg-head{border-top:1px solid var(--line);padding-top:48px}
+.page.in-stack~.page.in-stack .crumb{display:none}
+.page.in-stack:last-of-type{padding-bottom:96px}
 </style>
 </head>
 <body>
@@ -629,7 +636,7 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
         <li class="m-only"><a class="site-pill nrl" href="#/nrl/" aria-label="국가연구소 NRL 2.0 사이트"><img src="assets/5829220a7c.png" alt="" width="70" height="21"></a></li><li class="m-only"><a class="site-pill ced" href="#/ced/"><span>창의공학설계</span></a></li>
       </ul>
       <ul data-for="nrl">
-        <li><a href="#/nrl/" data-sec="/nrl/" data-exact>소개</a></li>
+        <li><a href="#/nrl/about/" data-sec="/nrl/about/" data-exact>소개</a></li>
         <li><a href="#/nrl/tc-pg/" data-sec="/nrl/tc-pg/">TC + PG</a></li>
         <li><a href="#/nrl/faculty/" data-sec="/nrl/faculty/">교수진</a></li>
         <li class="m-only"><a class="site-pill back" href="#/">← 로보틱스연구소</a></li>
@@ -1147,6 +1154,7 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
   const resolve = h => {
     let path = (h || '').replace(/^#/, '') || '/';
     if (!path.startsWith('/')) path = '/' + path;
+    if (path === '/nrl/about/') return { page: byRoute.get('/nrl/'), anchor: '', solo: true };
     if (byRoute.has(path)) return { page: byRoute.get(path), anchor: '' };
     const cut = path.replace(/\/$/, '').lastIndexOf('/');
     const base = path.slice(0, cut + 1), tail = path.slice(cut + 1).replace(/\/$/, '');
@@ -1154,17 +1162,23 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
     return { page: byRoute.get('/'), anchor: '' };
   };
   let current = null;
+  // the NRL site is short: its home (#/nrl/) shows introduction, TC + PG and faculty one after another;
+  // a menu item shows that part alone
+  const NRL_STACK = ['/nrl/', '/nrl/tc-pg/', '/nrl/faculty/'].map(r => byRoute.get(r));
   const show = () => {
-    const { page, anchor } = resolve(location.hash);
-    const changed = page !== current;
+    const { page, anchor, solo } = resolve(location.hash);
+    const stack = page.dataset.route === '/nrl/' && !solo;
+    const key = page.dataset.route + (stack ? '+' : '');
+    const changed = key !== current;
     if (changed) {
-      pages.forEach(p => { p.hidden = p !== page; });
-      current = page;
+      const group = stack ? NRL_STACK : [page];
+      pages.forEach(p => { p.hidden = !group.includes(p); p.classList.toggle('in-stack', stack && group.includes(p)); });
+      current = key;
       document.body.dataset.site = page.dataset.site;
       const site = page.dataset.site;
       document.title = page.dataset.route === '/' ? '서울대학교 로보틱스연구소' : ['/nrl/', '/ced/'].includes(page.dataset.route) ? (site === 'nrl' ? '국가연구소 NRL 2.0 | 서울대학교 로보틱스연구소' : '창의공학설계 | 서울대학교') :
         page.dataset.title + ' | ' + (site === 'nrl' ? '국가연구소 NRL 2.0' : site === 'ced' ? '창의공학설계' : '서울대학교 로보틱스연구소');
-      const route = page.dataset.route;
+      const route = solo ? '/nrl/about/' : stack ? '/nrl/#all' : page.dataset.route;
       nav.querySelectorAll('a[data-sec]').forEach(a => {
         const hit = a.hasAttribute('data-exact') ? route === a.dataset.sec : a.dataset.sec.split(' ').some(s => route.startsWith(s));
         if (hit) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
