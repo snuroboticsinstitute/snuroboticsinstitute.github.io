@@ -997,5 +997,3 @@ html[lang=en] body main .updates-content>.updates-grid[data-layout] .update-copy
 html[lang=en] body main .updates-content>.updates-grid[data-layout] .update-copy>p{font-size:15px;line-height:1.75}
 html[lang] body main .overview-section>p.engage-soon:not(.about-kicker),html[lang] body main .engage-content p{font-size:16px;line-height:1.95}
 @media(max-width:680px){html[lang] body main nav.updates-tabs a{font-size:15px;min-height:52px;padding:10px 6px}html[lang=en] body main .updates-content>.updates-grid[data-layout] .update-copy h2{font-size:17px}}
-
-.home-quick-links .shortcut-slogan{display:block;margin-top:2px;color:var(--yellow);font-size:14px;font-style:italic;font-weight:500;line-height:1.5}
