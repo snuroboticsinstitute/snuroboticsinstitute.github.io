@@ -20,3 +20,4 @@
 - 디자인 사이트 홈의 "주요 연구성과" 구역은 `dist/assets/data/achievements.json`에서 `"home": 숫자`가 붙은 성과만 숫자 순서대로 보여 줍니다(지금 6건). 홈에 올리거나 내리려면 이 값을 넣거나 지웁니다. 고르는 기준(2026-11-12 사용자 지시): 최근 성과 위주로, 한 연구실에서 최대 2건, 오래된 성과는 올리지 않습니다. 기본 사이트는 이 값을 쓰지 않습니다. 카드를 누르면 `#/research/achievements/achievement-<id>`로 이동합니다.
 - 디자인 사이트의 국가연구소(2026-11-12 사용자 지시): 홈 `#/nrl/`은 소개 → TC + PG → 교수진을 한 화면에 이어서 보여 줍니다(스크롤). 메뉴를 누르면 그 부분만 보입니다: 소개 `#/nrl/about/`, TC + PG `#/nrl/tc-pg/`, 교수진 `#/nrl/faculty/`. 라우터의 `NRL_STACK`이 이 동작을 맡습니다.
 - 디자인 사이트 사람들 › 운영 카드에는 사진 자리(`<div class="ph" data-i="성 첫 글자"></div>`)가 있습니다. 사진을 받으면 그 안에 `<img src="/assets/people/<파일>.jpg" alt="" width="64" height="80" loading="lazy">`를 넣습니다(사진은 `dist/assets/people/`, 세로형 4:5).
+- 디자인 사이트에는 교육 › 인재양성과정 페이지가 없습니다(2026-11-16 사용자 지시로 삭제). 기본 사이트의 인재양성과정(`/education/talent-development/`)은 그대로 둡니다.
