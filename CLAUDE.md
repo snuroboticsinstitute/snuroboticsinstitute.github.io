@@ -22,4 +22,4 @@
 - 디자인 사이트 사람들 › 운영 카드에는 사진 자리(`<div class="ph" data-i="성 첫 글자"></div>`)가 있습니다. 사진을 받으면 그 안에 `<img src="/assets/people/<파일>.jpg" alt="" width="64" height="80" loading="lazy">`를 넣습니다(사진은 `dist/assets/people/`, 세로형 4:5).
 - 디자인 사이트에는 교육 › 인재양성과정 페이지가 없습니다(2026-11-16 사용자 지시로 삭제). 기본 사이트의 인재양성과정(`/education/talent-development/`)은 그대로 둡니다.
 - 영문 디자인 사이트는 `dist/design/en/index.html`(https://snuroboticsinstitute.github.io/design/en/)이고 지금은 첫 페이지만 있습니다(2026-11-16). 국문 디자인 홈과 같은 구성이며 자산은 `../assets/`를 씁니다. 메뉴와 링크는 아직 영문 기본 사이트(`/en/...`)로 연결됩니다. 국문 디자인 홈(구성, 소식 카드, Research Highlights)을 바꾸면 이 파일도 함께 맞춥니다. 머리글의 창의공학설계 단추는 폭 때문에 "CED"로 줄여 씁니다.
-- 디자인 사이트 소식 › 언론보도 카드는 `<li class="card text" data-kind="press">` 형식(사진 대신 언론사 이름)이고 날짜순으로 넣습니다. 추가하면 `data-show="all"`의 전체 건수도 고칩니다. 제목의 "[단독]" 같은 머리말은 뺍니다.
+- 디자인 사이트 소식 › 언론보도 카드는 `<li class="card text" data-kind="press">` 형식이고, 큰 네모(`.ph.word span`)에 기사 제목을, 아래 제목 자리(`h3`)에 언론사 이름을 넣습니다(2026-11-16 사용자 지시). 날짜순으로 넣습니다. 추가하면 `data-show="all"`의 전체 건수도 고칩니다. 제목의 "[단독]" 같은 머리말은 뺍니다.
