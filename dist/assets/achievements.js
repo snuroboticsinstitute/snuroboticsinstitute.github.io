@@ -14,6 +14,11 @@
     if (text) node.textContent = text;
     return node;
   };
+  const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const formatDate = d => {
+    const [y, m] = String(d).split('-');
+    return lang === 'en' && m ? `${MONTHS[Number(m) - 1]} ${y}` : String(d).replace('-', '.');
+  };
   const pick = v => (v && typeof v === 'object' && !Array.isArray(v) ? v[lang] || v.ko || '' : v || '');
   const youtubeId = url => (String(url).match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/) || [])[1];
   const external = (a, url) => { a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; };
@@ -68,7 +73,7 @@
           art.append(tile);
         }
         const body = el('div', 'achievement-body');
-        body.append(el('p', 'achievement-date', String(i.date).replace('-', '.')), el('h3', 'achievement-title', pick(i.title)));
+        body.append(el('p', 'achievement-date', formatDate(i.date)), el('h3', 'achievement-title', pick(i.title)));
         if (pick(i.summary)) body.append(el('p', 'achievement-summary', pick(i.summary)));
         if (pick(i.people)) body.append(el('p', 'achievement-people', pick(i.people)));
         if (links.length) {

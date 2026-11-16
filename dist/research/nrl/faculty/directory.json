@@ -150,7 +150,7 @@
   {
     "name": "김주형",
     "dept": "",
-    "org": "University of Illinois",
+    "org": "University of Illinois Urbana-Champaign",
     "category": "연계",
     "groups": [],
     "lab": "Kinetic Intelligent Machine Lab (KIMLAB)",
@@ -668,7 +668,7 @@
   {
     "name": "오혜진",
     "dept": "",
-    "org": "CMU RI",
+    "org": "Robotics Institute, Carnegie Mellon University",
     "category": "연계",
     "groups": [
       "TC2"
