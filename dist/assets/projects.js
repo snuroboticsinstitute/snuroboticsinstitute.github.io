@@ -41,7 +41,7 @@
         const li = el('li', 'project-item');
         li.id = 'project-' + p.id;
         const title = el('h3', 'project-title');
-        const url = pick(p.url);
+        const raw = pick(p.url); const url = raw && raw.startsWith('/') ? '/old' + raw : raw;
         if (url) {
           const a = el('a', '', pick(p.title));
           a.href = url;
