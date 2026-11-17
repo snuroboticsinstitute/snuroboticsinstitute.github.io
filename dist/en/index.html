@@ -647,6 +647,8 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
 @media (max-width:1120px){.top .logo:not(.sublogo) img{width:170px}.nav a{padding:0 5px;font-size:14px}}
 .m-lang{display:none}
 @media (max-width:640px){.tools .lang{display:none}.m-lang{display:block}}
+/* hero sentence breaks only between clauses on wide screens */
+@media (min-width:961px){.hero .side .ln{display:block;white-space:nowrap}}
 </style>
 </head>
 <body>
@@ -720,7 +722,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
       <div class="hero-text">
         <h1 class="title" id="statement"><img src="../assets/b7b54dbedd.png" alt="Seoul National University" width="248" height="56"><span class="visually-hidden"> Robotics Institute</span></h1>
         <div class="side">
-          <p><strong>SNU Robotics Institute</strong> builds an ecosystem in which learning grows into research, research grows into technology and new ventures, and that experience flows back into education and research.</p>
+          <p><span class="ln"><strong>SNU Robotics Institute</strong> builds an ecosystem in which</span> <span class="ln">learning grows into research,</span> <span class="ln">research grows into technology and new ventures,</span> <span class="ln">and that experience flows back into education and research.</span></p>
           <nav class="links" aria-label="About the Institute">
             <a class="u" href="#/about/vision/">Our mission</a>
             <a class="u" href="#/about/director-message/">About the Institute</a>
