@@ -1,6 +1,66 @@
 {
   "photos": [
     {
+      "src": "/assets/gallery/2025-07.jpg",
+      "thumb": "/assets/gallery/2025-07-thumb.jpg",
+      "year": 2025,
+      "w": 1000,
+      "h": 561,
+      "caption": {
+        "ko": "스튜디오에서 로봇을 시험하는 로보콘 2025 우승팀 ‘5vertake’",
+        "en": "“5vertake,” the Robocon 2025 winning team, testing their robots in the studio"
+      },
+      "alt": {
+        "ko": "스튜디오에서 로봇을 시험하는 로보콘 2025 우승팀 ‘5vertake’",
+        "en": "“5vertake,” the Robocon 2025 winning team, testing their robots in the studio"
+      }
+    },
+    {
+      "src": "/assets/gallery/2025-08.jpg",
+      "thumb": "/assets/gallery/2025-08-thumb.jpg",
+      "year": 2025,
+      "w": 1200,
+      "h": 1000,
+      "caption": {
+        "ko": "로보콘 2025 우승팀 ‘5vertake’와 직접 만든 로봇",
+        "en": "“5vertake,” winners of Robocon 2025, with the robots they built"
+      },
+      "alt": {
+        "ko": "로보콘 2025 우승팀 ‘5vertake’와 직접 만든 로봇",
+        "en": "“5vertake,” winners of Robocon 2025, with the robots they built"
+      }
+    },
+    {
+      "src": "/assets/gallery/2025-09.jpg",
+      "thumb": "/assets/gallery/2025-09-thumb.jpg",
+      "year": 2025,
+      "w": 800,
+      "h": 1000,
+      "caption": {
+        "ko": "여럿이 함께 로봇의 배선을 손보는 모습",
+        "en": "Many hands working on a robot’s wiring"
+      },
+      "alt": {
+        "ko": "여럿이 함께 로봇의 배선을 손보는 모습",
+        "en": "Many hands working on a robot’s wiring"
+      }
+    },
+    {
+      "src": "/assets/gallery/2025-10.jpg",
+      "thumb": "/assets/gallery/2025-10-thumb.jpg",
+      "year": 2025,
+      "w": 800,
+      "h": 1000,
+      "caption": {
+        "ko": "로보콘 2025 우승과 2026년 국제 로보콘 대회 출전권",
+        "en": "Robocon 2025 champions with their ticket to the 2026 international Robocon"
+      },
+      "alt": {
+        "ko": "로보콘 2025 우승과 2026년 국제 로보콘 대회 출전권",
+        "en": "Robocon 2025 champions with their ticket to the 2026 international Robocon"
+      }
+    },
+    {
       "src": "/assets/gallery/2025-01.jpg",
       "thumb": "/assets/gallery/2025-01-thumb.jpg",
       "year": 2025,
@@ -88,6 +148,81 @@
       "alt": {
         "ko": "창의공학설계 로보콘 대회장",
         "en": "Creative Engineering Design: robocon arena"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-15.jpg",
+      "thumb": "/assets/gallery/2024-15-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "2024 로보콘에서 로봇팔을 조종하는 학생들",
+        "en": "Students operating robot arms at Robocon 2024"
+      },
+      "alt": {
+        "ko": "2024 로보콘에서 로봇팔을 조종하는 학생들",
+        "en": "Students operating robot arms at Robocon 2024"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-31.jpg",
+      "thumb": "/assets/gallery/2024-31-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "2024 로보콘 경기에 집중한 팀",
+        "en": "A team focused on their match at Robocon 2024"
+      },
+      "alt": {
+        "ko": "2024 로보콘 경기에 집중한 팀",
+        "en": "A team focused on their match at Robocon 2024"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-32.jpg",
+      "thumb": "/assets/gallery/2024-32-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "위에서 내려다본 2024 로보콘 대회장",
+        "en": "Robocon 2024 seen from above"
+      },
+      "alt": {
+        "ko": "위에서 내려다본 2024 로보콘 대회장",
+        "en": "Robocon 2024 seen from above"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-29.jpg",
+      "thumb": "/assets/gallery/2024-29-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "주종남 창의공학 스튜디오에서 수강생들의 로봇 시연을 보는 김정일 현송교육문화재단 이사장",
+        "en": "Hyunsong Educational & Cultural Foundation chairman Kim Jung-il watching students demonstrate their robot in the Chong Nam Chu Creative Engineering Studio"
+      },
+      "alt": {
+        "ko": "주종남 창의공학 스튜디오에서 수강생들의 로봇 시연을 보는 김정일 현송교육문화재단 이사장",
+        "en": "Hyunsong Educational & Cultural Foundation chairman Kim Jung-il watching students demonstrate their robot in the Chong Nam Chu Creative Engineering Studio"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-30.jpg",
+      "thumb": "/assets/gallery/2024-30-thumb.jpg",
+      "year": 2024,
+      "w": 918,
+      "h": 443,
+      "caption": {
+        "ko": "주종남 창의공학 스튜디오에서 로봇 시연을 함께 지켜보는 학생들",
+        "en": "Students watching a robot demonstration together in the Chong Nam Chu Creative Engineering Studio"
+      },
+      "alt": {
+        "ko": "주종남 창의공학 스튜디오에서 로봇 시연을 함께 지켜보는 학생들",
+        "en": "Students watching a robot demonstration together in the Chong Nam Chu Creative Engineering Studio"
       }
     },
     {
@@ -346,21 +481,6 @@
       }
     },
     {
-      "src": "/assets/gallery/2024-15.jpg",
-      "thumb": "/assets/gallery/2024-15-thumb.jpg",
-      "year": 2024,
-      "w": 1600,
-      "h": 1067,
-      "caption": {
-        "ko": "로보콘 경기",
-        "en": "Robocon match"
-      },
-      "alt": {
-        "ko": "창의공학설계 로보콘 경기",
-        "en": "Creative Engineering Design: robocon match"
-      }
-    },
-    {
       "src": "/assets/gallery/2024-16.jpg",
       "thumb": "/assets/gallery/2024-16-thumb.jpg",
       "year": 2024,
@@ -508,6 +628,156 @@
       "alt": {
         "ko": "창의공학설계 로보콘 단체 사진",
         "en": "Creative Engineering Design: robocon group photo"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-01.jpg",
+      "thumb": "/assets/gallery/2022-01-thumb.jpg",
+      "year": 2022,
+      "w": 960,
+      "h": 640,
+      "caption": {
+        "ko": "창의공학설계 30주년 로보콘 대회 (2022년 11월 25일, 해동아이디어팩토리)",
+        "en": "The 30th-anniversary Robocon (November 25, 2022, Haedong Idea Factory)"
+      },
+      "alt": {
+        "ko": "창의공학설계 30주년 로보콘 대회 (2022년 11월 25일, 해동아이디어팩토리)",
+        "en": "The 30th-anniversary Robocon (November 25, 2022, Haedong Idea Factory)"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-02.jpg",
+      "thumb": "/assets/gallery/2022-02-thumb.jpg",
+      "year": 2022,
+      "w": 960,
+      "h": 600,
+      "caption": {
+        "ko": "30주년 로보콘 결승전: 제로팀과 긴급9조팀",
+        "en": "Final of the 30th-anniversary Robocon: Team Zero vs. Team Emergency 9"
+      },
+      "alt": {
+        "ko": "30주년 로보콘 결승전: 제로팀과 긴급9조팀",
+        "en": "Final of the 30th-anniversary Robocon: Team Zero vs. Team Emergency 9"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-03.jpg",
+      "thumb": "/assets/gallery/2022-03-thumb.jpg",
+      "year": 2022,
+      "w": 662,
+      "h": 392,
+      "caption": {
+        "ko": "‘물난리가 난 캠퍼스’ 미션으로 겨룬 30주년 로보콘 결승전",
+        "en": "The 30th-anniversary Robocon final, played on a “flooded campus” mission"
+      },
+      "alt": {
+        "ko": "‘물난리가 난 캠퍼스’ 미션으로 겨룬 30주년 로보콘 결승전",
+        "en": "The 30th-anniversary Robocon final, played on a “flooded campus” mission"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-04.jpg",
+      "thumb": "/assets/gallery/2022-04-thumb.jpg",
+      "year": 2022,
+      "w": 599,
+      "h": 374,
+      "caption": {
+        "ko": "30주년 로보콘 경기 장면",
+        "en": "A match at the 30th-anniversary Robocon"
+      },
+      "alt": {
+        "ko": "30주년 로보콘 경기 장면",
+        "en": "A match at the 30th-anniversary Robocon"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-05.jpg",
+      "thumb": "/assets/gallery/2022-05-thumb.jpg",
+      "year": 2022,
+      "w": 960,
+      "h": 323,
+      "caption": {
+        "ko": "폭우 피해 복구 상황을 가정해 작업하는 로봇들",
+        "en": "Robots at work in a simulated flood-recovery scenario"
+      },
+      "alt": {
+        "ko": "폭우 피해 복구 상황을 가정해 작업하는 로봇들",
+        "en": "Robots at work in a simulated flood-recovery scenario"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-06.jpg",
+      "thumb": "/assets/gallery/2022-06-thumb.jpg",
+      "year": 2022,
+      "w": 601,
+      "h": 337,
+      "caption": {
+        "ko": "30주년 로보콘 우승팀 ‘팀 제로’ 시상",
+        "en": "Award ceremony for Team Zero, winners of the 30th-anniversary Robocon"
+      },
+      "alt": {
+        "ko": "30주년 로보콘 우승팀 ‘팀 제로’ 시상",
+        "en": "Award ceremony for Team Zero, winners of the 30th-anniversary Robocon"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-07.jpg",
+      "thumb": "/assets/gallery/2022-07-thumb.jpg",
+      "year": 2022,
+      "w": 700,
+      "h": 469,
+      "caption": {
+        "ko": "30주년 기념식에서 담당 교수, 특별심사위원들과 함께한 우승팀",
+        "en": "The winning team with the course professors and guest judges at the 30th-anniversary ceremony"
+      },
+      "alt": {
+        "ko": "30주년 기념식에서 담당 교수, 특별심사위원들과 함께한 우승팀",
+        "en": "The winning team with the course professors and guest judges at the 30th-anniversary ceremony"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-08.jpg",
+      "thumb": "/assets/gallery/2022-08-thumb.jpg",
+      "year": 2022,
+      "w": 624,
+      "h": 362,
+      "caption": {
+        "ko": "30주년을 축하한 MIT 2.007의 해리 웨스트 교수(왼쪽)와 김상배 교수",
+        "en": "Professors Harry West (left) and Sangbae Kim of MIT 2.007, who sent congratulations on the 30th anniversary"
+      },
+      "alt": {
+        "ko": "30주년을 축하한 MIT 2.007의 해리 웨스트 교수(왼쪽)와 김상배 교수",
+        "en": "Professors Harry West (left) and Sangbae Kim of MIT 2.007, who sent congratulations on the 30th anniversary"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-09.jpg",
+      "thumb": "/assets/gallery/2022-09-thumb.jpg",
+      "year": 2022,
+      "w": 960,
+      "h": 531,
+      "caption": {
+        "ko": "30주년 기념 영상 속 故 주종남 교수의 생전 인터뷰",
+        "en": "The late Professor Chong Nam Chu in an interview shown in the 30th-anniversary video"
+      },
+      "alt": {
+        "ko": "30주년 기념 영상 속 故 주종남 교수의 생전 인터뷰",
+        "en": "The late Professor Chong Nam Chu in an interview shown in the 30th-anniversary video"
+      }
+    },
+    {
+      "src": "/assets/gallery/2022-10.jpg",
+      "thumb": "/assets/gallery/2022-10-thumb.jpg",
+      "year": 2022,
+      "w": 700,
+      "h": 333,
+      "caption": {
+        "ko": "창의공학설계를 만든 故 주종남 교수 유족에게 전달한 감사패",
+        "en": "Plaque of appreciation presented to the family of the late Professor Chong Nam Chu, founder of the course"
+      },
+      "alt": {
+        "ko": "창의공학설계를 만든 故 주종남 교수 유족에게 전달한 감사패",
+        "en": "Plaque of appreciation presented to the family of the late Professor Chong Nam Chu, founder of the course"
       }
     }
   ]
