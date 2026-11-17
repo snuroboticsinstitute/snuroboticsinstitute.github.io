@@ -642,6 +642,30 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
 @media (max-width:640px){.tools .lang{display:none}.m-lang{display:block}}
 /* hero sentence breaks only between clauses on wide screens */
 @media (min-width:961px){.hero .side .ln{display:block;white-space:nowrap}}
+
+/* CED gallery (photos listed in /assets/data/gallery.json) */
+.gal{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.gal button{display:block;padding:0;border:0;background:#2b2e34;aspect-ratio:4/3;overflow:hidden;cursor:zoom-in}
+.gal img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s}
+.gal button:hover img{transform:scale(1.04)}
+.gal button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.gal-more{display:block;margin:16px auto 0;min-height:44px;padding:0 20px;border:1px solid var(--ink);background:transparent;color:var(--ink);font:inherit;font-size:15px;font-weight:600;cursor:pointer}
+.gal-more:hover{background:var(--wash)}
+.gal-box{width:min(1100px,94vw);max-height:94vh;padding:0;border:0;background:transparent;overflow:visible}
+.gal-box::backdrop{background:rgba(0,0,0,.88)}
+.gal-box figure{margin:0;text-align:center}
+.gal-box img{max-width:100%;max-height:80vh;object-fit:contain;display:block;margin:0 auto}
+.gal-box figcaption{margin-top:12px;font-size:14px;color:#e5e5e5}
+.gal-box button{position:absolute;width:44px;height:44px;border:0;background:rgba(0,0,0,.5);color:#fff;font-size:30px;line-height:1;cursor:pointer}
+.gal-box .x{top:-48px;right:0}.gal-box .pv{top:40%;left:0}.gal-box .nx{top:40%;right:0}
+@media (max-width:900px){.gal{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:560px){.gal{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Education page photo mosaic */
+.edu-photos{display:grid;grid-template-columns:1.5fr 1fr;grid-template-rows:1fr 1fr;gap:8px;margin:0 0 8px;aspect-ratio:1248/520}
+.edu-photos figure{margin:0;overflow:hidden;background:#2b2e34}
+.edu-photos figure:first-child{grid-row:1/3}
+.edu-photos img{width:100%;height:100%;object-fit:cover;display:block}
+@media (max-width:640px){.edu-photos{grid-template-columns:1fr 1fr;grid-template-rows:auto auto;aspect-ratio:auto}.edu-photos figure{aspect-ratio:4/3}.edu-photos figure:first-child{grid-row:auto;grid-column:1/3;aspect-ratio:16/10}}
 </style>
 </head>
 <body>
@@ -835,6 +859,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
 <section class="page " data-route="/research/" data-site="ri" data-title="연구과제" hidden><div class="wrap"><header class="pg-head"><p class="crumb">연구</p><h1>연구과제</h1><p class="lead">서울대학교 로보틱스연구소 연구진이 수행하고 있는 연구과제입니다.</p></header><nav class="subtabs" aria-label="연구과제 세부 메뉴"><a href="#/research/achievements/">주요 연구성과</a><a href="#/research/" aria-current=page>연구과제</a></nav><div class="rx" data-projects="/assets/data/projects.json"><div class="panel empty"><p>연구과제 목록은 준비 중입니다.</p></div></div><a class="panel linkcard" href="#/nrl/"><img src="assets/5829220a7c.png" alt="" width="121" height="36"><span><strong>국가연구소 사이트 바로가기</strong><small>TC + PG · 교수진 78명</small></span><b aria-hidden="true">→</b></a></div></section>
 <section class="page " data-route="/research/achievements/" data-site="ri" data-title="주요 연구성과" hidden><div class="wrap"><header class="pg-head"><p class="crumb">연구</p><h1>주요 연구성과</h1><p class="lead">로보틱스연구소 연구진의 주요 연구성과를 소개합니다. 성과마다 관련 영상, 기사, 논문, 수상 내역을 함께 묶었습니다.</p></header><nav class="subtabs" aria-label="주요 연구성과 세부 메뉴"><a href="#/research/achievements/" aria-current=page>주요 연구성과</a><a href="#/research/">연구과제</a></nav><div class="rx" data-achievements="/assets/data/achievements.json"><div class="panel empty"><p>주요 연구성과는 준비 중입니다.</p></div></div><a class="panel linkcard" href="#/nrl/"><img src="assets/5829220a7c.png" alt="" width="121" height="36"><span><strong>국가연구소 사이트 바로가기</strong><small>TC + PG · 교수진 78명</small></span><b aria-hidden="true">→</b></a></div></section>
 <section class="page " data-route="/education/" data-site="ri" data-title="교육철학" hidden><div class="wrap"><header class="pg-head"><p class="crumb">교육</p><h1>교육철학</h1></header>
+<div class="edu-photos"><figure><img src="/assets/education/ced-build.jpg" alt="창의공학설계 수업에서 로봇을 조립하는 학생들" width="1400" height="1050" loading="lazy"></figure><figure><img src="/assets/education/ced-robocon.jpg" alt="로보콘 경기에서 로봇을 조종하는 학생들" width="1400" height="934" loading="lazy"></figure><figure><img src="/assets/education/soft-robotics-handson.jpg" alt="소프트로봇 교육과정 실습 장면" width="1400" height="924" loading="lazy"></figure></div>
 <div class="panel prose"><h2 class="h-md">AI 시대에 어떻게 인재를 교육해야 하는지 우리는 알고 있습니다</h2>
 <p>인공지능이 질문에 답하고 지식을 정리해 주는 시대입니다. 정보는 그 어느 때보다 쉽게 얻을 수 있지만, 그만큼 ‘안다는 것’의 의미는 달라지고 있습니다. 서울대학교 로보틱스연구소는 AI 시대에 끝까지 자신의 것으로 남는 지식은 스스로 부딪히고 겪어 낸 경험에서 나온다고 믿습니다.</p>
 <p>그래서 우리의 교육은 손으로 무언가를 만들어 보는 체험에서 멈추지 않습니다. 학생들은 스스로 문제를 정의하고 로봇을 설계한 뒤, 그 로봇을 현실의 경기장에 세워 다른 학생들의 로봇과 겨룹니다. 도면 위에서는 완벽했던 설계가 마찰과 오차, 예상하지 못한 변수 앞에서 흔들리고, 학생들은 그 간극을 메워 가며 아이디어를 실제로 작동하는 기술로 바꾸는 법을 배웁니다.</p>
@@ -884,7 +909,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
 <ol class="weeks"><li><b>매주</b>강의 2시간 · 실습 2시간 (3학점)</li><li><b>설계</b>설계 도면의 이해와 작성, CAD를 이용한 설계</li><li><b>프로그래밍</b>Matlab · Python · C/C++, 로봇 하드웨어 구동을 위한 미들웨어</li><li><b>학기 말</b>소프트웨어 · 미들웨어 · 하드웨어를 통합한 시스템 설계 프로젝트</li></ol></div></div></section>
 <section class="panel prose robocon" id="ced-robocon"><p class="kick">SNU Robocon</p><h2 class="h-md">로보콘</h2><p>수업의 마지막에는 수강생 전원이 직접 만든 로봇으로 팀별 대항전을 벌이는 로보콘이 열립니다. 로보콘에서 우승한 팀은 국가대표로 국제 로보콘 대회에 출전합니다.</p><p><a class="pill-link" href="https://www.youtube.com/@snuced.robocon" target="_blank" rel="noopener noreferrer">창의공학설계 유튜브 채널 ↗</a></p></section>
 <section id="ced-reviews"><h2 class="h-md sec">수강생 후기</h2><p class="sub wide">창의공학설계 로보콘에 참가한 팀들의 이야기입니다.</p><div class="reviews"><figure class="panel review"><blockquote>“너희가 하는 게 정석인데 실제로는 그렇게 잘 안하더라”고 조교님이 나중에 이야기해 주셨어요. 그냥 얘기하다 보면 좋은 아이디어야 많죠. 하지만 만들어 보기 전까진 그게 되는 지 안 되는 지 알 수가 없잖아요. 저희는 아이디어가 나오면 간단하게라도 만들어서 테스트를 했어요. 그래서 실제로 잘 된다고 확인된 아이디어들만 모아서 최종 로봇을 만들었어요. 다른 팀도 다 그렇게 하는 줄 알았는데 아니었더라구요. 우승했을 때는 그 동안 힘들었던 게 생각나서 울컥해서 눈물이 났어요.</blockquote><figcaption><b>팀 제로 (Ze대로 만든 Ro봇)</b><span class="badge">우승</span></figcaption></figure><figure class="panel review"><blockquote>일주일 남겨 놓고 잘 만들었다고 평가 받은 로봇 2개를 다 부수고 다시 만드는 우리 팀을 보면서 조교님이 미쳤냐고 하셨지만 우리는 꼭 1등을 하겠다는 목표가 있었기 때문에 일주일 밤샘을 선택했어요. 평가전에서는 단독으로 잘 하면 되지만 로보콘에서는 로봇 대 로봇이 대결해서 이겨야 하니까 이기는 로봇으로 다시 만들어야 한다고 생각했어요. 전략이 적중했어요. 현실의 변수 속에서 우승은 놓쳤지만 시간을 되돌린다고 하더라도 더 잘 할 수는 없었어요. 모든 걸 쏟았으니까요.</blockquote><figcaption><b>팀 긴급구조</b><span class="badge">준우승</span></figcaption></figure><figure class="panel review"><blockquote>로보콘이라는 게임에서 이겨보자는 생각으로 한 학기 동안 똘똘 뭉쳐 다니며 룰북(규정집)을 끼고 살았어요. 늘 이길 생각을 했기 때문에 아이디어가 너무 많았어요. 여러가지 버전으로 만들고 테스트하기를 반복하면서 4강까지 가게 되었습니다. 인터넷도 없던 시절에 항공모함도 만들고 달에도 다녀왔던 기계공학에 대한 리스펙트로 이 과에 왔는데, 로보콘을 하고 나니 경영과 전략이 중요하다는 생각이 들어서 관련과 복수전공을 신청해 두었어요.</blockquote><figcaption><b>Team-3 (3조 아님)</b><span class="badge">4강 · 공학상</span></figcaption></figure><figure class="panel review"><blockquote>창공에 시간을 많이 썼어요. 그런데 시간을 많이 쓴다고 꼭 생각대로 되는 것도 아니에요. 아이디어 내고, 밤 새서 만들고, 잘 안 되고… 회의하고, 다시 만들고… 그런데 그게 너무 재밌더라구요! 후배들이 들어오면 창공은 꼭 1학년 때 들으라고 권할 거 같아요. 기계인이라는 정체성을 깨달을 수 있는 지름길이고, 만약 기계과에 잘못 왔다면 그것도 창공을 통해서 확인할 수 있을 테니까요.</blockquote><figcaption><b>팀 트리플 S (SS.S)</b><span class="badge">4강 · 창의상</span></figcaption></figure><figure class="panel review"><blockquote>팀을 짤 때 우승은 우리 것이라고 생각했어요. 저희는 다 고등학교 동창이고, 꿈은 제 각각이지만 물리를 무지 좋아한다는 공통점으로 한 팀이 되었거든요. 물리학적으로 가장 나은 로봇을 만들었다고 생각했어요. 실제로 1, 2차 평가 결과도 좋았구요. 다른 로봇들을 어떻게 이길 지에 대해서는 고민을 별로 하지 않았던 게 8강에서 멈춰야 했던 원인이에요. CEO가 되는 게 꿈인데 창공이 창업과 닮았다는 생각이 들어서 좋은 배움을 얻었다고 생각합니다.</blockquote><figcaption><b>팀 메시아 (MEshiah)</b><span class="badge">8강</span></figcaption></figure><figure class="panel review"><blockquote>예선에서 게임이 꼬이면서 재시합의 기회가 주어졌지만 우리는 꺽이지 않는 마음이 중요하다고 생각해서 당당하게 탈락을 선택했습니다. 우리 팀은 물리와 수학을 좋아하고 움직이는 기계를 사랑하는 사람들의 신념 집단이거든요. 후회 없어요. 자진 탈락하고 바로 헬스장 가서 그 동안 떨어진 체력을 보충했습니다.</blockquote><figcaption><b>팀 ABCÉD</b><span class="badge">16강</span></figcaption></figure></div></section>
-<section id="ced-gallery"><h2 class="h-md sec">갤러리</h2><div class="panel empty"><p>사진은 준비 중입니다.</p></div></section></div></section>
+<section id="ced-gallery"><h2 class="h-md sec">갤러리</h2><div class="panel empty" data-gal><p>사진은 준비 중입니다.</p></div></section></div></section>
 </main>
 
 <dialog class="pop" id="poster-pop" aria-label="교육과정 포스터"><div class="pop-in"><button class="pop-x" type="button" data-pop-close aria-label="닫기">×</button><img alt="소프트로봇 전문인력양성 2026년도 소프트 소재 및 구동 관련 교육과정 포스터" width="829" height="1176"><p class="pop-foot"><span>2026년도 소프트 소재 및 구동 관련 교육과정 · 2026.10.28</span></p></div></dialog>
@@ -1427,6 +1452,27 @@ new MutationObserver(sync).observe(sec,{attributes:true,attributeFilter:['hidden
 <script>
 /* Language switch keeps the visitor on the same page of the other language. */
 document.querySelectorAll('a.lang').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();location.href=a.getAttribute('href')+location.hash;});});
+</script>
+<script>
+/* CED gallery: thumbnails from /assets/data/gallery.json, click to enlarge. */
+(function(){var host=document.querySelector('[data-gal]');if(!host)return;var en=document.documentElement.lang==='en';
+var T=en?{more:'Show more photos',close:'Close',prev:'Previous photo',next:'Next photo',open:'View larger'}:{more:'사진 더 보기',close:'닫기',prev:'이전 사진',next:'다음 사진',open:'크게 보기'};
+var pick=function(v){return v&&typeof v==='object'?(v[en?'en':'ko']||v.ko||''):(v||'');};
+fetch('/assets/data/gallery.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():Promise.reject(r.status);}).then(function(d){
+var ps=(d.photos||[]).slice().sort(function(a,b){return (b.year||0)-(a.year||0);});if(!ps.length)return;
+var PAGE=12,shown=PAGE,i=0,grid=document.createElement('div');grid.className='gal';
+var more=document.createElement('button');more.type='button';more.className='gal-more';more.textContent=T.more;
+var box=document.createElement('dialog');box.className='gal-box';
+box.innerHTML='<button type="button" class="x" aria-label="'+T.close+'">×</button><button type="button" class="pv" aria-label="'+T.prev+'">‹</button><figure><img alt=""><figcaption></figcaption></figure><button type="button" class="nx" aria-label="'+T.next+'">›</button>';
+document.body.appendChild(box);var img=box.querySelector('img'),cap=box.querySelector('figcaption');
+function show(n){i=(n+ps.length)%ps.length;var p=ps[i];img.src=p.src;img.alt=pick(p.alt)||pick(p.caption);cap.textContent=[p.year,pick(p.caption)].filter(Boolean).join(' · ');}
+box.querySelector('.x').onclick=function(){box.close();};box.querySelector('.pv').onclick=function(){show(i-1);};box.querySelector('.nx').onclick=function(){show(i+1);};
+box.addEventListener('click',function(e){if(e.target===box)box.close();});
+box.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1);});
+function render(){grid.textContent='';ps.slice(0,shown).forEach(function(p,n){var b=document.createElement('button');b.type='button';b.setAttribute('aria-label',T.open+': '+(pick(p.alt)||pick(p.caption)));
+var im=document.createElement('img');im.src=p.thumb||p.src;im.alt='';im.loading='lazy';b.appendChild(im);b.onclick=function(){show(n);box.showModal();};grid.appendChild(b);});more.hidden=shown>=ps.length;}
+more.onclick=function(){shown+=PAGE;render();};host.textContent='';host.className='';host.appendChild(grid);host.appendChild(more);render();
+}).catch(function(){});})();
 </script>
 </body>
 </html>

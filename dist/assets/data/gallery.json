@@ -1,3 +1,334 @@
 {
-  "photos": []
+  "photos": [
+    {
+      "src": "/assets/gallery/2024-01.jpg",
+      "thumb": "/assets/gallery/2024-01-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "로보콘 경기",
+        "en": "Robocon match"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 경기",
+        "en": "Creative Engineering Design: robocon match"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-02.jpg",
+      "thumb": "/assets/gallery/2024-02-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 2133,
+      "caption": {
+        "ko": "로봇 제작",
+        "en": "Building the robot"
+      },
+      "alt": {
+        "ko": "창의공학설계 로봇 제작",
+        "en": "Creative Engineering Design: building the robot"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-03.jpg",
+      "thumb": "/assets/gallery/2024-03-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "경기장의 로봇",
+        "en": "Robot on the field"
+      },
+      "alt": {
+        "ko": "창의공학설계 경기장의 로봇",
+        "en": "Creative Engineering Design: robot on the field"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-04.jpg",
+      "thumb": "/assets/gallery/2024-04-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "경기 준비",
+        "en": "Getting ready for a match"
+      },
+      "alt": {
+        "ko": "창의공학설계 경기 준비",
+        "en": "Creative Engineering Design: getting ready for a match"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-05.jpg",
+      "thumb": "/assets/gallery/2024-05-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 2133,
+      "caption": {
+        "ko": "로봇 제작",
+        "en": "Building the robot"
+      },
+      "alt": {
+        "ko": "창의공학설계 로봇 제작",
+        "en": "Creative Engineering Design: building the robot"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-06.jpg",
+      "thumb": "/assets/gallery/2024-06-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "로보콘 대회장",
+        "en": "Robocon arena"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 대회장",
+        "en": "Creative Engineering Design: robocon arena"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-07.jpg",
+      "thumb": "/assets/gallery/2024-07-thumb.jpg",
+      "year": 2024,
+      "w": 1080,
+      "h": 1440,
+      "caption": {
+        "ko": "로봇 제작",
+        "en": "Building the robot"
+      },
+      "alt": {
+        "ko": "창의공학설계 로봇 제작",
+        "en": "Creative Engineering Design: building the robot"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-08.jpg",
+      "thumb": "/assets/gallery/2024-08-thumb.jpg",
+      "year": 2024,
+      "w": 1440,
+      "h": 1081,
+      "caption": {
+        "ko": "제작 중인 로봇",
+        "en": "Robot in progress"
+      },
+      "alt": {
+        "ko": "창의공학설계 제작 중인 로봇",
+        "en": "Creative Engineering Design: robot in progress"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-09.jpg",
+      "thumb": "/assets/gallery/2024-09-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "로보콘 경기",
+        "en": "Robocon match"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 경기",
+        "en": "Creative Engineering Design: robocon match"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-10.jpg",
+      "thumb": "/assets/gallery/2024-10-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 2133,
+      "caption": {
+        "ko": "로봇 제작",
+        "en": "Building the robot"
+      },
+      "alt": {
+        "ko": "창의공학설계 로봇 제작",
+        "en": "Creative Engineering Design: building the robot"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-11.jpg",
+      "thumb": "/assets/gallery/2024-11-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "경기장의 로봇",
+        "en": "Robot on the field"
+      },
+      "alt": {
+        "ko": "창의공학설계 경기장의 로봇",
+        "en": "Creative Engineering Design: robot on the field"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-12.jpg",
+      "thumb": "/assets/gallery/2024-12-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "경기 준비",
+        "en": "Getting ready for a match"
+      },
+      "alt": {
+        "ko": "창의공학설계 경기 준비",
+        "en": "Creative Engineering Design: getting ready for a match"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-13.jpg",
+      "thumb": "/assets/gallery/2024-13-thumb.jpg",
+      "year": 2024,
+      "w": 1400,
+      "h": 1050,
+      "caption": {
+        "ko": "로봇 제작",
+        "en": "Building the robot"
+      },
+      "alt": {
+        "ko": "창의공학설계 로봇 제작",
+        "en": "Creative Engineering Design: building the robot"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-14.jpg",
+      "thumb": "/assets/gallery/2024-14-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 2133,
+      "caption": {
+        "ko": "제작 중인 로봇",
+        "en": "Robot in progress"
+      },
+      "alt": {
+        "ko": "창의공학설계 제작 중인 로봇",
+        "en": "Creative Engineering Design: robot in progress"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-15.jpg",
+      "thumb": "/assets/gallery/2024-15-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "로보콘 경기",
+        "en": "Robocon match"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 경기",
+        "en": "Creative Engineering Design: robocon match"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-16.jpg",
+      "thumb": "/assets/gallery/2024-16-thumb.jpg",
+      "year": 2024,
+      "w": 1080,
+      "h": 1440,
+      "caption": {
+        "ko": "로봇 제작",
+        "en": "Building the robot"
+      },
+      "alt": {
+        "ko": "창의공학설계 로봇 제작",
+        "en": "Creative Engineering Design: building the robot"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-17.jpg",
+      "thumb": "/assets/gallery/2024-17-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "로보콘 대회장",
+        "en": "Robocon arena"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 대회장",
+        "en": "Creative Engineering Design: robocon arena"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-18.jpg",
+      "thumb": "/assets/gallery/2024-18-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "경기 준비",
+        "en": "Getting ready for a match"
+      },
+      "alt": {
+        "ko": "창의공학설계 경기 준비",
+        "en": "Creative Engineering Design: getting ready for a match"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-19.jpg",
+      "thumb": "/assets/gallery/2024-19-thumb.jpg",
+      "year": 2024,
+      "w": 1080,
+      "h": 1440,
+      "caption": {
+        "ko": "로봇 제작",
+        "en": "Building the robot"
+      },
+      "alt": {
+        "ko": "창의공학설계 로봇 제작",
+        "en": "Creative Engineering Design: building the robot"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-20.jpg",
+      "thumb": "/assets/gallery/2024-20-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 2133,
+      "caption": {
+        "ko": "제작 중인 로봇",
+        "en": "Robot in progress"
+      },
+      "alt": {
+        "ko": "창의공학설계 제작 중인 로봇",
+        "en": "Creative Engineering Design: robot in progress"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-21.jpg",
+      "thumb": "/assets/gallery/2024-21-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "로보콘 대회장",
+        "en": "Robocon arena"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 대회장",
+        "en": "Creative Engineering Design: robocon arena"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-22.jpg",
+      "thumb": "/assets/gallery/2024-22-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 1067,
+      "caption": {
+        "ko": "로보콘 단체 사진",
+        "en": "Robocon group photo"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 단체 사진",
+        "en": "Creative Engineering Design: robocon group photo"
+      }
+    }
+  ]
 }
