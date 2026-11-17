@@ -91,6 +91,51 @@
       }
     },
     {
+      "src": "/assets/gallery/2024-26.jpg",
+      "thumb": "/assets/gallery/2024-26-thumb.jpg",
+      "year": 2024,
+      "w": 1600,
+      "h": 992,
+      "caption": {
+        "ko": "해동첨단공학관에서 열린 제32회 로보콘 대회",
+        "en": "The 32nd Robocon at the Haedong Advanced Engineering Building"
+      },
+      "alt": {
+        "ko": "해동첨단공학관에서 열린 제32회 로보콘 대회",
+        "en": "The 32nd Robocon at the Haedong Advanced Engineering Building"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-27.jpg",
+      "thumb": "/assets/gallery/2024-27-thumb.jpg",
+      "year": 2024,
+      "w": 567,
+      "h": 250,
+      "caption": {
+        "ko": "다자유도 텔레오퍼레이션 로봇팔을 조종하는 학생들",
+        "en": "Students operating multi-degree-of-freedom teleoperated robot arms"
+      },
+      "alt": {
+        "ko": "다자유도 텔레오퍼레이션 로봇팔을 조종하는 학생들",
+        "en": "Students operating multi-degree-of-freedom teleoperated robot arms"
+      }
+    },
+    {
+      "src": "/assets/gallery/2024-28.jpg",
+      "thumb": "/assets/gallery/2024-28-thumb.jpg",
+      "year": 2024,
+      "w": 398,
+      "h": 412,
+      "caption": {
+        "ko": "2024년 로보콘 우승팀 ‘조립왕’",
+        "en": "“Jorip-wang,” the winning team of Robocon 2024"
+      },
+      "alt": {
+        "ko": "2024년 로보콘 우승팀 ‘조립왕’",
+        "en": "“Jorip-wang,” the winning team of Robocon 2024"
+      }
+    },
+    {
       "src": "/assets/gallery/2024-01.jpg",
       "thumb": "/assets/gallery/2024-01-thumb.jpg",
       "year": 2024,
