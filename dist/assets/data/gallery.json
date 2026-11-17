@@ -1,6 +1,96 @@
 {
   "photos": [
     {
+      "src": "/assets/gallery/2025-01.jpg",
+      "thumb": "/assets/gallery/2025-01-thumb.jpg",
+      "year": 2025,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "로보콘 대회장",
+        "en": "Robocon arena"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 대회장",
+        "en": "Creative Engineering Design: robocon arena"
+      }
+    },
+    {
+      "src": "/assets/gallery/2025-02.jpg",
+      "thumb": "/assets/gallery/2025-02-thumb.jpg",
+      "year": 2025,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "로보콘 관중석",
+        "en": "Robocon audience"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 관중석",
+        "en": "Creative Engineering Design: robocon audience"
+      }
+    },
+    {
+      "src": "/assets/gallery/2025-03.jpg",
+      "thumb": "/assets/gallery/2025-03-thumb.jpg",
+      "year": 2025,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "로봇을 소개하는 팀",
+        "en": "A team introducing its robot"
+      },
+      "alt": {
+        "ko": "창의공학설계 로봇을 소개하는 팀",
+        "en": "Creative Engineering Design: a team introducing its robot"
+      }
+    },
+    {
+      "src": "/assets/gallery/2025-04.jpg",
+      "thumb": "/assets/gallery/2025-04-thumb.jpg",
+      "year": 2025,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "로보콘 관중석",
+        "en": "Robocon audience"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 관중석",
+        "en": "Creative Engineering Design: robocon audience"
+      }
+    },
+    {
+      "src": "/assets/gallery/2025-05.jpg",
+      "thumb": "/assets/gallery/2025-05-thumb.jpg",
+      "year": 2025,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "로보콘 경기",
+        "en": "Robocon match"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 경기",
+        "en": "Creative Engineering Design: robocon match"
+      }
+    },
+    {
+      "src": "/assets/gallery/2025-06.jpg",
+      "thumb": "/assets/gallery/2025-06-thumb.jpg",
+      "year": 2025,
+      "w": 1600,
+      "h": 1200,
+      "caption": {
+        "ko": "로보콘 대회장",
+        "en": "Robocon arena"
+      },
+      "alt": {
+        "ko": "창의공학설계 로보콘 대회장",
+        "en": "Creative Engineering Design: robocon arena"
+      }
+    },
+    {
       "src": "/assets/gallery/2024-01.jpg",
       "thumb": "/assets/gallery/2024-01-thumb.jpg",
       "year": 2024,
