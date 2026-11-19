@@ -2,10 +2,13 @@
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>페이지를 찾을 수 없습니다 | 서울대학교 로보틱스연구소</title><meta name="robots" content="noindex">
 <script>
-/* Pages of the earlier site moved under /old/. Send old addresses there once. */
-(function(){var p=location.pathname;
-if(/^\/(en|about|people|research|education|venture|updates|engage|visit|search|news)(\/|$)/.test(p)&&p!=='/en/'&&p!=='/en')
-location.replace('/old'+p+location.search+location.hash);})();
+/* Addresses of the earlier site (and /old/) are sent to the matching page of the current site. */
+(function(){var p=location.pathname.replace(/^\/old(?=\/|$)/,'')||'/',en=/^\/en(\/|$)/.test(p);if(en)p=p.replace(/^\/en/,'')||'/';
+var M=[[/^\/people/,'/people/'],[/^\/research\/achievements/,'/research/achievements/'],[/^\/research\/nrl\/(faculty|affiliated)/,'/nrl/faculty/'],[/^\/research\/nrl/,'/nrl/'],[/^\/research/,'/research/'],
+[/^\/education\/creative-engineering-design/,'/ced/'],[/^\/education/,'/education/'],[/^\/about\/(vision|history|directions)/,null],[/^\/about/,'/about/director-message/'],[/^\/venture/,'/venture/'],
+[/^\/(updates|news)/,'/updates/'],[/^\/engage\/(membership|giving)/,null],[/^\/engage/,'/engage/'],[/^\/visit/,'/visit/'],[/^\/search/,'/search/'],[/^\/$/,'/']];
+for(var i=0;i<M.length;i++){var m=p.match(M[i][0]);if(m){var r=M[i][1]||(m[0].replace(/\/$/,'')+'/');if(r==='/search/'){var q=new URLSearchParams(location.search).get('q');if(q)r+=encodeURIComponent(q);}
+location.replace((en?'/en/':'/')+(r==='/'?'':'#'+r));return;}}})();
 </script>
 <style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#111;color:#fff;font:16px/1.7 system-ui,sans-serif;text-align:center}a{color:#ffdc8c}</style></head>
 <body><main><h1>페이지를 찾을 수 없습니다</h1><p>Page not found</p><p><a href="/">서울대학교 로보틱스연구소 홈</a> · <a href="/en/">English</a></p></main></body></html>

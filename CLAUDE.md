@@ -1,6 +1,9 @@
 # 작업 규칙
 
 - **넣지 않는 내용(2026-11-12 사용자 지시, 반드시 지킬 것): 장병탁 교수와 관련된 것은 기본 사이트·디자인 사이트 어디에도 넣지 않습니다.** 연구성과, 창업기업(투모로로보틱스 포함), 소식, 사람 목록, 공저 논문·수상 소개 모두 해당합니다. 새 내용을 넣기 전에 `장병탁`, `Byoung-Tak Zhang`, `투모로로보틱스`, `Tommoro`로 검색해 확인합니다.
+- **블랙 홈페이지(기본 사이트)는 2026-11-19에 내렸습니다(사용자 지시).** `dist/old/`와 그 사이트만 쓰던 CSS·JS·검색 색인·`reviews.json` 등은 삭제했고, 백업은 저장소의 `backup/black-site-2026-11-19` 가지에 있습니다(되살릴 때는 그 가지의 `dist/old/`와 `dist/assets/`를 가져옴). 지금 사이트는 디자인 사이트 하나뿐입니다(`dist/index.html`, `dist/en/index.html`, `dist/assets/`). **이 문서 아래쪽에서 기본 사이트·`/old/`·`themes.css`·`reviews.js`·`gallery.js`·`achievements.js`·`projects.js`·사이드 메뉴·리다이렉트 페이지를 설명한 부분은 더 이상 해당하지 않습니다.** 데이터 파일 `achievements.json`·`projects.json`·`gallery.json`의 형식 설명은 그대로 유효합니다. `scripts/`의 생성 스크립트는 없어진 사이트용이므로 실행하지 않습니다.
+- 검색(2026-11-19): 디자인 사이트 안에서 동작합니다. 주소는 `#/search/<검색어>`이고, 페이지 맨 아래 인라인 스크립트가 각 페이지 본문·사람 카드·소식 카드·연구성과·연구과제를 찾아 `section[data-route="/search/"]`에 보여 줍니다. 별도 색인 파일이 없으므로 내용을 고치면 검색에도 바로 반영됩니다.
+- `dist/404.html`은 예전 주소(`/people/`, `/old/…`, `/en/research/…` 등)를 지금 사이트의 해당 화면(`#/people/` 등)으로 넘깁니다.
 - **주소 구조(2026-11-17 사용자 지시로 변경)**: **디자인 사이트**가 대표 사이트입니다. 국문 = https://snuroboticsinstitute.github.io/ (`dist/index.html`), 영문 = https://snuroboticsinstitute.github.io/en/ (`dist/en/index.html`). 먼저 만들었던 검정 사이트(**기본 사이트**, "옛 사이트")는 https://snuroboticsinstitute.github.io/old/ (`dist/old/`, 영문은 `dist/old/en/`)로 옮겼습니다. 이 문서 아래쪽에서 기본 사이트의 주소를 `/people/`, `/research/…`처럼 적은 곳은 모두 `/old/…`(파일은 `dist/old/…`)로 읽습니다. 기본 사이트 HTML 안의 링크는 `/old/…`로 시작해야 합니다.
 - `dist/assets/`는 두 사이트가 함께 씁니다(데이터 `assets/data/`, 사진 `assets/people/`·`assets/highlights/`, 기본 사이트의 CSS·JS, 디자인 사이트의 이미지·영상·폰트). 옮기거나 `/old/` 아래로 넣지 않습니다.
 - 옛 주소 처리: `/design/`, `/design/en/`은 새 주소로 넘기는 리다이렉트 페이지이고, `dist/404.html`이 예전 기본 사이트 주소(`/people/` 등)를 `/old/…`로 넘깁니다.

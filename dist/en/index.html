@@ -677,6 +677,15 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
 @media (max-width:640px){.edu-photos{grid-template-columns:1fr 1fr;grid-template-rows:auto auto;aspect-ratio:auto}.edu-photos figure{aspect-ratio:4/3}.edu-photos figure:first-child{grid-row:auto;grid-column:1/3;aspect-ratio:16/10}}
 .ced-main{margin:0 0 20px;aspect-ratio:2000/1240;max-height:72vh;width:100%;overflow:hidden;background:#2b2e34}
 .ced-main img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* site search results */
+.sr-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--edge)}
+.sr-list a{display:block;padding:18px 4px;border-bottom:1px solid var(--edge);color:var(--ink);text-decoration:none}
+.sr-list a:hover{background:var(--wash)}
+.sr-list small{display:block;font-size:13px;color:var(--accent);font-weight:600;margin-bottom:4px}
+.sr-list strong{display:block;font-size:19px}
+.sr-list span{display:block;margin-top:4px;font-size:15px;color:var(--ink-2);max-width:60em}
+.sr-status{margin:0 0 18px;color:var(--ink-2)}
 </style>
 </head>
 <body>
@@ -734,7 +743,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
   </div>
   <div class="search-panel" id="search-panel" hidden>
     <div class="wrap">
-      <form role="search" action="/old/en/search/" method="get" target="_blank">
+      <form role="search" action="#/search/" method="get">
         <label for="q">Search the website</label>
         <input id="q" type="search" name="q" placeholder="People, research, updates" autocomplete="off" maxlength="120" required>
         <button type="submit">Search</button>
@@ -892,6 +901,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
 <section class="page " data-route="/engage/" data-site="ri" data-title="Collaboration" hidden><div class="wrap"><header class="pg-head"><p class="crumb">Engage</p><h1>Collaboration</h1></header><nav class="subtabs" aria-label="Engage sections"><a href="#/visit/">Online Tour</a><a href="#/engage/" aria-current=page>Collaboration</a><a href="#/engage/membership/">Membership</a><a href="#/engage/giving/">Giving</a></nav><div class="panel empty"><p>Coming soon.</p></div><a class="panel linkcard" href="mailto:ri@snu.ac.kr"><span><strong>Inquiries ri@snu.ac.kr</strong><small>Office +82-2-880-1638</small></span><b aria-hidden="true">→</b></a></div></section>
 <section class="page " data-route="/engage/membership/" data-site="ri" data-title="Membership" hidden><div class="wrap"><header class="pg-head"><p class="crumb">Engage</p><h1>Membership</h1></header><nav class="subtabs" aria-label="Membership sections"><a href="#/visit/">Online Tour</a><a href="#/engage/">Collaboration</a><a href="#/engage/membership/" aria-current=page>Membership</a><a href="#/engage/giving/">Giving</a></nav><div class="panel empty"><p>Coming soon.</p></div><a class="panel linkcard" href="mailto:ri@snu.ac.kr"><span><strong>Inquiries ri@snu.ac.kr</strong><small>Office +82-2-880-1638</small></span><b aria-hidden="true">→</b></a></div></section>
 <section class="page " data-route="/engage/giving/" data-site="ri" data-title="Giving" hidden><div class="wrap"><header class="pg-head"><p class="crumb">Engage</p><h1>Giving</h1></header><nav class="subtabs" aria-label="Giving sections"><a href="#/visit/">Online Tour</a><a href="#/engage/">Collaboration</a><a href="#/engage/membership/">Membership</a><a href="#/engage/giving/" aria-current=page>Giving</a></nav><div class="panel empty"><p>Coming soon.</p></div><a class="panel linkcard" href="mailto:ri@snu.ac.kr"><span><strong>Inquiries ri@snu.ac.kr</strong><small>Office +82-2-880-1638</small></span><b aria-hidden="true">→</b></a></div></section>
+<section class="page " data-route="/search/" data-site="ri" data-title="Search" hidden><div class="wrap"><header class="pg-head"><p class="crumb">Search</p><h1>Search</h1></header><p class="sr-status" role="status"></p><ul class="sr-list"></ul></div></section>
 <section class="page " data-route="/visit/" data-site="ri" data-title="Online Tour" hidden><div class="wrap"><header class="pg-head"><p class="crumb">Engage</p><h1>Online Tour</h1><p class="lead">The online tour is coming soon. For inquiries, please contact us.</p></header><nav class="subtabs" aria-label="Online tour sections"><a href="#/visit/" aria-current=page>Online Tour</a><a href="#/engage/">Collaboration</a><a href="#/engage/membership/">Membership</a><a href="#/engage/giving/">Giving</a></nav><div class="two"><a class="panel linkcard" href="mailto:ri@snu.ac.kr"><span><strong>ri@snu.ac.kr</strong><small>Email</small></span><b aria-hidden="true">→</b></a><a class="panel linkcard" href="tel:+8228801638"><span><strong>02-880-1638</strong><small>Phone</small></span><b aria-hidden="true">→</b></a></div></div></section>
 <section class="page " data-route="/nrl/" data-site="nrl" data-title="National Research Lab" hidden><div class="wrap"><header class="pg-head"><p class="crumb">National Research Lab</p><h1>National Research Lab (NRL 2.0)</h1><p class="lead">Human-Centered Physical AI Robotics Institute</p></header>
 <div class="panel prose"><h2 class="h-md">National Research Laboratory Program</h2><p>The National Research Lab (NRL 2.0) is a program run jointly by the Ministry of Education and the Ministry of Science and ICT to foster university-affiliated research institutes. SNU Robotics Institute was selected for the program in 2026 and, with long-term support of up to ten years, carries out the project “Human-Centered Physical AI Robotics Institute.” The National Research Lab is a research program of the Robotics Institute, bringing together researchers from engineering, medicine, public health, brain and cognitive sciences, the social sciences and other fields.</p></div>
@@ -1485,6 +1495,32 @@ function render(){grid.textContent='';ps.slice(0,shown).forEach(function(p,n){va
 var im=document.createElement('img');im.src=p.thumb||p.src;im.alt='';im.loading='lazy';b.appendChild(im);b.onclick=function(){show(n);box.showModal();};grid.appendChild(b);});more.hidden=shown>=ps.length;}
 more.onclick=function(){shown+=PAGE;render();};host.textContent='';host.className='';host.appendChild(grid);host.appendChild(more);render();
 }).catch(function(){});})();
+</script>
+<script>
+/* Site search: runs in the page over its own sections, people, updates and the research data files. */
+(function(){var T={"title": "Results for “%s”", "none": "No results. Try a name, field or research group.", "n": " results", "page": "Page", "person": "People", "hl": "Research Highlight", "proj": "Research Project", "news": "Updates", "enter": "Enter a search term."},EN=true,sec=document.querySelector('section[data-route="/search/"]');if(!sec)return;
+var h1=sec.querySelector('h1'),st=sec.querySelector('.sr-status'),ul=sec.querySelector('.sr-list'),form=document.querySelector('#search-panel form'),q=document.getElementById('q'),idx=null;
+var norm=function(v){return (v||'').normalize('NFKC').toLowerCase().replace(/[\s·.,()\-–—]/g,'');};
+var pick=function(v){return v&&typeof v==='object'?(v[EN?'en':'ko']||v.ko||''):(v||'');};
+var clean=function(t){return (t||'').replace(/\s+/g,' ').trim();};
+var txt=function(e){var w=document.createTreeWalker(e,4),a=[],n;while(n=w.nextNode())a.push(n.nodeValue);return a.join(' ');};
+function build(){var out=[],seen={};function add(kind,title,text,url){title=clean(title);if(!title)return;var k=kind+'|'+title+'|'+url;if(seen[k])return;seen[k]=1;out.push({kind:kind,title:title,text:clean(text),url:url,nt:norm(title),nx:norm(title+' '+text)});}
+document.querySelectorAll('section.page').forEach(function(p){var r=p.dataset.route;if(r==='/search/'||r==='/')return;var c=p.cloneNode(true);c.querySelectorAll('script,style,iframe,nav,.pcard,.card').forEach(function(e){e.remove();});add(T.page,p.dataset.title,txt(c),'#'+r);
+p.querySelectorAll('.pcard').forEach(function(c){var n=c.querySelector('h3');if(n)add(T.person,n.textContent,txt(c).replace(n.textContent,''),'#'+r);});
+p.querySelectorAll('.card').forEach(function(c){var a=c.matches('a')?c:c.querySelector('a');var t=c.querySelector('.ph.word span')||c.querySelector('h3');if(a&&t)add(T.news,t.textContent,txt(c),a.getAttribute('href'));});});
+return Promise.all(['achievements','projects'].map(function(f){return fetch('/assets/data/'+f+'.json').then(function(r){return r.json();}).catch(function(){return {};});})).then(function(d){
+(d[0].achievements||[]).forEach(function(a){add(T.hl,pick(a.title),[pick(a.summary),pick(a.people),pick(a.lab),pick(a.field)].join(' '),'#/research/achievements/achievement-'+a.id);});
+(d[1].projects||[]).forEach(function(p){add(T.proj,pick(p.title),[pick(p.program),pick(p.agency),pick(p.pi)].join(' '),'#/research/');});return out;});}
+function run(query){query=clean(query).slice(0,120);h1.textContent=query?T.title.replace('%s',query):sec.dataset.title;ul.textContent='';if(!norm(query)){st.textContent=T.enter;return;}
+(idx?Promise.resolve(idx):build().then(function(o){idx=o;return o;})).then(function(items){var c=norm(query),ws=query.split(/\s+/).map(norm).filter(Boolean);
+var res=items.filter(function(i){return i.nx.indexOf(c)>=0||ws.every(function(w){return i.nx.indexOf(w)>=0;});}).map(function(i){return {i:i,s:(i.nt===c?100:0)+(i.nt.indexOf(c)>=0?50:0)+ws.filter(function(w){return i.nt.indexOf(w)>=0;}).length*10};}).sort(function(a,b){return b.s-a.s;}).slice(0,80);
+st.textContent=res.length?(EN?res.length+T.n:'검색 결과 '+res.length+T.n):T.none;
+res.forEach(function(r){var li=document.createElement('li'),a=document.createElement('a'),k=document.createElement('small'),t=document.createElement('strong'),d=document.createElement('span');
+a.href=r.i.url;if(/^https?:/.test(r.i.url)){a.target='_blank';a.rel='noopener noreferrer';}k.textContent=r.i.kind;t.textContent=r.i.title;
+var x=r.i.text,p=x.toLowerCase().indexOf(ws[0]?query.split(/\s+/)[0].toLowerCase():'');p=p<0?0:Math.max(0,p-40);d.textContent=(p?'…':'')+x.slice(p,p+150)+(x.length>p+150?'…':'');a.append(k,t,d);li.append(a);ul.append(li);});});}
+function fromHash(){var m=location.hash.match(/^#\/search\/(.*)$/);if(m){var v='';try{v=decodeURIComponent(m[1].replace(/\/$/,''));}catch(e){}if(q)q.value=v;run(v);}}
+if(form)form.addEventListener('submit',function(e){e.preventDefault();var v=clean(q.value);if(!v)return;location.hash='#/search/'+encodeURIComponent(v);var b=document.getElementById('search-toggle');if(b&&b.getAttribute('aria-expanded')==='true')b.click();});
+addEventListener('hashchange',fromHash);fromHash();})();
 </script>
 </body>
 </html>
