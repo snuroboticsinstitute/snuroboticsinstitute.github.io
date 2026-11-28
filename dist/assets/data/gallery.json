@@ -1,6 +1,81 @@
 {
   "photos": [
     {
+      "src": "/assets/gallery/2026-01.jpg",
+      "thumb": "/assets/gallery/2026-01-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "직접 만든 로봇을 들어 보이는 팀",
+        "en": "A team shows off the robots they built"
+      },
+      "alt": {
+        "ko": "직접 만든 로봇을 들어 보이는 팀",
+        "en": "A team shows off the robots they built"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-02.jpg",
+      "thumb": "/assets/gallery/2026-02-thumb.jpg",
+      "year": 2026,
+      "w": 1066,
+      "h": 1600,
+      "caption": {
+        "ko": "직접 만든 로봇팔을 조종하는 손",
+        "en": "Hands steering a student-built robot arm"
+      },
+      "alt": {
+        "ko": "직접 만든 로봇팔을 조종하는 손",
+        "en": "Hands steering a student-built robot arm"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-03.jpg",
+      "thumb": "/assets/gallery/2026-03-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "로보콘 2026 우승팀과 2027년 국제 로보콘 대회 출전권",
+        "en": "The Robocon 2026 champions with their ticket to the 2027 international Robocon"
+      },
+      "alt": {
+        "ko": "로보콘 2026 우승팀과 2027년 국제 로보콘 대회 출전권",
+        "en": "The Robocon 2026 champions with their ticket to the 2027 international Robocon"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-04.jpg",
+      "thumb": "/assets/gallery/2026-04-thumb.jpg",
+      "year": 2026,
+      "w": 1066,
+      "h": 1600,
+      "caption": {
+        "ko": "경기를 앞두고 로봇을 살펴보는 학생",
+        "en": "A student studies his robot before a match"
+      },
+      "alt": {
+        "ko": "경기를 앞두고 로봇을 살펴보는 학생",
+        "en": "A student studies his robot before a match"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-05.jpg",
+      "thumb": "/assets/gallery/2026-05-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "경기를 지켜보는 심사위원들",
+        "en": "Judges watching the matches"
+      },
+      "alt": {
+        "ko": "경기를 지켜보는 심사위원들",
+        "en": "Judges watching the matches"
+      }
+    },
+    {
       "src": "/assets/gallery/2025-01.jpg",
       "thumb": "/assets/gallery/2025-01-thumb.jpg",
       "year": 2025,
