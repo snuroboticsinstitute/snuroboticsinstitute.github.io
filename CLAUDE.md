@@ -58,3 +58,4 @@
   - 예전에 공유된 `/#/people/` 형식 주소는 `/people/`로 자동으로 넘어갑니다. `/search/`는 모든 화면을 담고 있고 검색엔진에는 등록하지 않습니다(`noindex`). `/nrl/`은 소개·TC + PG·교수진을 함께, `/nrl/about/`은 소개만 담습니다(내용이 `/nrl/`과 겹치므로 `canonical`은 `/nrl/`을 가리키고 사이트맵에서는 뺌).
   - 미리 보기: `cp -r dist <임시 폴더> && python3 tools/build_pages.py <임시 폴더>` 후 그 폴더를 `python3 -m http.server`로 엽니다. 스크립트가 머리의 태그(`title`·`description`·`canonical`·`og:*`·기관 정보)를 찾지 못하면 배포가 실패하고 사이트는 이전 상태로 남으니, 이 태그들을 지우지 않습니다.
 - `dist/naver18a1cf998c6007a10b34ff5c65f0750a.html`은 네이버 서치어드바이저 소유 확인 파일입니다(2026-11-28). 지우면 인증이 풀리므로 그대로 둡니다.
+  - (2026-11-28 추가) 배포 때 `tools/build_pages.py`가 두 가지를 더 만듭니다. ① 연구과제·주요 연구성과 목록을 `projects.json`·`achievements.json`에서 읽어 HTML로 미리 넣습니다(스크립트를 실행하지 않는 검색로봇도 읽을 수 있게; 화면에서는 페이지 스크립트가 같은 모양으로 다시 그림). 페이지 스크립트의 카드 모양을 바꾸면 `projects_html`·`achievements_html`도 같이 고칩니다. ② `/rss.xml`: 사이트 안의 소식 글(`/updates/<이름>/`)을 날짜순으로 담은 RSS입니다. 날짜는 글 맨 위 `p.crumb`의 `YYYY.MM.DD`에서 읽으므로, 날짜가 없는 글은 RSS에 들어가지 않습니다.

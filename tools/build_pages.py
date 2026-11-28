@@ -25,11 +25,16 @@ LANGS = {
     'ko': {'file': 'index.html', 'base': '', 'site': '서울대학교 로보틱스연구소',
            'home': '서울대학교 로보틱스연구소 | SNU Robotics Institute',
            'nrl_home': '국가연구소 NRL 2.0 | 서울대학교 로보틱스연구소', 'ced_home': '창의공학설계 | 서울대학교',
-           'nrl': '국가연구소 NRL 2.0', 'ced': '창의공학설계', 'locale': 'ko_KR'},
+           'nrl': '국가연구소 NRL 2.0', 'ced': '창의공학설계', 'locale': 'ko_KR',
+           'proj': ['사업', '지원', '기간', '연구책임자'], 'count': '연구과제 %d건', 'watch': '영상 보기: ',
+           'types': {'video': '영상', 'project': '프로젝트', 'article': '기사', 'paper': '논문', 'award': '수상', 'patent': '특허·기술이전'},
+           'feed': '서울대학교 로보틱스연구소 소식', 'feed_desc': '서울대학교 로보틱스연구소의 소식과 행사'},
     'en': {'file': 'en/index.html', 'base': '/en', 'site': 'SNU Robotics Institute',
            'home': 'SNU Robotics Institute | Seoul National University',
            'nrl_home': 'National Research Lab (NRL 2.0) | SNU Robotics Institute', 'ced_home': 'Creative Engineering Design | SNU',
-           'nrl': 'NRL 2.0', 'ced': 'Creative Engineering Design', 'locale': 'en_US'},
+           'nrl': 'NRL 2.0', 'ced': 'Creative Engineering Design', 'locale': 'en_US',
+           'proj': ['Program', 'Funding', 'Period', 'PI'], 'count': '%d research projects', 'watch': 'Watch video: ',
+           'types': {'video': 'Video', 'project': 'Project', 'article': 'Article', 'paper': 'Paper', 'award': 'Award', 'patent': 'Patent & Tech Transfer'}},
 }
 NRL_STACK = ['/nrl/', '/nrl/tc-pg/', '/nrl/faculty/']
 NOINDEX = {'/search/'}
@@ -97,11 +102,126 @@ def set_head(head, tag_re, new):
     return out
 
 
+TYPE_ORDER = ['video', 'project', 'article', 'paper', 'award', 'patent']
+
+
+def pick(value, lang):
+    if isinstance(value, dict):
+        return value.get(lang) or value.get('ko') or ''
+    return value or ''
+
+
+def youtube_id(url):
+    m = re.search(r'(?:youtu\.be/|v=|embed/|shorts/)([\w-]{11})', str(url))
+    return m.group(1) if m else None
+
+
+def ext_link(url, inner, extra=''):
+    return f'<a{extra} href="{attr(url)}" target="_blank" rel="noopener noreferrer">{inner}</a>'
+
+
+def projects_html(data, lang, cfg):
+    """The research projects list as the page script draws it, so it can be read without running the script."""
+    rows = []
+    for p in data.get('projects', []):
+        title, url = html.escape(pick(p.get('title'), lang)), pick(p.get('url'), lang)
+        if url in ('/research/nrl/', '/en/research/nrl/'):
+            head = f'<a href="#/nrl/">{title}</a>'
+        elif url:
+            head = ext_link(url, title)
+        else:
+            head = title
+        pairs = zip(cfg['proj'], [pick(p.get('program'), lang), pick(p.get('agency'), lang), p.get('period'), pick(p.get('pi'), lang)])
+        dl = ''.join(f'<div><dt>{html.escape(k)}</dt><dd>{html.escape(str(v))}</dd></div>' for k, v in pairs if v)
+        rows.append(f'<li class="panel"><h3>{head}</h3><dl>{dl}</dl></li>')
+    if not rows:
+        return None
+    return f'<div class="rx-head"><p class="rx-count">{html.escape(cfg["count"] % len(rows))}</p></div><ol class="proj">{"".join(rows)}</ol>'
+
+
+def achievements_html(data, lang, cfg):
+    """The research highlights as the page script draws them (all of them; the script then shows six at a time)."""
+    items = sorted(data.get('achievements', []), key=lambda i: str(i.get('date')), reverse=True)
+    cards = []
+    for i in items:
+        links = sorted(i.get('links') or [], key=lambda l: TYPE_ORDER.index(l.get('type')) if l.get('type') in TYPE_ORDER else 99)
+        video = next((l for l in links if l.get('type') == 'video' and youtube_id(l.get('url'))), None)
+        thumb = i.get('image') or (video and f'https://i.ytimg.com/vi/{youtube_id(video["url"])}/hqdefault.jpg')
+        title = pick(i.get('title'), lang)
+        if thumb:
+            img = f'<img src="{attr(thumb)}" alt="" loading="lazy" decoding="async">'
+            if video:
+                media = ext_link(video['url'], img, f' class="media play" aria-label="{attr(cfg["watch"] + title)}"')
+            else:
+                media = ext_link(i.get('image_url') or (links[0].get('url') if links and links[0].get('url') else '#'), img, ' class="media" aria-hidden="true" tabindex="-1"')
+        else:
+            media = f'<div class="media tile" aria-hidden="true"><span>{html.escape(i.get("venue") or "")}</span></div>'
+        body = f'<p class="date">{html.escape(str(i.get("date")).replace("-", ".", 1))}</p><h3>{html.escape(title)}</h3>'
+        if pick(i.get('summary'), lang):
+            body += f'<p class="sum">{html.escape(pick(i.get("summary"), lang))}</p>'
+        if pick(i.get('people'), lang):
+            body += f'<p class="who">{html.escape(pick(i.get("people"), lang))}</p>'
+        if links:
+            lis = ''
+            for l in links:
+                label = html.escape(' · '.join(x for x in (pick(l.get('title'), lang), pick(l.get('source'), lang)) if x))
+                lis += f'<li><b>{html.escape(cfg["types"].get(l.get("type"), ""))}</b>' + (ext_link(l['url'], label + ' ↗') if l.get('url') else f'<span>{label}</span>') + '</li>'
+            body += f'<ul>{lis}</ul>'
+        cards.append(f'<article class="panel" id="achievement-{attr(str(i.get("id")))}">{media}<div class="body">{body}</div></article>')
+    return f'<div class="hl">{"".join(cards)}</div>' if cards else None
+
+
+def fill_box(block, marker, inner):
+    """Put ready-made HTML inside <div class="rx" data-…="…">…</div> (the page script replaces it when it runs)."""
+    if not inner:
+        return block
+    m = re.search(r'(<div class="rx" ' + marker + r'="[^"]*">)<div class="panel empty">.*?</div></div>', block, flags=re.S)
+    if not m:
+        raise SystemExit(f'{marker} box not found')
+    return block[:m.start()] + m.group(1) + inner + '</div>' + block[m.end():]
+
+
+def feed(dist, sections, cfg):
+    """rss.xml: the institute's own articles (/updates/<name>/), newest first, with the full text."""
+    from email.utils import format_datetime
+    from datetime import datetime, timezone, timedelta
+    items = []
+    for route, block in sections.items():
+        if not re.fullmatch(r'/updates/[^/]+/', route):
+            continue
+        crumb = re.search(r'<p class="crumb">(.*?)</p>', block, flags=re.S)
+        day = re.search(r'(\d{4})\.(\d{1,2})\.(\d{1,2})', crumb.group(1)) if crumb else None
+        art = re.search(r'<article\b[^>]*>(.*?)</article>', block, flags=re.S)
+        if not day or not art:
+            continue
+        when = datetime(int(day.group(1)), int(day.group(2)), int(day.group(3)), 9, 0, tzinfo=timezone(timedelta(hours=9)))
+        title = html.unescape(re.search(r'data-title="([^"]*)"', block).group(1))
+        items.append((when, title, HOST + route, plain_text(art.group(1))))
+    items.sort(reverse=True)
+    out = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">', '<channel>',
+           f'<title>{html.escape(cfg["feed"])}</title>', f'<link>{HOST}/updates/</link>', f'<description>{html.escape(cfg["feed_desc"])}</description>',
+           '<language>ko</language>', f'<atom:link href="{HOST}/rss.xml" rel="self" type="application/rss+xml"/>']
+    if items:
+        out.append(f'<lastBuildDate>{format_datetime(items[0][0])}</lastBuildDate>')
+    for when, title, url, text in items:
+        out.append(f'<item><title>{html.escape(title)}</title><link>{url}</link><guid isPermaLink="true">{url}</guid>'
+                   f'<pubDate>{format_datetime(when)}</pubDate><description>{html.escape(text)}</description></item>')
+    out += ['</channel>', '</rss>']
+    (dist / 'rss.xml').write_text('\n'.join(out) + '\n', encoding='utf-8')
+    return len(items)
+
+
 def build(dist):
     dist = Path(dist)
     docs = {}
     for lang, cfg in LANGS.items():
         before, sections, after = split((dist / cfg['file']).read_text(encoding='utf-8'))
+        data = {name: json.loads((dist / 'assets' / 'data' / f'{name}.json').read_text(encoding='utf-8')) for name in ('projects', 'achievements')}
+        if '/research/' in sections:
+            sections['/research/'] = fill_box(sections['/research/'], 'data-projects', projects_html(data['projects'], lang, cfg))
+        if '/research/achievements/' in sections:
+            sections['/research/achievements/'] = fill_box(sections['/research/achievements/'], 'data-achievements', achievements_html(data['achievements'], lang, cfg))
+        before = before.replace('</head>', f'<link rel="alternate" type="application/rss+xml" title="{attr(LANGS["ko"]["feed"])}" href="/rss.xml">\n</head>', 1)
         routes = list(sections)
         if '/nrl/' in sections:
             routes.append('/nrl/about/')
@@ -193,7 +313,8 @@ def build(dist):
         lines.append(f'  <url><loc>{url}</loc>{alt}</url>')
     lines.append('</urlset>')
     (dist / 'sitemap.xml').write_text('\n'.join(lines) + '\n', encoding='utf-8')
-    print(f'built {len(sitemap)} pages (+ search)')
+    n = feed(dist, docs['ko'][1], LANGS['ko'])
+    print(f'built {len(sitemap)} pages (+ search), rss.xml with {n} articles')
 
 
 if __name__ == '__main__':
