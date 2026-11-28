@@ -195,6 +195,8 @@ a.u:hover,a:hover .u{text-decoration-color:var(--accent);color:var(--accent)}
 .foot{padding:56px 0 calc(48px + env(safe-area-inset-bottom,0px));background:rgba(10,14,24,.72);-webkit-backdrop-filter:blur(30px);backdrop-filter:blur(30px)}  /* dark glass: the foot of the window is white */
 .foot .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,4fr) minmax(0,3fr);gap:40px}
 .foot .logo img{width:220px}
+.foot-slogan{margin:12px 0 0;font-size:20px;font-weight:700;line-height:1.1;letter-spacing:-.01em;color:var(--accent)}
+main:has(> section.home:not([hidden])) ~ .foot .foot-slogan{display:none}
 .foot address{margin-top:20px;font-style:normal;font-size:15px;line-height:1.8;color:var(--ink-2)}
 .foot address a{text-decoration:none}
 .foot address a:hover{color:var(--accent);text-decoration:underline}
@@ -1003,6 +1005,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
   <div class="wrap">
     <div>
       <a class="logo" href="#/" aria-label="서울대학교 로보틱스연구소 홈"><img src="assets/e5b92e2e18.png" alt="SNU ROBOTICS" width="220" height="15"></a>
+      <p class="foot-slogan" lang="en">Dream to Reality</p>
       <address>서울대학교 로보틱스연구소<br>서울시 관악구 관악로 1 서울대학교 303동 551호<br><a href="tel:+8228801638">02-880-1638</a> &nbsp; <a href="mailto:ri@snu.ac.kr">ri@snu.ac.kr</a></address>
       <p class="crest"><img src="assets/090ee20e73.png" alt="" width="36" height="38">서울대학교</p>
     </div>
