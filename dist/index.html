@@ -195,7 +195,8 @@ a.u:hover,a:hover .u{text-decoration-color:var(--accent);color:var(--accent)}
 .foot{padding:56px 0 calc(48px + env(safe-area-inset-bottom,0px));background:rgba(10,14,24,.72);-webkit-backdrop-filter:blur(30px);backdrop-filter:blur(30px)}  /* dark glass: the foot of the window is white */
 .foot .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,4fr) minmax(0,3fr);gap:40px}
 .foot .logo img{width:220px}
-.foot-slogan{margin:12px 0 0;font-size:20px;font-weight:400;line-height:1.1;letter-spacing:-.01em;color:var(--accent)}
+@font-face{font-family:"Slogan Light";src:url(assets/slogan-light-300.woff2) format("woff2");font-weight:300;font-display:swap}
+.foot-slogan{margin:12px 0 0;font-size:20px;font-weight:300;font-family:"Slogan Light",var(--sans);line-height:1.1;letter-spacing:-.01em;color:var(--accent)}
 main:has(> section.home:not([hidden])) ~ .foot .foot-slogan{display:none}
 .foot address{margin-top:20px;font-style:normal;font-size:15px;line-height:1.8;color:var(--ink-2)}
 .foot address a{text-decoration:none}
