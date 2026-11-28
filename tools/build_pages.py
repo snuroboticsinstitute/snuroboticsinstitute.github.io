@@ -147,7 +147,8 @@ def build(dist):
                 title = cfg['nrl_home'] if site == 'nrl' else cfg['ced_home']
             else:
                 title = name + ' | ' + (cfg['nrl'] if site == 'nrl' else cfg['ced'] if site == 'ced' else cfg['site'])
-            url = HOST + cfg['base'] + route
+            # /nrl/about/ repeats the introduction that opens /nrl/, so search engines are pointed at /nrl/
+            url = HOST + cfg['base'] + ('/nrl/' if route == '/nrl/about/' else route)
             alt = route if route in other_routes else ('/updates/' if route.startswith('/updates/') and '/updates/' in other_routes else '/')
 
             head = before
@@ -166,7 +167,7 @@ def build(dist):
             head = set_head(head, r'<meta property="og:url" content="[^"]*">', f'<meta property="og:url" content="{url}">')
             head = re.sub(r'<link rel="alternate" hreflang="[^"]*" href="[^"]*">\n?', '', head)
             pair = route in other_routes
-            if pair and route not in NOINDEX:
+            if pair and route not in NOINDEX and route != '/nrl/about/':
                 ko, en = HOST + route, HOST + '/en' + route
                 alts = f'<link rel="alternate" hreflang="ko" href="{ko}">\n<link rel="alternate" hreflang="en" href="{en}">\n<link rel="alternate" hreflang="x-default" href="{ko}">\n'
             else:
@@ -182,7 +183,7 @@ def build(dist):
             out = dist / (cfg['base'] + route).strip('/') / 'index.html'
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_text(page, encoding='utf-8')
-            if route not in NOINDEX:
+            if route not in NOINDEX and route != '/nrl/about/':
                 sitemap.append((url, (HOST + route, HOST + '/en' + route) if pair else None))
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
