@@ -31,6 +31,21 @@
       }
     },
     {
+      "src": "/assets/gallery/2026-16.jpg",
+      "thumb": "/assets/gallery/2026-16-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "경기장에서 임무를 수행하는 로봇들",
+        "en": "Robots at work on the competition field"
+      },
+      "alt": {
+        "ko": "경기장에서 임무를 수행하는 로봇들",
+        "en": "Robots at work on the competition field"
+      }
+    },
+    {
       "src": "/assets/gallery/2026-06.jpg",
       "thumb": "/assets/gallery/2026-06-thumb.jpg",
       "year": 2026,
@@ -88,6 +103,21 @@
       "alt": {
         "ko": "대진표 옆에서 로봇을 조종하는 팀",
         "en": "A team drives its robot beside the tournament bracket"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-17.jpg",
+      "thumb": "/assets/gallery/2026-17-thumb.jpg",
+      "year": 2026,
+      "w": 1066,
+      "h": 1600,
+      "caption": {
+        "ko": "출전을 기다리며 줄지어 선 학생들의 로봇",
+        "en": "Student-built robots lined up, waiting for their turn"
+      },
+      "alt": {
+        "ko": "출전을 기다리며 줄지어 선 학생들의 로봇",
+        "en": "Student-built robots lined up, waiting for their turn"
       }
     },
     {
