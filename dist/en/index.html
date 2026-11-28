@@ -642,6 +642,10 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
 .ced-hero strong em{font-style:normal;font-weight:600;color:var(--accent);margin-left:.25em;white-space:nowrap}
 .ced-hero small{margin-top:6px;font-size:16px}
 .ced-hero b{font-size:32px}
+.ced-hero b.go{flex:none;display:inline-flex;align-items:center;gap:.5em;padding:12px 22px;border-radius:999px;background:var(--accent);color:#25282E;font-size:16px;font-weight:700;white-space:nowrap}
+.ced-hero b.go span{display:inline;flex:none}
+.ced-hero:hover b.go{background:#fff}
+@media (max-width:760px){.ced-hero{flex-wrap:wrap}.ced-hero b.go{width:100%;justify-content:center;font-size:15px}}
 @media (max-width:560px){.ced-hero{gap:16px;padding:24px 20px}.ced-hero .ced-badge{width:52px;height:52px;font-size:15px}.ced-hero b{font-size:24px}.ced-hero strong em{display:block;margin-left:0}}
 
 /* English site: longer menu words need a tighter header */
@@ -901,7 +905,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
 <p>None of this is accomplished alone. Students divide roles, reconcile opinions and, at times, weather failure together. Learning from rivals and joining forces with teammates to push past their limits gives them something no lecture can replace: the firmest foundation for becoming an engineer.</p></div>
 <ol class="steps"><li class="panel"><span class="no">01</span><strong>Imagine</strong></li><li class="panel"><span class="no">02</span><strong>Design</strong></li><li class="panel"><span class="no">03</span><strong>Collaborate</strong></li><li class="panel"><span class="no">04</span><strong>Make it real</strong></li></ol>
 <div class="panel prose"><p>Imagine, design, collaborate and make it real. This is the educational philosophy of SNU Robotics Institute. Education like this demands a great deal of time, space and equipment, and the dedication of faculty and teaching assistants. It is by no means an easy path, but to uphold this philosophy we provide our students with hands-on education. It is this conviction that has kept Creative Engineering Design going for more than 30 years since it began in 1993.</p></div>
-<a class="panel linkcard ced-hero" href="#/ced/"><span class="ced-badge">CED</span><span><strong>Creative Engineering Design <em>since 1993</em></strong><small>A hands-on robot design course for first-year students</small></span><b aria-hidden="true">→</b></a></div></section>
+<a class="panel linkcard ced-hero" href="#/ced/"><span class="ced-badge">CED</span><span><strong>Creative Engineering Design <em>since 1993</em></strong><small>A hands-on robot design course for first-year students</small></span><b class="go">Visit the CED site <span aria-hidden="true">→</span></b></a></div></section>
 <section class="page venture" data-route="/venture/" data-site="ri" data-title="Entrepreneurship" hidden><div class="wrap"><header class="pg-head"><p class="crumb">Entrepreneurship</p><h1>Entrepreneurship</h1><p class="lead">From research to the real world</p></header>
 <div class="panel prose"><p class="big">SNU Robotics Institute supports research outcomes continuously, from technology development through commercialization and beyond, so that they grow into technologies and new ventures rather than ending as papers.</p></div>
 <div class="two"><section class="panel prose"><p class="kick">01</p><h2 class="h-md">Lab to Market</h2><p>We are building a Lab to Market framework that provides continuous support for the technology development, scale-up and commercialization of research outcomes. Technical staff help advance technologies toward commercial use, while market experts and entrepreneurs identify application markets and business opportunities. Our aim is to connect the development of research technologies with preparations for launching new ventures.</p></section>
