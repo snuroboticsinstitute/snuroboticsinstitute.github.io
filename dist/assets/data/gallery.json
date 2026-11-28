@@ -1,6 +1,36 @@
 {
   "photos": [
     {
+      "src": "/assets/gallery/2026-11.jpg",
+      "thumb": "/assets/gallery/2026-11-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "둘러앉아 로봇을 손보며 의논하는 팀",
+        "en": "A team huddles over its robot, talking through a fix"
+      },
+      "alt": {
+        "ko": "둘러앉아 로봇을 손보며 의논하는 팀",
+        "en": "A team huddles over its robot, talking through a fix"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-12.jpg",
+      "thumb": "/assets/gallery/2026-12-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "직접 만든 로봇을 들어 보이는 학생들",
+        "en": "Students show off the robots they built"
+      },
+      "alt": {
+        "ko": "직접 만든 로봇을 들어 보이는 학생들",
+        "en": "Students show off the robots they built"
+      }
+    },
+    {
       "src": "/assets/gallery/2026-06.jpg",
       "thumb": "/assets/gallery/2026-06-thumb.jpg",
       "year": 2026,
@@ -148,6 +178,51 @@
       "alt": {
         "ko": "경기를 지켜보는 심사위원들",
         "en": "Judges watching the matches"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-13.jpg",
+      "thumb": "/assets/gallery/2026-13-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "로보콘 2026을 함께 만든 학부생 조교들",
+        "en": "The undergraduate teaching assistants behind Robocon 2026"
+      },
+      "alt": {
+        "ko": "로보콘 2026을 함께 만든 학부생 조교들",
+        "en": "The undergraduate teaching assistants behind Robocon 2026"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-14.jpg",
+      "thumb": "/assets/gallery/2026-14-thumb.jpg",
+      "year": 2026,
+      "w": 1066,
+      "h": 1600,
+      "caption": {
+        "ko": "대회를 진행하는 이호원 교수",
+        "en": "Prof. Howon Lee hosting the competition"
+      },
+      "alt": {
+        "ko": "대회를 진행하는 이호원 교수",
+        "en": "Prof. Howon Lee hosting the competition"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-15.jpg",
+      "thumb": "/assets/gallery/2026-15-thumb.jpg",
+      "year": 2026,
+      "w": 1066,
+      "h": 1600,
+      "caption": {
+        "ko": "경기를 지켜보는 조규진 교수",
+        "en": "Prof. Kyu-Jin Cho watching the matches"
+      },
+      "alt": {
+        "ko": "경기를 지켜보는 조규진 교수",
+        "en": "Prof. Kyu-Jin Cho watching the matches"
       }
     },
     {
