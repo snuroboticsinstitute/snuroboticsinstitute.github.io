@@ -1,6 +1,81 @@
 {
   "photos": [
     {
+      "src": "/assets/gallery/2026-06.jpg",
+      "thumb": "/assets/gallery/2026-06-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "경기에서 이기고 환호하는 팀",
+        "en": "A team erupts after winning a match"
+      },
+      "alt": {
+        "ko": "경기에서 이기고 환호하는 팀",
+        "en": "A team erupts after winning a match"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-07.jpg",
+      "thumb": "/assets/gallery/2026-07-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "제34회 로보콘이 열린 해동첨단공학관",
+        "en": "The 34th Robocon at the Haedong Advanced Engineering Building"
+      },
+      "alt": {
+        "ko": "제34회 로보콘이 열린 해동첨단공학관",
+        "en": "The 34th Robocon at the Haedong Advanced Engineering Building"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-08.jpg",
+      "thumb": "/assets/gallery/2026-08-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "로봇팔 조종기를 들고 경기에 집중한 팀",
+        "en": "A team locked in on a match, arm controller in hand"
+      },
+      "alt": {
+        "ko": "로봇팔 조종기를 들고 경기에 집중한 팀",
+        "en": "A team locked in on a match, arm controller in hand"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-09.jpg",
+      "thumb": "/assets/gallery/2026-09-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "대진표 옆에서 로봇을 조종하는 팀",
+        "en": "A team drives its robot beside the tournament bracket"
+      },
+      "alt": {
+        "ko": "대진표 옆에서 로봇을 조종하는 팀",
+        "en": "A team drives its robot beside the tournament bracket"
+      }
+    },
+    {
+      "src": "/assets/gallery/2026-10.jpg",
+      "thumb": "/assets/gallery/2026-10-thumb.jpg",
+      "year": 2026,
+      "w": 1600,
+      "h": 1066,
+      "caption": {
+        "ko": "후원사 응원 현수막을 든 1조",
+        "en": "Team 1 with its banner cheering the sponsor"
+      },
+      "alt": {
+        "ko": "후원사 응원 현수막을 든 1조",
+        "en": "Team 1 with its banner cheering the sponsor"
+      }
+    },
+    {
       "src": "/assets/gallery/2026-01.jpg",
       "thumb": "/assets/gallery/2026-01-thumb.jpg",
       "year": 2026,
