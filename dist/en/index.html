@@ -345,6 +345,11 @@ a.panel:hover{background:var(--glass-hi);border-color:var(--edge-hi)}
 .principles p{margin:0;font-size:16px;color:var(--ink-2)}
 .steps{list-style:none;margin:8px 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
 .steps li{margin:0}
+.quote-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(200px,300px);gap:48px;align-items:center;margin:36px 0}
+.quote-row .pullq{margin:0}
+.quote-row .quote-ph{margin:0;aspect-ratio:11/15;overflow:hidden;background:#2b2e34}
+.quote-row .quote-ph img{width:100%;height:100%;object-fit:cover;display:block}
+@media (max-width:760px){.quote-row{grid-template-columns:1fr;gap:24px;margin:28px 0}.quote-row .quote-ph{max-width:280px}}
 .pullq{margin:36px 0;padding:4px 0 4px 28px;border-left:3px solid var(--accent);max-width:44em}
 .pullq blockquote{margin:0;font-size:clamp(22px,2.3vw,32px);line-height:1.5;font-weight:600;letter-spacing:-.02em;text-wrap:pretty}
 .pullq blockquote span{display:block;margin-bottom:.35em}
@@ -920,7 +925,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
 <p>We live in an age when artificial intelligence answers our questions and summarizes knowledge for us. Information has never been easier to obtain, and for that very reason, what it means to truly know something is changing. SNU Robotics Institute believes that in the age of AI, the knowledge that remains one’s own comes from what one has confronted and worked through firsthand.</p>
 <p>That is why our education does not stop at making something by hand. Students define a problem, design their own robots, and then put those robots in a real arena to compete against robots built by their classmates. A design that looked perfect on paper falters in the face of friction, error and the unexpected, and in closing that gap, students learn how to turn an idea into technology that actually works.</p>
 <p>None of this is accomplished alone. Students divide roles, reconcile opinions and, at times, weather failure together. Learning from rivals and joining forces with teammates to push past their limits gives them something no lecture can replace: the firmest foundation for becoming an engineer.</p></div>
-<figure class="pullq"><blockquote><span>You don’t develop creativity; you draw it out.</span> It grows as students master the fundamentals and put them to work.</blockquote><figcaption>The late Prof. Chong Nam Chu (1956–2019)</figcaption></figure>
+<div class="quote-row"><figure class="pullq"><blockquote><span>You don’t develop creativity; you draw it out.</span> It grows as students master the fundamentals and put them to work.</blockquote><figcaption>The late Prof. Chong Nam Chu (1956–2019)</figcaption></figure><figure class="quote-ph"><img src="/assets/education/ced-thinking.jpg" alt="A student deep in thought over his robot at Robocon 2026" width="880" height="1200" loading="lazy"></figure></div>
 <div class="panel prose"><p>Imagine, design, collaborate and make it real. This is the educational philosophy of SNU Robotics Institute. Education like this demands a great deal of time, space and equipment, and the dedication of faculty and teaching assistants. It is by no means an easy path, but to uphold this philosophy we provide our students with hands-on education. It is this conviction that has kept Creative Engineering Design going for more than 30 years since it began in 1993.</p></div>
 <a class="panel linkcard ced-hero" href="#/ced/"><span class="ced-badge">CED</span><span><strong>Creative Engineering Design <em>since 1993</em></strong><small>A hands-on robot design course for first-year students</small></span><b class="go">Visit the CED site <span aria-hidden="true">→</span></b></a></div></section>
 <section class="page venture" data-route="/venture/" data-site="ri" data-title="Entrepreneurship" hidden><div class="wrap"><header class="pg-head"><p class="crumb">Entrepreneurship</p><h1>Entrepreneurship</h1><p class="lead">From research to the real world</p></header>
