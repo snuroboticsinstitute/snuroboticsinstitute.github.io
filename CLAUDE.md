@@ -51,4 +51,4 @@
 - `dist/google90a7597605d2b737.html`은 Google Search Console 소유권 인증 파일입니다(2026-11-28). 지우면 인증이 풀리므로 그대로 둡니다.
 - 갤러리 사진 고르는 기준 추가(2026-11-28 사용자 지시): 학생들이 의미 없이 줄지어 선 단체 사진은 넣지 않습니다. 사용자는 사진 폴더에서 쓸 만한 사진에 한글 이름을 붙여 둡니다(예: "회의중인 학생들", "학부생 조교들", "1조 학생들") — 이름이 붙은 사진이 고른 사진이고, DSC·AAA 번호 그대로인 사진은 쓰지 않습니다.
 - 교육철학 사진 묶음 현재 상태(2026-11-28 마지막): 큰 사진 `ced-cheer.jpg`(환호하는 팀), 오른쪽 위 `ced-workshop-laugh.jpg`, 오른쪽 아래 `ced-field-robots.jpg`(경기장 위 로봇들; 사용자가 "인재양성과정 사진이 시시해 보인다"고 해서 교체). 갤러리 2026년 사진은 17장(`2026-16` 경기장 로봇들, `2026-17` 줄지어 선 로봇들 추가).
-- 공식 유튜브 채널은 https://www.youtube.com/@SNURoboticsInstitute 입니다(2026-11-28). 기관 정보(`application/ld+json`)의 `sameAs`에 넣었습니다. 다른 공식 SNS 주소를 받으면 같은 목록에 추가합니다.
+- 공식 유튜브 채널은 https://www.youtube.com/@SNURoboticsInstitute, 링크드인은 https://www.linkedin.com/company/116174309 입니다(2026-11-28). 기관 정보(`application/ld+json`)의 `sameAs`에 넣었습니다. 다른 공식 SNS 주소를 받으면 같은 목록에 추가합니다.
