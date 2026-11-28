@@ -25,6 +25,9 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
+      # one HTML file per screen (/people/, /en/people/ …) so that search engines can list each of them
+      - name: Build a page for every address
+        run: python3 tools/build_pages.py dist
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

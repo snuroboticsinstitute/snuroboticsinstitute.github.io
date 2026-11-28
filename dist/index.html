@@ -730,6 +730,8 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
 .art-video{position:relative;aspect-ratio:16/9;background:#000;margin:0 0 22px;max-width:60em}.art-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .art-time{font-size:14px;font-weight:600;color:var(--accent);text-decoration:none;white-space:nowrap;margin-left:6px}
 </style>
+<script>/* Where the visitor is, as '#/people/' or '#/people/postdocs'. On the published site every page has its own address (tools/build_pages.py sets __STATIC); opened straight from this file, the address after # is used. */
+window.__loc=function(){var s=window.__STATIC;return s?'#'+s.route+location.hash.slice(1):location.hash;};</script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -1059,7 +1061,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
   q.addEventListener('keydown', e => { if (e.key === 'Escape') { panel.hidden = true; sBtn.setAttribute('aria-expanded', 'false'); sBtn.focus(); } });
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   // the reel plays from the first moment and keeps looping; if a browser holds autoplay back, the first touch, key or scroll starts it
-  const v = document.getElementById('hero-video');
+  const v = document.getElementById('hero-video') || document.createElement('video');   // pages built one per address have the reel only on the home page
   v.muted = true;
   const go = () => { if (v.paused) v.play().catch(() => {}); };
   go();
@@ -1316,7 +1318,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
   // a menu item shows that part alone
   const NRL_STACK = ['/nrl/', '/nrl/tc-pg/', '/nrl/faculty/'].map(r => byRoute.get(r));
   const show = () => {
-    const { page, anchor, solo } = resolve(location.hash);
+    const { page, anchor, solo } = resolve(__loc());
     const stack = page.dataset.route === '/nrl/' && !solo;
     const key = page.dataset.route + (stack ? '+' : '');
     const changed = key !== current;
@@ -1326,7 +1328,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
       current = key;
       document.body.dataset.site = page.dataset.site;
       const site = page.dataset.site;
-      document.title = page.dataset.route === '/' ? '서울대학교 로보틱스연구소' : ['/nrl/', '/ced/'].includes(page.dataset.route) ? (site === 'nrl' ? '국가연구소 NRL 2.0 | 서울대학교 로보틱스연구소' : '창의공학설계 | 서울대학교') :
+      document.title = page.dataset.route === '/' ? '서울대학교 로보틱스연구소 | SNU Robotics Institute' : ['/nrl/', '/ced/'].includes(page.dataset.route) ? (site === 'nrl' ? '국가연구소 NRL 2.0 | 서울대학교 로보틱스연구소' : '창의공학설계 | 서울대학교') :
         page.dataset.title + ' | ' + (site === 'nrl' ? '국가연구소 NRL 2.0' : site === 'ced' ? '창의공학설계' : '서울대학교 로보틱스연구소');
       const route = solo ? '/nrl/about/' : stack ? '/nrl/#all' : page.dataset.route;
       nav.querySelectorAll('a[data-sec]').forEach(a => {
@@ -1514,7 +1516,7 @@ section[data-route="/ced/"] .pg-head{margin-bottom:28px}
     abox.replaceChildren(head, list, more); render();
     // #/research/achievements/achievement-<id>: make sure that card is on the page, then go to it
     const focus = () => {
-      const m = location.hash.match(/^#\/research\/achievements\/(achievement-[\w-]+)/); if (!m) return;
+      const m = __loc().match(/^#\/research\/achievements\/(achievement-[\w-]+)/); if (!m) return;
       const idx = items.findIndex(i => 'achievement-' + i.id === m[1]); if (idx < 0) return;
       if (field !== null || idx >= shown) { field = null; shown = Math.max(shown, Math.ceil((idx + 1) / PAGE) * PAGE); head.querySelectorAll('button').forEach((x, n) => x.setAttribute('aria-selected', String(n === 0))); render(); }
       requestAnimationFrame(() => document.getElementById(m[1])?.scrollIntoView({ block: 'start' }));
@@ -1593,8 +1595,8 @@ st.textContent=res.length?(EN?res.length+T.n:'검색 결과 '+res.length+T.n):T.
 res.forEach(function(r){var li=document.createElement('li'),a=document.createElement('a'),k=document.createElement('small'),t=document.createElement('strong'),d=document.createElement('span');
 a.href=r.i.url;if(/^https?:/.test(r.i.url)){a.target='_blank';a.rel='noopener noreferrer';}k.textContent=r.i.kind;t.textContent=r.i.title;
 var x=r.i.text,p=x.toLowerCase().indexOf(ws[0]?query.split(/\s+/)[0].toLowerCase():'');p=p<0?0:Math.max(0,p-40);d.textContent=(p?'…':'')+x.slice(p,p+150)+(x.length>p+150?'…':'');a.append(k,t,d);li.append(a);ul.append(li);});});}
-function fromHash(){var m=location.hash.match(/^#\/search\/(.*)$/);if(m){var v='';try{v=decodeURIComponent(m[1].replace(/\/$/,''));}catch(e){}if(q)q.value=v;run(v);}}
-if(form)form.addEventListener('submit',function(e){e.preventDefault();var v=clean(q.value);if(!v)return;location.hash='#/search/'+encodeURIComponent(v);var b=document.getElementById('search-toggle');if(b&&b.getAttribute('aria-expanded')==='true')b.click();});
+function fromHash(){var m=__loc().match(/^#\/search\/(.*)$/);if(m){var v='';try{v=decodeURIComponent(m[1].replace(/\/$/,''));}catch(e){}if(q)q.value=v;run(v);}}
+if(form)form.addEventListener('submit',function(e){e.preventDefault();var v=clean(q.value);if(!v)return;location.hash=(window.__STATIC?'':'#/search/')+encodeURIComponent(v);var b=document.getElementById('search-toggle');if(b&&b.getAttribute('aria-expanded')==='true')b.click();});
 addEventListener('hashchange',fromHash);fromHash();})();
 </script>
 <script>
